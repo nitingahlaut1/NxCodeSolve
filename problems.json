@@ -1,0 +1,4286 @@
+[
+  {
+    "id": 1,
+    "step": "Step 1: Learn the Basics",
+    "topic": "Basic Maths",
+    "title": "Count Digits",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/count-digits/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Count+Digits"
+  },
+  {
+    "id": 2,
+    "step": "Step 1: Learn the Basics",
+    "topic": "Basic Maths",
+    "title": "Reverse a Number",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/reverse-integer/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Reverse+a+Number"
+  },
+  {
+    "id": 3,
+    "step": "Step 1: Learn the Basics",
+    "topic": "Basic Maths",
+    "title": "Check Palindrome",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/palindrome-number/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Check+Palindrome"
+  },
+  {
+    "id": 4,
+    "step": "Step 1: Learn the Basics",
+    "topic": "Basic Maths",
+    "title": "GCD Or HCF",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/find-greatest-common-divisor-of-array/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+GCD+Or+HCF"
+  },
+  {
+    "id": 5,
+    "step": "Step 1: Learn the Basics",
+    "topic": "Basic Maths",
+    "title": "Armstrong Numbers",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/armstrong-number/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Armstrong+Numbers"
+  },
+  {
+    "id": 6,
+    "step": "Step 1: Learn the Basics",
+    "topic": "Basic Maths",
+    "title": "Print all Divisors",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/three-divisors/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Print+all+Divisors"
+  },
+  {
+    "id": 7,
+    "step": "Step 1: Learn the Basics",
+    "topic": "Basic Maths",
+    "title": "Check for Prime",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/count-primes/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Check+for+Prime"
+  },
+  {
+    "id": 8,
+    "step": "Step 1: Learn the Basics",
+    "topic": "Basic Recursion",
+    "title": "Understand Recursion by Print 1 to N",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/print-in-order/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Understand+Recursion+by+Print+1+to+N"
+  },
+  {
+    "id": 9,
+    "step": "Step 1: Learn the Basics",
+    "topic": "Basic Recursion",
+    "title": "Print N to 1 using Recursion",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/fizz-buzz/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Print+N+to+1+using+Recursion"
+  },
+  {
+    "id": 10,
+    "step": "Step 1: Learn the Basics",
+    "topic": "Basic Recursion",
+    "title": "Sum of first N numbers",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/running-sum-of-1d-array/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Sum+of+first+N+numbers"
+  },
+  {
+    "id": 11,
+    "step": "Step 1: Learn the Basics",
+    "topic": "Basic Recursion",
+    "title": "Factorial of N numbers",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/climbing-stairs/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Factorial+of+N+numbers"
+  },
+  {
+    "id": 12,
+    "step": "Step 1: Learn the Basics",
+    "topic": "Basic Recursion",
+    "title": "Reverse an Array",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/reverse-string/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Reverse+an+Array"
+  },
+  {
+    "id": 13,
+    "step": "Step 1: Learn the Basics",
+    "topic": "Basic Recursion",
+    "title": "Check if a String is Palindrome",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/valid-palindrome/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Check+if+a+String+is+Palindrome"
+  },
+  {
+    "id": 14,
+    "step": "Step 1: Learn the Basics",
+    "topic": "Basic Recursion",
+    "title": "Fibonacci Number",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/fibonacci-number/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Fibonacci+Number"
+  },
+  {
+    "id": 15,
+    "step": "Step 1: Learn the Basics",
+    "topic": "Basic Hashing",
+    "title": "Counting Frequencies of Array Elements",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/frequency-of-the-most-frequent-element/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Counting+Frequencies+of+Array+Elements"
+  },
+  {
+    "id": 16,
+    "step": "Step 1: Learn the Basics",
+    "topic": "Basic Hashing",
+    "title": "Find the Highest/Lowest Frequency Element",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/top-k-frequent-elements/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Find+the+Highest+Lowest+Frequency+Element"
+  },
+  {
+    "id": 17,
+    "step": "Step 2: Sorting Techniques",
+    "topic": "Sorting-I",
+    "title": "Selection Sort",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/sort-an-array/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Selection+Sort"
+  },
+  {
+    "id": 18,
+    "step": "Step 2: Sorting Techniques",
+    "topic": "Sorting-I",
+    "title": "Bubble Sort",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/sort-an-array/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Bubble+Sort"
+  },
+  {
+    "id": 19,
+    "step": "Step 2: Sorting Techniques",
+    "topic": "Sorting-I",
+    "title": "Insertion Sort",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/insertion-sort-list/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Insertion+Sort"
+  },
+  {
+    "id": 20,
+    "step": "Step 2: Sorting Techniques",
+    "topic": "Sorting-II",
+    "title": "Merge Sort",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/sort-an-array/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Merge+Sort"
+  },
+  {
+    "id": 21,
+    "step": "Step 2: Sorting Techniques",
+    "topic": "Sorting-II",
+    "title": "Recursive Bubble Sort",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/sort-colors/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Recursive+Bubble+Sort"
+  },
+  {
+    "id": 22,
+    "step": "Step 2: Sorting Techniques",
+    "topic": "Sorting-II",
+    "title": "Recursive Insertion Sort",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/sort-an-array/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Recursive+Insertion+Sort"
+  },
+  {
+    "id": 23,
+    "step": "Step 2: Sorting Techniques",
+    "topic": "Sorting-II",
+    "title": "Quick Sort",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/sort-an-array/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Quick+Sort"
+  },
+  {
+    "id": 24,
+    "step": "Step 3: Arrays",
+    "topic": "Easy",
+    "title": "Largest Element in an Array",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/third-maximum-number/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Largest+Element+in+an+Array"
+  },
+  {
+    "id": 25,
+    "step": "Step 3: Arrays",
+    "topic": "Easy",
+    "title": "Second Largest Element in an Array",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/second-minimum-node-in-a-binary-tree/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Second+Largest+Element+in+an+Array"
+  },
+  {
+    "id": 26,
+    "step": "Step 3: Arrays",
+    "topic": "Easy",
+    "title": "Check if the array is sorted",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Check+if+the+array+is+sorted"
+  },
+  {
+    "id": 27,
+    "step": "Step 3: Arrays",
+    "topic": "Easy",
+    "title": "Remove duplicates from Sorted array",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/remove-duplicates-from-sorted-array/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Remove+duplicates+from+Sorted+array"
+  },
+  {
+    "id": 28,
+    "step": "Step 3: Arrays",
+    "topic": "Easy",
+    "title": "Left Rotate an array by one place",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/rotate-array/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Left+Rotate+an+array+by+one+place"
+  },
+  {
+    "id": 29,
+    "step": "Step 3: Arrays",
+    "topic": "Easy",
+    "title": "Left rotate an array by D places",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/rotate-array/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Left+rotate+an+array+by+D+places"
+  },
+  {
+    "id": 30,
+    "step": "Step 3: Arrays",
+    "topic": "Easy",
+    "title": "Move Zeros to end",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/move-zeroes/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Move+Zeros+to+end"
+  },
+  {
+    "id": 31,
+    "step": "Step 3: Arrays",
+    "topic": "Easy",
+    "title": "Linear Search",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/find-target-indices-after-sorting-array/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Linear+Search"
+  },
+  {
+    "id": 32,
+    "step": "Step 3: Arrays",
+    "topic": "Easy",
+    "title": "Find the Union and Intersection of two sorted arrays",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/intersection-of-two-arrays/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Find+the+Union+and+Intersection+of+two+sorted+arrays"
+  },
+  {
+    "id": 33,
+    "step": "Step 3: Arrays",
+    "topic": "Easy",
+    "title": "Find missing number in an array",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/missing-number/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Find+missing+number+in+an+array"
+  },
+  {
+    "id": 34,
+    "step": "Step 3: Arrays",
+    "topic": "Easy",
+    "title": "Max Consecutive Ones",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/max-consecutive-ones/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Max+Consecutive+Ones"
+  },
+  {
+    "id": 35,
+    "step": "Step 3: Arrays",
+    "topic": "Easy",
+    "title": "Find the number that appears once, and other numbers twice",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/single-number/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Find+the+number+that+appears+once%2C+and+other+numbers+twice"
+  },
+  {
+    "id": 36,
+    "step": "Step 3: Arrays",
+    "topic": "Easy",
+    "title": "Longest Subarray with given Sum K (Positives)",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/maximum-size-subarray-sum-equals-k/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Longest+Subarray+with+given+Sum+K+%28Positives%29"
+  },
+  {
+    "id": 37,
+    "step": "Step 3: Arrays",
+    "topic": "Easy",
+    "title": "Longest Subarray with sum K (Positives + Negatives)",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/subarray-sum-equals-k/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Longest+Subarray+with+sum+K+%28Positives+%2B+Negatives%29"
+  },
+  {
+    "id": 38,
+    "step": "Step 3: Arrays",
+    "topic": "Medium",
+    "title": "2Sum Problem",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/two-sum/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+2Sum+Problem"
+  },
+  {
+    "id": 39,
+    "step": "Step 3: Arrays",
+    "topic": "Medium",
+    "title": "Sort an array of 0s, 1s and 2s (Dutch National Flag)",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/sort-colors/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Sort+an+array+of+0s%2C+1s+and+2s+%28Dutch+National+Flag%29"
+  },
+  {
+    "id": 40,
+    "step": "Step 3: Arrays",
+    "topic": "Medium",
+    "title": "Majority Element (> n/2 times)",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/majority-element/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Majority+Element+%28%3E+n+2+times%29"
+  },
+  {
+    "id": 41,
+    "step": "Step 3: Arrays",
+    "topic": "Medium",
+    "title": "Maximum Subarray Sum (Kadane's Algorithm)",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/maximum-subarray/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Maximum+Subarray+Sum+%28Kadane%27s+Algorithm%29"
+  },
+  {
+    "id": 42,
+    "step": "Step 3: Arrays",
+    "topic": "Medium",
+    "title": "Print subarray with maximum subarray sum",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/maximum-subarray/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Print+subarray+with+maximum+subarray+sum"
+  },
+  {
+    "id": 43,
+    "step": "Step 3: Arrays",
+    "topic": "Medium",
+    "title": "Stock Buy and Sell",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Stock+Buy+and+Sell"
+  },
+  {
+    "id": 44,
+    "step": "Step 3: Arrays",
+    "topic": "Medium",
+    "title": "Rearrange Array Elements by Sign",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/rearrange-array-elements-by-sign/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Rearrange+Array+Elements+by+Sign"
+  },
+  {
+    "id": 45,
+    "step": "Step 3: Arrays",
+    "topic": "Medium",
+    "title": "Next Permutation",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/next-permutation/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Next+Permutation"
+  },
+  {
+    "id": 46,
+    "step": "Step 3: Arrays",
+    "topic": "Medium",
+    "title": "Leaders in an Array",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Leaders+in+an+Array"
+  },
+  {
+    "id": 47,
+    "step": "Step 3: Arrays",
+    "topic": "Medium",
+    "title": "Longest Consecutive Sequence in an Array",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/longest-consecutive-sequence/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Longest+Consecutive+Sequence+in+an+Array"
+  },
+  {
+    "id": 48,
+    "step": "Step 3: Arrays",
+    "topic": "Medium",
+    "title": "Set Matrix Zeroes",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/set-matrix-zeroes/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Set+Matrix+Zeroes"
+  },
+  {
+    "id": 49,
+    "step": "Step 3: Arrays",
+    "topic": "Medium",
+    "title": "Rotate Matrix by 90 degrees",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/rotate-image/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Rotate+Matrix+by+90+degrees"
+  },
+  {
+    "id": 50,
+    "step": "Step 3: Arrays",
+    "topic": "Medium",
+    "title": "Print the matrix in spiral manner",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/spiral-matrix/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Print+the+matrix+in+spiral+manner"
+  },
+  {
+    "id": 51,
+    "step": "Step 3: Arrays",
+    "topic": "Medium",
+    "title": "Count Subarray sum Equals K",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/subarray-sum-equals-k/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Count+Subarray+sum+Equals+K"
+  },
+  {
+    "id": 52,
+    "step": "Step 3: Arrays",
+    "topic": "Hard",
+    "title": "Pascal's Triangle",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/pascals-triangle/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Pascal%27s+Triangle"
+  },
+  {
+    "id": 53,
+    "step": "Step 3: Arrays",
+    "topic": "Hard",
+    "title": "Majority Elements (> n/3 times)",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/majority-element-ii/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Majority+Elements+%28%3E+n+3+times%29"
+  },
+  {
+    "id": 54,
+    "step": "Step 3: Arrays",
+    "topic": "Hard",
+    "title": "3-Sum Problem",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/3sum/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+3-Sum+Problem"
+  },
+  {
+    "id": 55,
+    "step": "Step 3: Arrays",
+    "topic": "Hard",
+    "title": "4-Sum Problem",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/4sum/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+4-Sum+Problem"
+  },
+  {
+    "id": 56,
+    "step": "Step 3: Arrays",
+    "topic": "Hard",
+    "title": "Largest Subarray with 0 Sum",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/contiguous-array/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Largest+Subarray+with+0+Sum"
+  },
+  {
+    "id": 57,
+    "step": "Step 3: Arrays",
+    "topic": "Hard",
+    "title": "Count number of subarrays with given xor K",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/xor-queries-of-a-subarray/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Count+number+of+subarrays+with+given+xor+K"
+  },
+  {
+    "id": 58,
+    "step": "Step 3: Arrays",
+    "topic": "Hard",
+    "title": "Merge Overlapping Subintervals",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/merge-intervals/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Merge+Overlapping+Subintervals"
+  },
+  {
+    "id": 59,
+    "step": "Step 3: Arrays",
+    "topic": "Hard",
+    "title": "Merge two sorted arrays without extra space",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/merge-sorted-array/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Merge+two+sorted+arrays+without+extra+space"
+  },
+  {
+    "id": 60,
+    "step": "Step 3: Arrays",
+    "topic": "Hard",
+    "title": "Find the repeating and missing number",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/set-mismatch/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Find+the+repeating+and+missing+number"
+  },
+  {
+    "id": 61,
+    "step": "Step 3: Arrays",
+    "topic": "Hard",
+    "title": "Count Inversions",
+    "difficulty": "Hard",
+    "leetcodeUrl": "https://leetcode.com/problems/global-and-local-inversions/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Count+Inversions"
+  },
+  {
+    "id": 62,
+    "step": "Step 3: Arrays",
+    "topic": "Hard",
+    "title": "Reverse Pairs",
+    "difficulty": "Hard",
+    "leetcodeUrl": "https://leetcode.com/problems/reverse-pairs/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Reverse+Pairs"
+  },
+  {
+    "id": 63,
+    "step": "Step 3: Arrays",
+    "topic": "Hard",
+    "title": "Maximum Product Subarray",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/maximum-product-subarray/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Maximum+Product+Subarray"
+  },
+  {
+    "id": 64,
+    "step": "Step 4: Binary Search",
+    "topic": "1D Arrays",
+    "title": "Binary Search to find X in sorted array",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/binary-search/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Binary+Search+to+find+X+in+sorted+array"
+  },
+  {
+    "id": 65,
+    "step": "Step 4: Binary Search",
+    "topic": "1D Arrays",
+    "title": "Implement Lower Bound",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/search-insert-position/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Implement+Lower+Bound"
+  },
+  {
+    "id": 66,
+    "step": "Step 4: Binary Search",
+    "topic": "1D Arrays",
+    "title": "Implement Upper Bound",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/search-insert-position/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Implement+Upper+Bound"
+  },
+  {
+    "id": 67,
+    "step": "Step 4: Binary Search",
+    "topic": "1D Arrays",
+    "title": "Search Insert Position",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/search-insert-position/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Search+Insert+Position"
+  },
+  {
+    "id": 68,
+    "step": "Step 4: Binary Search",
+    "topic": "1D Arrays",
+    "title": "Check if Input array is sorted",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Check+if+Input+array+is+sorted"
+  },
+  {
+    "id": 69,
+    "step": "Step 4: Binary Search",
+    "topic": "1D Arrays",
+    "title": "Find First and Last Position of Element in Sorted Array",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Find+First+and+Last+Position+of+Element+in+Sorted+Array"
+  },
+  {
+    "id": 70,
+    "step": "Step 4: Binary Search",
+    "topic": "1D Arrays",
+    "title": "Count Occurrences in Sorted Array",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Count+Occurrences+in+Sorted+Array"
+  },
+  {
+    "id": 71,
+    "step": "Step 4: Binary Search",
+    "topic": "1D Arrays",
+    "title": "Search in Rotated Sorted Array I",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/search-in-rotated-sorted-array/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Search+in+Rotated+Sorted+Array+I"
+  },
+  {
+    "id": 72,
+    "step": "Step 4: Binary Search",
+    "topic": "1D Arrays",
+    "title": "Search in Rotated Sorted Array II",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/search-in-rotated-sorted-array-ii/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Search+in+Rotated+Sorted+Array+II"
+  },
+  {
+    "id": 73,
+    "step": "Step 4: Binary Search",
+    "topic": "1D Arrays",
+    "title": "Find Minimum in Rotated Sorted Array",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Find+Minimum+in+Rotated+Sorted+Array"
+  },
+  {
+    "id": 74,
+    "step": "Step 4: Binary Search",
+    "topic": "1D Arrays",
+    "title": "Find how many times array has been rotated",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Find+how+many+times+array+has+been+rotated"
+  },
+  {
+    "id": 75,
+    "step": "Step 4: Binary Search",
+    "topic": "1D Arrays",
+    "title": "Single Element in a Sorted Array",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/single-element-in-a-sorted-array/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Single+Element+in+a+Sorted+Array"
+  },
+  {
+    "id": 76,
+    "step": "Step 4: Binary Search",
+    "topic": "1D Arrays",
+    "title": "Find Peak Element",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/find-peak-element/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Find+Peak+Element"
+  },
+  {
+    "id": 77,
+    "step": "Step 4: Binary Search",
+    "topic": "Answers (Search Space)",
+    "title": "Find square root of a number in O(log N)",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/sqrtx/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Find+square+root+of+a+number+in+O%28log+N%29"
+  },
+  {
+    "id": 78,
+    "step": "Step 4: Binary Search",
+    "topic": "Answers (Search Space)",
+    "title": "Find the Nth root of a number",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/powx-n/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Find+the+Nth+root+of+a+number"
+  },
+  {
+    "id": 79,
+    "step": "Step 4: Binary Search",
+    "topic": "Answers (Search Space)",
+    "title": "Koko Eating Bananas",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/koko-eating-bananas/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Koko+Eating+Bananas"
+  },
+  {
+    "id": 80,
+    "step": "Step 4: Binary Search",
+    "topic": "Answers (Search Space)",
+    "title": "Minimum days to make M bouquets",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Minimum+days+to+make+M+bouquets"
+  },
+  {
+    "id": 81,
+    "step": "Step 4: Binary Search",
+    "topic": "Answers (Search Space)",
+    "title": "Find the smallest divisor given a threshold",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Find+the+smallest+divisor+given+a+threshold"
+  },
+  {
+    "id": 82,
+    "step": "Step 4: Binary Search",
+    "topic": "Answers (Search Space)",
+    "title": "Capacity to Ship Packages within D Days",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Capacity+to+Ship+Packages+within+D+Days"
+  },
+  {
+    "id": 83,
+    "step": "Step 4: Binary Search",
+    "topic": "Answers (Search Space)",
+    "title": "Kth Missing Positive Number",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/kth-missing-positive-number/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Kth+Missing+Positive+Number"
+  },
+  {
+    "id": 84,
+    "step": "Step 4: Binary Search",
+    "topic": "Answers (Search Space)",
+    "title": "Aggressive Cows",
+    "difficulty": "Hard",
+    "leetcodeUrl": "https://leetcode.com/problems/magnetic-force-between-two-balls/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Aggressive+Cows"
+  },
+  {
+    "id": 85,
+    "step": "Step 4: Binary Search",
+    "topic": "Answers (Search Space)",
+    "title": "Book Allocation Problem",
+    "difficulty": "Hard",
+    "leetcodeUrl": "https://leetcode.com/problems/split-array-largest-sum/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Book+Allocation+Problem"
+  },
+  {
+    "id": 86,
+    "step": "Step 4: Binary Search",
+    "topic": "Answers (Search Space)",
+    "title": "Split Array - Largest Sum",
+    "difficulty": "Hard",
+    "leetcodeUrl": "https://leetcode.com/problems/split-array-largest-sum/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Split+Array+-+Largest+Sum"
+  },
+  {
+    "id": 87,
+    "step": "Step 4: Binary Search",
+    "topic": "Answers (Search Space)",
+    "title": "Painter's Partition Problem",
+    "difficulty": "Hard",
+    "leetcodeUrl": "https://leetcode.com/problems/split-array-largest-sum/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Painter%27s+Partition+Problem"
+  },
+  {
+    "id": 88,
+    "step": "Step 4: Binary Search",
+    "topic": "Answers (Search Space)",
+    "title": "Minimize Max Distance to Gas Station",
+    "difficulty": "Hard",
+    "leetcodeUrl": "https://leetcode.com/problems/minimize-max-distance-to-gas-station/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Minimize+Max+Distance+to+Gas+Station"
+  },
+  {
+    "id": 89,
+    "step": "Step 4: Binary Search",
+    "topic": "Answers (Search Space)",
+    "title": "Median of 2 Sorted Arrays of Different Sizes",
+    "difficulty": "Hard",
+    "leetcodeUrl": "https://leetcode.com/problems/median-of-two-sorted-arrays/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Median+of+2+Sorted+Arrays+of+Different+Sizes"
+  },
+  {
+    "id": 90,
+    "step": "Step 4: Binary Search",
+    "topic": "Answers (Search Space)",
+    "title": "Kth Element of two sorted arrays",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Kth+Element+of+two+sorted+arrays"
+  },
+  {
+    "id": 91,
+    "step": "Step 4: Binary Search",
+    "topic": "2D Arrays",
+    "title": "Find the row with maximum number of 1's",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/row-with-maximum-ones/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Find+the+row+with+maximum+number+of+1%27s"
+  },
+  {
+    "id": 92,
+    "step": "Step 4: Binary Search",
+    "topic": "2D Arrays",
+    "title": "Search in a 2D Matrix",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/search-a-2d-matrix/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Search+in+a+2D+Matrix"
+  },
+  {
+    "id": 93,
+    "step": "Step 4: Binary Search",
+    "topic": "2D Arrays",
+    "title": "Search in a Row and Column-wise Sorted Matrix",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/search-a-2d-matrix-ii/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Search+in+a+Row+and+Column-wise+Sorted+Matrix"
+  },
+  {
+    "id": 94,
+    "step": "Step 4: Binary Search",
+    "topic": "2D Arrays",
+    "title": "Find Peak Element (2D Matrix)",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/find-a-peak-element-ii/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Find+Peak+Element+%282D+Matrix%29"
+  },
+  {
+    "id": 95,
+    "step": "Step 4: Binary Search",
+    "topic": "2D Arrays",
+    "title": "Matrix Median",
+    "difficulty": "Hard",
+    "leetcodeUrl": "https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Matrix+Median"
+  },
+  {
+    "id": 96,
+    "step": "Step 5: Strings",
+    "topic": "Basic",
+    "title": "Remove Outermost Parentheses",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/remove-outermost-parentheses/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Remove+Outermost+Parentheses"
+  },
+  {
+    "id": 97,
+    "step": "Step 5: Strings",
+    "topic": "Basic",
+    "title": "Reverse Words in a String",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/reverse-words-in-a-string/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Reverse+Words+in+a+String"
+  },
+  {
+    "id": 98,
+    "step": "Step 5: Strings",
+    "topic": "Basic",
+    "title": "Largest Odd Number in String",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/largest-odd-number-in-string/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Largest+Odd+Number+in+String"
+  },
+  {
+    "id": 99,
+    "step": "Step 5: Strings",
+    "topic": "Basic",
+    "title": "Longest Common Prefix",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/longest-common-prefix/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Longest+Common+Prefix"
+  },
+  {
+    "id": 100,
+    "step": "Step 5: Strings",
+    "topic": "Basic",
+    "title": "Isomorphic String",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/isomorphic-strings/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Isomorphic+String"
+  },
+  {
+    "id": 101,
+    "step": "Step 5: Strings",
+    "topic": "Basic",
+    "title": "Check whether one string is a rotation of another",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/rotate-string/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Check+whether+one+string+is+a+rotation+of+another"
+  },
+  {
+    "id": 102,
+    "step": "Step 5: Strings",
+    "topic": "Basic",
+    "title": "Check if two Strings are anagrams of each other",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/valid-anagram/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Check+if+two+Strings+are+anagrams+of+each+other"
+  },
+  {
+    "id": 103,
+    "step": "Step 5: Strings",
+    "topic": "Medium",
+    "title": "Sort Characters by frequency",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/sort-characters-by-frequency/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Sort+Characters+by+frequency"
+  },
+  {
+    "id": 104,
+    "step": "Step 5: Strings",
+    "topic": "Medium",
+    "title": "Maximum Nesting Depth of Parentheses",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Maximum+Nesting+Depth+of+Parentheses"
+  },
+  {
+    "id": 105,
+    "step": "Step 5: Strings",
+    "topic": "Medium",
+    "title": "Roman to Integer",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/roman-to-integer/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Roman+to+Integer"
+  },
+  {
+    "id": 106,
+    "step": "Step 5: Strings",
+    "topic": "Medium",
+    "title": "Integer to Roman",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/integer-to-roman/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Integer+to+Roman"
+  },
+  {
+    "id": 107,
+    "step": "Step 5: Strings",
+    "topic": "Medium",
+    "title": "String to Integer (atoi)",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/string-to-integer-atoi/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+String+to+Integer+%28atoi%29"
+  },
+  {
+    "id": 108,
+    "step": "Step 5: Strings",
+    "topic": "Medium",
+    "title": "Count number of Substrings with K distinct characters",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/subarrays-with-k-different-integers/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Count+number+of+Substrings+with+K+distinct+characters"
+  },
+  {
+    "id": 109,
+    "step": "Step 5: Strings",
+    "topic": "Medium",
+    "title": "Longest Palindromic Substring",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/longest-palindromic-substring/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Longest+Palindromic+Substring"
+  },
+  {
+    "id": 110,
+    "step": "Step 5: Strings",
+    "topic": "Medium",
+    "title": "Sum of Beauty of all Substrings",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/substring-with-largest-variance/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Sum+of+Beauty+of+all+Substrings"
+  },
+  {
+    "id": 111,
+    "step": "Step 5: Strings",
+    "topic": "Medium",
+    "title": "Reverse Every Word in a String",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/reverse-words-in-a-string-iii/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Reverse+Every+Word+in+a+String"
+  },
+  {
+    "id": 112,
+    "step": "Step 6: LinkedList",
+    "topic": "1D LinkedList",
+    "title": "Introduction to LinkedList, Learn about struct/class",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/design-linked-list/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Introduction+to+LinkedList%2C+Learn+about+struct+class"
+  },
+  {
+    "id": 113,
+    "step": "Step 6: LinkedList",
+    "topic": "1D LinkedList",
+    "title": "Inserting a node in LinkedList",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/insert-into-a-sorted-circular-linked-list/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Inserting+a+node+in+LinkedList"
+  },
+  {
+    "id": 114,
+    "step": "Step 6: LinkedList",
+    "topic": "1D LinkedList",
+    "title": "Deleting a node in LinkedList",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/delete-node-in-a-linked-list/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Deleting+a+node+in+LinkedList"
+  },
+  {
+    "id": 115,
+    "step": "Step 6: LinkedList",
+    "topic": "1D LinkedList",
+    "title": "Find the length of the linkedlist",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/middle-of-the-linked-list/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Find+the+length+of+the+linkedlist"
+  },
+  {
+    "id": 116,
+    "step": "Step 6: LinkedList",
+    "topic": "1D LinkedList",
+    "title": "Search an element in the LL",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/middle-of-the-linked-list/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Search+an+element+in+the+LL"
+  },
+  {
+    "id": 117,
+    "step": "Step 6: LinkedList",
+    "topic": "Doubly LinkedList",
+    "title": "Introduction to Doubly LinkedList",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/design-linked-list/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Introduction+to+Doubly+LinkedList"
+  },
+  {
+    "id": 118,
+    "step": "Step 6: LinkedList",
+    "topic": "Doubly LinkedList",
+    "title": "Insert a node in DLL",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/design-browser-history/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Insert+a+node+in+DLL"
+  },
+  {
+    "id": 119,
+    "step": "Step 6: LinkedList",
+    "topic": "Doubly LinkedList",
+    "title": "Delete a node in DLL",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/design-browser-history/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Delete+a+node+in+DLL"
+  },
+  {
+    "id": 120,
+    "step": "Step 6: LinkedList",
+    "topic": "Doubly LinkedList",
+    "title": "Reverse a Doubly Linked List",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/reverse-nodes-in-k-group/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Reverse+a+Doubly+Linked+List"
+  },
+  {
+    "id": 121,
+    "step": "Step 6: LinkedList",
+    "topic": "Medium Problems",
+    "title": "Middle of a LinkedList (Tortoise-Hare)",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/middle-of-the-linked-list/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Middle+of+a+LinkedList+%28Tortoise-Hare%29"
+  },
+  {
+    "id": 122,
+    "step": "Step 6: LinkedList",
+    "topic": "Medium Problems",
+    "title": "Reverse a LinkedList (Iterative & Recursive)",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/reverse-linked-list/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Reverse+a+LinkedList+%28Iterative+%26+Recursive%29"
+  },
+  {
+    "id": 123,
+    "step": "Step 6: LinkedList",
+    "topic": "Medium Problems",
+    "title": "Detect a loop in LL",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/linked-list-cycle/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Detect+a+loop+in+LL"
+  },
+  {
+    "id": 124,
+    "step": "Step 6: LinkedList",
+    "topic": "Medium Problems",
+    "title": "Find the starting point of the loop of LinkedList",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/linked-list-cycle-ii/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Find+the+starting+point+of+the+loop+of+LinkedList"
+  },
+  {
+    "id": 125,
+    "step": "Step 6: LinkedList",
+    "topic": "Medium Problems",
+    "title": "Length of Loop in LinkedList",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/linked-list-cycle/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Length+of+Loop+in+LinkedList"
+  },
+  {
+    "id": 126,
+    "step": "Step 6: LinkedList",
+    "topic": "Medium Problems",
+    "title": "Check if LL is palindrome or not",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/palindrome-linked-list/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Check+if+LL+is+palindrome+or+not"
+  },
+  {
+    "id": 127,
+    "step": "Step 6: LinkedList",
+    "topic": "Medium Problems",
+    "title": "Segrregate odd and even nodes in LL",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/odd-even-linked-list/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Segrregate+odd+and+even+nodes+in+LL"
+  },
+  {
+    "id": 128,
+    "step": "Step 6: LinkedList",
+    "topic": "Medium Problems",
+    "title": "Remove Nth node from the back of the LL",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/remove-nth-node-from-end-of-list/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Remove+Nth+node+from+the+back+of+the+LL"
+  },
+  {
+    "id": 129,
+    "step": "Step 6: LinkedList",
+    "topic": "Medium Problems",
+    "title": "Delete the middle node of LL",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Delete+the+middle+node+of+LL"
+  },
+  {
+    "id": 130,
+    "step": "Step 6: LinkedList",
+    "topic": "Medium Problems",
+    "title": "Sort LL",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/sort-list/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Sort+LL"
+  },
+  {
+    "id": 131,
+    "step": "Step 6: LinkedList",
+    "topic": "Medium Problems",
+    "title": "Sort a LL of 0's 1's and 2's",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/sort-list/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Sort+a+LL+of+0%27s+1%27s+and+2%27s"
+  },
+  {
+    "id": 132,
+    "step": "Step 6: LinkedList",
+    "topic": "Medium Problems",
+    "title": "Find the intersection point of Y LL",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/intersection-of-two-linked-lists/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Find+the+intersection+point+of+Y+LL"
+  },
+  {
+    "id": 133,
+    "step": "Step 6: LinkedList",
+    "topic": "Medium Problems",
+    "title": "Add 1 to a number represented by LL",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/plus-one-linked-list/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Add+1+to+a+number+represented+by+LL"
+  },
+  {
+    "id": 134,
+    "step": "Step 6: LinkedList",
+    "topic": "Medium Problems",
+    "title": "Add 2 numbers in LL",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/add-two-numbers/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Add+2+numbers+in+LL"
+  },
+  {
+    "id": 135,
+    "step": "Step 6: LinkedList",
+    "topic": "Hard Problems",
+    "title": "Reverse LL in group of given size K",
+    "difficulty": "Hard",
+    "leetcodeUrl": "https://leetcode.com/problems/reverse-nodes-in-k-group/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Reverse+LL+in+group+of+given+size+K"
+  },
+  {
+    "id": 136,
+    "step": "Step 6: LinkedList",
+    "topic": "Hard Problems",
+    "title": "Rotate a LL",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/rotate-list/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Rotate+a+LL"
+  },
+  {
+    "id": 137,
+    "step": "Step 6: LinkedList",
+    "topic": "Hard Problems",
+    "title": "Flattening of a LinkedList",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Flattening+of+a+LinkedList"
+  },
+  {
+    "id": 138,
+    "step": "Step 6: LinkedList",
+    "topic": "Hard Problems",
+    "title": "Clone a Linked List with random and next pointer",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/copy-list-with-random-pointer/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Clone+a+Linked+List+with+random+and+next+pointer"
+  },
+  {
+    "id": 139,
+    "step": "Step 7: Recursion",
+    "topic": "Subsequences Pattern",
+    "title": "Generate all binary strings without consecutive 1s",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/non-negative-integers-without-consecutive-ones/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Generate+all+binary+strings+without+consecutive+1s"
+  },
+  {
+    "id": 140,
+    "step": "Step 7: Recursion",
+    "topic": "Subsequences Pattern",
+    "title": "Generate Parentheses",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/generate-parentheses/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Generate+Parentheses"
+  },
+  {
+    "id": 141,
+    "step": "Step 7: Recursion",
+    "topic": "Subsequences Pattern",
+    "title": "Print all Subsequences / Power Set",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/subsets/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Print+all+Subsequences+++Power+Set"
+  },
+  {
+    "id": 142,
+    "step": "Step 7: Recursion",
+    "topic": "Subsequences Pattern",
+    "title": "Learn All Patterns of Subsequences (Sum = K)",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/combination-sum/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Learn+All+Patterns+of+Subsequences+%28Sum+%3D+K%29"
+  },
+  {
+    "id": 143,
+    "step": "Step 7: Recursion",
+    "topic": "Subsequences Pattern",
+    "title": "Count all subsequences with sum K",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/target-sum/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Count+all+subsequences+with+sum+K"
+  },
+  {
+    "id": 144,
+    "step": "Step 7: Recursion",
+    "topic": "Subsequences Pattern",
+    "title": "Combination Sum",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/combination-sum/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Combination+Sum"
+  },
+  {
+    "id": 145,
+    "step": "Step 7: Recursion",
+    "topic": "Subsequences Pattern",
+    "title": "Combination Sum II",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/combination-sum-ii/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Combination+Sum+II"
+  },
+  {
+    "id": 146,
+    "step": "Step 7: Recursion",
+    "topic": "Subsequences Pattern",
+    "title": "Subset Sum I",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/subsets/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Subset+Sum+I"
+  },
+  {
+    "id": 147,
+    "step": "Step 7: Recursion",
+    "topic": "Subsequences Pattern",
+    "title": "Subset Sum II",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/subsets-ii/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Subset+Sum+II"
+  },
+  {
+    "id": 148,
+    "step": "Step 7: Recursion",
+    "topic": "Subsequences Pattern",
+    "title": "Combination Sum III",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/combination-sum-iii/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Combination+Sum+III"
+  },
+  {
+    "id": 149,
+    "step": "Step 7: Recursion",
+    "topic": "Subsequences Pattern",
+    "title": "Letter Combinations of a Phone Number",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/letter-combinations-of-a-phone-number/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Letter+Combinations+of+a+Phone+Number"
+  },
+  {
+    "id": 150,
+    "step": "Step 7: Recursion",
+    "topic": "Subsequences Pattern",
+    "title": "Palindrome Partitioning",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/palindrome-partitioning/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Palindrome+Partitioning"
+  },
+  {
+    "id": 151,
+    "step": "Step 7: Recursion",
+    "topic": "Hard",
+    "title": "Word Search",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/word-search/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Word+Search"
+  },
+  {
+    "id": 152,
+    "step": "Step 7: Recursion",
+    "topic": "Hard",
+    "title": "N Queens",
+    "difficulty": "Hard",
+    "leetcodeUrl": "https://leetcode.com/problems/n-queens/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+N+Queens"
+  },
+  {
+    "id": 153,
+    "step": "Step 7: Recursion",
+    "topic": "Hard",
+    "title": "Rat in a Maze",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/unique-paths-iii/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Rat+in+a+Maze"
+  },
+  {
+    "id": 154,
+    "step": "Step 7: Recursion",
+    "topic": "Hard",
+    "title": "Word Break",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/word-break/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Word+Break"
+  },
+  {
+    "id": 155,
+    "step": "Step 7: Recursion",
+    "topic": "Hard",
+    "title": "M Coloring Problem",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/flower-planting-with-no-adjacent/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+M+Coloring+Problem"
+  },
+  {
+    "id": 156,
+    "step": "Step 7: Recursion",
+    "topic": "Hard",
+    "title": "Sudoku Solver",
+    "difficulty": "Hard",
+    "leetcodeUrl": "https://leetcode.com/problems/sudoku-solver/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Sudoku+Solver"
+  },
+  {
+    "id": 157,
+    "step": "Step 7: Recursion",
+    "topic": "Hard",
+    "title": "Expression Add Operators",
+    "difficulty": "Hard",
+    "leetcodeUrl": "https://leetcode.com/problems/expression-add-operators/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Expression+Add+Operators"
+  },
+  {
+    "id": 158,
+    "step": "Step 8: Bit Manipulation",
+    "topic": "Learn Bit Manipulation",
+    "title": "Introduction to Bit Manipulation",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/number-of-1-bits/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Introduction+to+Bit+Manipulation"
+  },
+  {
+    "id": 159,
+    "step": "Step 8: Bit Manipulation",
+    "topic": "Learn Bit Manipulation",
+    "title": "Check if the i-th bit is set or not",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/number-of-1-bits/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Check+if+the+i-th+bit+is+set+or+not"
+  },
+  {
+    "id": 160,
+    "step": "Step 8: Bit Manipulation",
+    "topic": "Learn Bit Manipulation",
+    "title": "Check if a number is odd or not",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/power-of-two/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Check+if+a+number+is+odd+or+not"
+  },
+  {
+    "id": 161,
+    "step": "Step 8: Bit Manipulation",
+    "topic": "Learn Bit Manipulation",
+    "title": "Check if a number is power of 2 or not",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/power-of-two/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Check+if+a+number+is+power+of+2+or+not"
+  },
+  {
+    "id": 162,
+    "step": "Step 8: Bit Manipulation",
+    "topic": "Learn Bit Manipulation",
+    "title": "Count the number of set bits",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/counting-bits/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Count+the+number+of+set+bits"
+  },
+  {
+    "id": 163,
+    "step": "Step 8: Bit Manipulation",
+    "topic": "Learn Bit Manipulation",
+    "title": "Set/Unset the rightmost unset bit",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/number-of-1-bits/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Set+Unset+the+rightmost+unset+bit"
+  },
+  {
+    "id": 164,
+    "step": "Step 8: Bit Manipulation",
+    "topic": "Learn Bit Manipulation",
+    "title": "Swap two numbers without third variable",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/single-number/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Swap+two+numbers+without+third+variable"
+  },
+  {
+    "id": 165,
+    "step": "Step 8: Bit Manipulation",
+    "topic": "Learn Bit Manipulation",
+    "title": "Divide two integers without multiplication or division",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/divide-two-integers/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Divide+two+integers+without+multiplication+or+division"
+  },
+  {
+    "id": 166,
+    "step": "Step 8: Bit Manipulation",
+    "topic": "Interview Problems",
+    "title": "Count number of bits to be flipped to convert A to B",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/minimum-bit-flips-to-convert-number/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Count+number+of+bits+to+be+flipped+to+convert+A+to+B"
+  },
+  {
+    "id": 167,
+    "step": "Step 8: Bit Manipulation",
+    "topic": "Interview Problems",
+    "title": "Find the number that appears odd number of times",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/single-number/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Find+the+number+that+appears+odd+number+of+times"
+  },
+  {
+    "id": 168,
+    "step": "Step 8: Bit Manipulation",
+    "topic": "Interview Problems",
+    "title": "Power Set using Bit Manipulation",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/subsets/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Power+Set+using+Bit+Manipulation"
+  },
+  {
+    "id": 169,
+    "step": "Step 8: Bit Manipulation",
+    "topic": "Interview Problems",
+    "title": "Find XOR of numbers from L to R",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/xor-queries-of-a-subarray/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Find+XOR+of+numbers+from+L+to+R"
+  },
+  {
+    "id": 170,
+    "step": "Step 8: Bit Manipulation",
+    "topic": "Interview Problems",
+    "title": "Find the two numbers appearing odd number of times",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/single-number-iii/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Find+the+two+numbers+appearing+odd+number+of+times"
+  },
+  {
+    "id": 171,
+    "step": "Step 8: Bit Manipulation",
+    "topic": "Advanced Maths",
+    "title": "Print Prime Factors of a Number",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/distinct-prime-factors-of-product-of-array/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Print+Prime+Factors+of+a+Number"
+  },
+  {
+    "id": 172,
+    "step": "Step 8: Bit Manipulation",
+    "topic": "Advanced Maths",
+    "title": "All Divisors of a Natural Number",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/three-divisors/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+All+Divisors+of+a+Natural+Number"
+  },
+  {
+    "id": 173,
+    "step": "Step 8: Bit Manipulation",
+    "topic": "Advanced Maths",
+    "title": "Sieve of Eratosthenes",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/count-primes/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Sieve+of+Eratosthenes"
+  },
+  {
+    "id": 174,
+    "step": "Step 8: Bit Manipulation",
+    "topic": "Advanced Maths",
+    "title": "Find Prime Factorisation using Sieve",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/count-primes/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Find+Prime+Factorisation+using+Sieve"
+  },
+  {
+    "id": 175,
+    "step": "Step 8: Bit Manipulation",
+    "topic": "Advanced Maths",
+    "title": "Power(n, x)",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/powx-n/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Power%28n%2C+x%29"
+  },
+  {
+    "id": 176,
+    "step": "Step 9: Stack and Queues",
+    "topic": "Learning",
+    "title": "Implement Stack using Array",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/implement-stack-using-queues/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Implement+Stack+using+Array"
+  },
+  {
+    "id": 177,
+    "step": "Step 9: Stack and Queues",
+    "topic": "Learning",
+    "title": "Implement Queue using Array",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/implement-queue-using-stacks/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Implement+Queue+using+Array"
+  },
+  {
+    "id": 178,
+    "step": "Step 9: Stack and Queues",
+    "topic": "Learning",
+    "title": "Implement Stack using Queue",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/implement-stack-using-queues/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Implement+Stack+using+Queue"
+  },
+  {
+    "id": 179,
+    "step": "Step 9: Stack and Queues",
+    "topic": "Learning",
+    "title": "Implement Queue using Stack",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/implement-queue-using-stacks/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Implement+Queue+using+Stack"
+  },
+  {
+    "id": 180,
+    "step": "Step 9: Stack and Queues",
+    "topic": "Learning",
+    "title": "Implement Stack using Linked List",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/design-linked-list/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Implement+Stack+using+Linked+List"
+  },
+  {
+    "id": 181,
+    "step": "Step 9: Stack and Queues",
+    "topic": "Learning",
+    "title": "Implement Queue using Linked List",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/design-linked-list/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Implement+Queue+using+Linked+List"
+  },
+  {
+    "id": 182,
+    "step": "Step 9: Stack and Queues",
+    "topic": "Learning",
+    "title": "Check for Balanced Parentheses",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/valid-parentheses/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Check+for+Balanced+Parentheses"
+  },
+  {
+    "id": 183,
+    "step": "Step 9: Stack and Queues",
+    "topic": "Learning",
+    "title": "Implement Min Stack",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/min-stack/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Implement+Min+Stack"
+  },
+  {
+    "id": 184,
+    "step": "Step 9: Stack and Queues",
+    "topic": "Prefix/Infix/Postfix",
+    "title": "Infix to Postfix Conversion",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/basic-calculator/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Infix+to+Postfix+Conversion"
+  },
+  {
+    "id": 185,
+    "step": "Step 9: Stack and Queues",
+    "topic": "Prefix/Infix/Postfix",
+    "title": "Prefix to Infix Conversion",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/basic-calculator-ii/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Prefix+to+Infix+Conversion"
+  },
+  {
+    "id": 186,
+    "step": "Step 9: Stack and Queues",
+    "topic": "Prefix/Infix/Postfix",
+    "title": "Prefix to Postfix Conversion",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/evaluate-reverse-polish-notation/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Prefix+to+Postfix+Conversion"
+  },
+  {
+    "id": 187,
+    "step": "Step 9: Stack and Queues",
+    "topic": "Prefix/Infix/Postfix",
+    "title": "Postfix to Prefix Conversion",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/evaluate-reverse-polish-notation/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Postfix+to+Prefix+Conversion"
+  },
+  {
+    "id": 188,
+    "step": "Step 9: Stack and Queues",
+    "topic": "Prefix/Infix/Postfix",
+    "title": "Postfix to Infix Conversion",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/evaluate-reverse-polish-notation/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Postfix+to+Infix+Conversion"
+  },
+  {
+    "id": 189,
+    "step": "Step 9: Stack and Queues",
+    "topic": "Monotonic Stack",
+    "title": "Next Greater Element",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/next-greater-element-i/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Next+Greater+Element"
+  },
+  {
+    "id": 190,
+    "step": "Step 9: Stack and Queues",
+    "topic": "Monotonic Stack",
+    "title": "Next Greater Element II",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/next-greater-element-ii/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Next+Greater+Element+II"
+  },
+  {
+    "id": 191,
+    "step": "Step 9: Stack and Queues",
+    "topic": "Monotonic Stack",
+    "title": "Next Smaller Element",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Next+Smaller+Element"
+  },
+  {
+    "id": 192,
+    "step": "Step 9: Stack and Queues",
+    "topic": "Monotonic Stack",
+    "title": "Number of NGEs to the right",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/daily-temperatures/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Number+of+NGEs+to+the+right"
+  },
+  {
+    "id": 193,
+    "step": "Step 9: Stack and Queues",
+    "topic": "Monotonic Stack",
+    "title": "Trapping Rainwater",
+    "difficulty": "Hard",
+    "leetcodeUrl": "https://leetcode.com/problems/trapping-rain-water/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Trapping+Rainwater"
+  },
+  {
+    "id": 194,
+    "step": "Step 9: Stack and Queues",
+    "topic": "Monotonic Stack",
+    "title": "Sum of Subarray Minimums",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/sum-of-subarray-minimums/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Sum+of+Subarray+Minimums"
+  },
+  {
+    "id": 195,
+    "step": "Step 9: Stack and Queues",
+    "topic": "Monotonic Stack",
+    "title": "Asteroid Collision",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/asteroid-collision/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Asteroid+Collision"
+  },
+  {
+    "id": 196,
+    "step": "Step 9: Stack and Queues",
+    "topic": "Monotonic Stack",
+    "title": "Sum of Subarray Ranges",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/sum-of-subarray-ranges/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Sum+of+Subarray+Ranges"
+  },
+  {
+    "id": 197,
+    "step": "Step 9: Stack and Queues",
+    "topic": "Monotonic Stack",
+    "title": "Remove K Digits",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/remove-k-digits/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Remove+K+Digits"
+  },
+  {
+    "id": 198,
+    "step": "Step 9: Stack and Queues",
+    "topic": "Monotonic Stack",
+    "title": "Largest Rectangle in Histogram",
+    "difficulty": "Hard",
+    "leetcodeUrl": "https://leetcode.com/problems/largest-rectangle-in-histogram/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Largest+Rectangle+in+Histogram"
+  },
+  {
+    "id": 199,
+    "step": "Step 9: Stack and Queues",
+    "topic": "Monotonic Stack",
+    "title": "Maximal Rectangle (Matrix)",
+    "difficulty": "Hard",
+    "leetcodeUrl": "https://leetcode.com/problems/maximal-rectangle/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Maximal+Rectangle+%28Matrix%29"
+  },
+  {
+    "id": 200,
+    "step": "Step 9: Stack and Queues",
+    "topic": "Implementation",
+    "title": "Sliding Window Maximum",
+    "difficulty": "Hard",
+    "leetcodeUrl": "https://leetcode.com/problems/sliding-window-maximum/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Sliding+Window+Maximum"
+  },
+  {
+    "id": 201,
+    "step": "Step 9: Stack and Queues",
+    "topic": "Implementation",
+    "title": "Online Stock Span",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/online-stock-span/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Online+Stock+Span"
+  },
+  {
+    "id": 202,
+    "step": "Step 9: Stack and Queues",
+    "topic": "Implementation",
+    "title": "The Celebrity Problem",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/find-the-celebrity/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+The+Celebrity+Problem"
+  },
+  {
+    "id": 203,
+    "step": "Step 9: Stack and Queues",
+    "topic": "Implementation",
+    "title": "LRU Cache",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/lru-cache/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+LRU+Cache"
+  },
+  {
+    "id": 204,
+    "step": "Step 9: Stack and Queues",
+    "topic": "Implementation",
+    "title": "LFU Cache",
+    "difficulty": "Hard",
+    "leetcodeUrl": "https://leetcode.com/problems/lfu-cache/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+LFU+Cache"
+  },
+  {
+    "id": 205,
+    "step": "Step 10: Sliding Window",
+    "topic": "Medium Problems",
+    "title": "Longest Substring Without Repeating Characters",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/longest-substring-without-repeating-characters/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Longest+Substring+Without+Repeating+Characters"
+  },
+  {
+    "id": 206,
+    "step": "Step 10: Sliding Window",
+    "topic": "Medium Problems",
+    "title": "Max Consecutive Ones III",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/max-consecutive-ones-iii/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Max+Consecutive+Ones+III"
+  },
+  {
+    "id": 207,
+    "step": "Step 10: Sliding Window",
+    "topic": "Medium Problems",
+    "title": "Fruit Into Baskets",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/fruit-into-baskets/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Fruit+Into+Baskets"
+  },
+  {
+    "id": 208,
+    "step": "Step 10: Sliding Window",
+    "topic": "Medium Problems",
+    "title": "Longest Repeating Character Replacement",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/longest-repeating-character-replacement/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Longest+Repeating+Character+Replacement"
+  },
+  {
+    "id": 209,
+    "step": "Step 10: Sliding Window",
+    "topic": "Medium Problems",
+    "title": "Binary Subarrays With Sum",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/binary-subarrays-with-sum/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Binary+Subarrays+With+Sum"
+  },
+  {
+    "id": 210,
+    "step": "Step 10: Sliding Window",
+    "topic": "Medium Problems",
+    "title": "Count Number of Nice Subarrays",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/count-number-of-nice-subarrays/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Count+Number+of+Nice+Subarrays"
+  },
+  {
+    "id": 211,
+    "step": "Step 10: Sliding Window",
+    "topic": "Medium Problems",
+    "title": "Number of Substrings Containing All Three Characters",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Number+of+Substrings+Containing+All+Three+Characters"
+  },
+  {
+    "id": 212,
+    "step": "Step 10: Sliding Window",
+    "topic": "Medium Problems",
+    "title": "Maximum Points You Can Obtain from Cards",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Maximum+Points+You+Can+Obtain+from+Cards"
+  },
+  {
+    "id": 213,
+    "step": "Step 10: Sliding Window",
+    "topic": "Hard Problems",
+    "title": "Longest Substring with At Most K Distinct Characters",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Longest+Substring+with+At+Most+K+Distinct+Characters"
+  },
+  {
+    "id": 214,
+    "step": "Step 10: Sliding Window",
+    "topic": "Hard Problems",
+    "title": "Subarrays with K Different Integers",
+    "difficulty": "Hard",
+    "leetcodeUrl": "https://leetcode.com/problems/subarrays-with-k-different-integers/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Subarrays+with+K+Different+Integers"
+  },
+  {
+    "id": 215,
+    "step": "Step 10: Sliding Window",
+    "topic": "Hard Problems",
+    "title": "Minimum Window Substring",
+    "difficulty": "Hard",
+    "leetcodeUrl": "https://leetcode.com/problems/minimum-window-substring/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Minimum+Window+Substring"
+  },
+  {
+    "id": 216,
+    "step": "Step 10: Sliding Window",
+    "topic": "Hard Problems",
+    "title": "Minimum Window Subsequence",
+    "difficulty": "Hard",
+    "leetcodeUrl": "https://leetcode.com/problems/minimum-window-subsequence/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Minimum+Window+Subsequence"
+  },
+  {
+    "id": 217,
+    "step": "Step 11: Heaps",
+    "topic": "Learning",
+    "title": "Introduction to Priority Queues and Binary Heaps",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/kth-largest-element-in-an-array/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Introduction+to+Priority+Queues+and+Binary+Heaps"
+  },
+  {
+    "id": 218,
+    "step": "Step 11: Heaps",
+    "topic": "Learning",
+    "title": "Min Heap and Max Heap Implementation",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/design-twitter/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Min+Heap+and+Max+Heap+Implementation"
+  },
+  {
+    "id": 219,
+    "step": "Step 11: Heaps",
+    "topic": "Learning",
+    "title": "Check if an array represents a min-heap or not",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/last-stone-weight/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Check+if+an+array+represents+a+min-heap+or+not"
+  },
+  {
+    "id": 220,
+    "step": "Step 11: Heaps",
+    "topic": "Learning",
+    "title": "Convert Min Heap to Max Heap",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/kth-largest-element-in-an-array/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Convert+Min+Heap+to+Max+Heap"
+  },
+  {
+    "id": 221,
+    "step": "Step 11: Heaps",
+    "topic": "Medium Problems",
+    "title": "Kth Largest Element in an Array",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/kth-largest-element-in-an-array/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Kth+Largest+Element+in+an+Array"
+  },
+  {
+    "id": 222,
+    "step": "Step 11: Heaps",
+    "topic": "Medium Problems",
+    "title": "Kth Smallest Element in an Array",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/kth-largest-element-in-an-array/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Kth+Smallest+Element+in+an+Array"
+  },
+  {
+    "id": 223,
+    "step": "Step 11: Heaps",
+    "topic": "Medium Problems",
+    "title": "Sort K Sorted Array (Nearly Sorted Array)",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/sort-an-array/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Sort+K+Sorted+Array+%28Nearly+Sorted+Array%29"
+  },
+  {
+    "id": 224,
+    "step": "Step 11: Heaps",
+    "topic": "Medium Problems",
+    "title": "Merge M Sorted Lists",
+    "difficulty": "Hard",
+    "leetcodeUrl": "https://leetcode.com/problems/merge-k-sorted-lists/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Merge+M+Sorted+Lists"
+  },
+  {
+    "id": 225,
+    "step": "Step 11: Heaps",
+    "topic": "Medium Problems",
+    "title": "Replace each element by its rank in the array",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/rank-transform-of-an-array/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Replace+each+element+by+its+rank+in+the+array"
+  },
+  {
+    "id": 226,
+    "step": "Step 11: Heaps",
+    "topic": "Medium Problems",
+    "title": "Task Scheduler",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/task-scheduler/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Task+Scheduler"
+  },
+  {
+    "id": 227,
+    "step": "Step 11: Heaps",
+    "topic": "Medium Problems",
+    "title": "Hands of Straights",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/hand-of-straights/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Hands+of+Straights"
+  },
+  {
+    "id": 228,
+    "step": "Step 11: Heaps",
+    "topic": "Hard Problems",
+    "title": "Design Twitter",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/design-twitter/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Design+Twitter"
+  },
+  {
+    "id": 229,
+    "step": "Step 11: Heaps",
+    "topic": "Hard Problems",
+    "title": "Connect `n` ropes with minimum cost",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/minimum-cost-to-connect-sticks/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Connect+%60n%60+ropes+with+minimum+cost"
+  },
+  {
+    "id": 230,
+    "step": "Step 11: Heaps",
+    "topic": "Hard Problems",
+    "title": "Kth Largest Element in a Stream of Numbers",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/kth-largest-element-in-a-stream/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Kth+Largest+Element+in+a+Stream+of+Numbers"
+  },
+  {
+    "id": 231,
+    "step": "Step 11: Heaps",
+    "topic": "Hard Problems",
+    "title": "Find Median from Data Stream",
+    "difficulty": "Hard",
+    "leetcodeUrl": "https://leetcode.com/problems/find-median-from-data-stream/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Find+Median+from+Data+Stream"
+  },
+  {
+    "id": 232,
+    "step": "Step 11: Heaps",
+    "topic": "Hard Problems",
+    "title": "K Most Frequent Elements",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/top-k-frequent-elements/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+K+Most+Frequent+Elements"
+  },
+  {
+    "id": 233,
+    "step": "Step 12: Greedy Algorithms",
+    "topic": "Easy Problems",
+    "title": "Assign Cookies",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/assign-cookies/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Assign+Cookies"
+  },
+  {
+    "id": 234,
+    "step": "Step 12: Greedy Algorithms",
+    "topic": "Easy Problems",
+    "title": "Fractional Knapsack Problem",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/maximum-units-on-a-truck/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Fractional+Knapsack+Problem"
+  },
+  {
+    "id": 235,
+    "step": "Step 12: Greedy Algorithms",
+    "topic": "Easy Problems",
+    "title": "Find minimum number of coins",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/coin-change/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Find+minimum+number+of+coins"
+  },
+  {
+    "id": 236,
+    "step": "Step 12: Greedy Algorithms",
+    "topic": "Easy Problems",
+    "title": "Lemonade Change",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/lemonade-change/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Lemonade+Change"
+  },
+  {
+    "id": 237,
+    "step": "Step 12: Greedy Algorithms",
+    "topic": "Easy Problems",
+    "title": "Valid Parenthesis String",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/valid-parenthesis-string/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Valid+Parenthesis+String"
+  },
+  {
+    "id": 238,
+    "step": "Step 12: Greedy Algorithms",
+    "topic": "Medium/Hard",
+    "title": "N meetings in one room",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/meeting-rooms/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+N+meetings+in+one+room"
+  },
+  {
+    "id": 239,
+    "step": "Step 12: Greedy Algorithms",
+    "topic": "Medium/Hard",
+    "title": "Minimum platforms required for a railway",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/meeting-rooms-ii/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Minimum+platforms+required+for+a+railway"
+  },
+  {
+    "id": 240,
+    "step": "Step 12: Greedy Algorithms",
+    "topic": "Medium/Hard",
+    "title": "Job Sequencing Problem",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/course-schedule-iii/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Job+Sequencing+Problem"
+  },
+  {
+    "id": 241,
+    "step": "Step 12: Greedy Algorithms",
+    "topic": "Medium/Hard",
+    "title": "Candy",
+    "difficulty": "Hard",
+    "leetcodeUrl": "https://leetcode.com/problems/candy/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Candy"
+  },
+  {
+    "id": 242,
+    "step": "Step 12: Greedy Algorithms",
+    "topic": "Medium/Hard",
+    "title": "Non-overlapping Intervals",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/non-overlapping-intervals/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Non-overlapping+Intervals"
+  },
+  {
+    "id": 243,
+    "step": "Step 12: Greedy Algorithms",
+    "topic": "Medium/Hard",
+    "title": "Insert Interval",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/insert-interval/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Insert+Interval"
+  },
+  {
+    "id": 244,
+    "step": "Step 12: Greedy Algorithms",
+    "topic": "Medium/Hard",
+    "title": "Jump Game",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/jump-game/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Jump+Game"
+  },
+  {
+    "id": 245,
+    "step": "Step 12: Greedy Algorithms",
+    "topic": "Medium/Hard",
+    "title": "Jump Game II",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/jump-game-ii/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Jump+Game+II"
+  },
+  {
+    "id": 246,
+    "step": "Step 13: Binary Trees",
+    "topic": "Traversals",
+    "title": "Introduction to Trees",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/binary-tree-preorder-traversal/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Introduction+to+Trees"
+  },
+  {
+    "id": 247,
+    "step": "Step 13: Binary Trees",
+    "topic": "Traversals",
+    "title": "Binary Tree Traversals in Binary Tree",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/binary-tree-inorder-traversal/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Binary+Tree+Traversals+in+Binary+Tree"
+  },
+  {
+    "id": 248,
+    "step": "Step 13: Binary Trees",
+    "topic": "Traversals",
+    "title": "Preorder Traversal of Binary Tree",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/binary-tree-preorder-traversal/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Preorder+Traversal+of+Binary+Tree"
+  },
+  {
+    "id": 249,
+    "step": "Step 13: Binary Trees",
+    "topic": "Traversals",
+    "title": "Inorder Traversal of Binary Tree",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/binary-tree-inorder-traversal/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Inorder+Traversal+of+Binary+Tree"
+  },
+  {
+    "id": 250,
+    "step": "Step 13: Binary Trees",
+    "topic": "Traversals",
+    "title": "Postorder Traversal of Binary Tree",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/binary-tree-postorder-traversal/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Postorder+Traversal+of+Binary+Tree"
+  },
+  {
+    "id": 251,
+    "step": "Step 13: Binary Trees",
+    "topic": "Traversals",
+    "title": "Level order Traversal / Spiral",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/binary-tree-level-order-traversal/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Level+order+Traversal+++Spiral"
+  },
+  {
+    "id": 252,
+    "step": "Step 13: Binary Trees",
+    "topic": "Traversals",
+    "title": "Iterative Preorder Traversal of Binary Tree",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/binary-tree-preorder-traversal/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Iterative+Preorder+Traversal+of+Binary+Tree"
+  },
+  {
+    "id": 253,
+    "step": "Step 13: Binary Trees",
+    "topic": "Traversals",
+    "title": "Iterative Inorder Traversal of Binary Tree",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/binary-tree-inorder-traversal/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Iterative+Inorder+Traversal+of+Binary+Tree"
+  },
+  {
+    "id": 254,
+    "step": "Step 13: Binary Trees",
+    "topic": "Traversals",
+    "title": "Postorder Traversal using 2 Stacks",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/binary-tree-postorder-traversal/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Postorder+Traversal+using+2+Stacks"
+  },
+  {
+    "id": 255,
+    "step": "Step 13: Binary Trees",
+    "topic": "Traversals",
+    "title": "Postorder Traversal using 1 Stack",
+    "difficulty": "Hard",
+    "leetcodeUrl": "https://leetcode.com/problems/binary-tree-postorder-traversal/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Postorder+Traversal+using+1+Stack"
+  },
+  {
+    "id": 256,
+    "step": "Step 13: Binary Trees",
+    "topic": "Traversals",
+    "title": "Preorder, Inorder, and Postorder in one traversal",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/binary-tree-inorder-traversal/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Preorder%2C+Inorder%2C+and+Postorder+in+one+traversal"
+  },
+  {
+    "id": 257,
+    "step": "Step 13: Binary Trees",
+    "topic": "Medium Problems",
+    "title": "Height of Binary Tree",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/maximum-depth-of-binary-tree/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Height+of+Binary+Tree"
+  },
+  {
+    "id": 258,
+    "step": "Step 13: Binary Trees",
+    "topic": "Medium Problems",
+    "title": "Check if Binary Tree is Balanced",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/balanced-binary-tree/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Check+if+Binary+Tree+is+Balanced"
+  },
+  {
+    "id": 259,
+    "step": "Step 13: Binary Trees",
+    "topic": "Medium Problems",
+    "title": "Diameter of Binary Tree",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/diameter-of-binary-tree/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Diameter+of+Binary+Tree"
+  },
+  {
+    "id": 260,
+    "step": "Step 13: Binary Trees",
+    "topic": "Medium Problems",
+    "title": "Maximum Path Sum in Binary Tree",
+    "difficulty": "Hard",
+    "leetcodeUrl": "https://leetcode.com/problems/binary-tree-maximum-path-sum/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Maximum+Path+Sum+in+Binary+Tree"
+  },
+  {
+    "id": 261,
+    "step": "Step 13: Binary Trees",
+    "topic": "Medium Problems",
+    "title": "Check if two trees are identical or not",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/same-tree/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Check+if+two+trees+are+identical+or+not"
+  },
+  {
+    "id": 262,
+    "step": "Step 13: Binary Trees",
+    "topic": "Medium Problems",
+    "title": "Zig-Zag or Spiral Traversal in Binary Tree",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Zig-Zag+or+Spiral+Traversal+in+Binary+Tree"
+  },
+  {
+    "id": 263,
+    "step": "Step 13: Binary Trees",
+    "topic": "Medium Problems",
+    "title": "Boundary Traversal of Binary Tree",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/boundary-of-binary-tree/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Boundary+Traversal+of+Binary+Tree"
+  },
+  {
+    "id": 264,
+    "step": "Step 13: Binary Trees",
+    "topic": "Medium Problems",
+    "title": "Vertical Order Traversal of Binary Tree",
+    "difficulty": "Hard",
+    "leetcodeUrl": "https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Vertical+Order+Traversal+of+Binary+Tree"
+  },
+  {
+    "id": 265,
+    "step": "Step 13: Binary Trees",
+    "topic": "Medium Problems",
+    "title": "Top View of Binary Tree",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/binary-tree-right-side-view/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Top+View+of+Binary+Tree"
+  },
+  {
+    "id": 266,
+    "step": "Step 13: Binary Trees",
+    "topic": "Medium Problems",
+    "title": "Bottom View of Binary Tree",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/binary-tree-right-side-view/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Bottom+View+of+Binary+Tree"
+  },
+  {
+    "id": 267,
+    "step": "Step 13: Binary Trees",
+    "topic": "Medium Problems",
+    "title": "Right / Left View of Binary Tree",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/binary-tree-right-side-view/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Right+++Left+View+of+Binary+Tree"
+  },
+  {
+    "id": 268,
+    "step": "Step 13: Binary Trees",
+    "topic": "Medium Problems",
+    "title": "Symmetric Binary Tree",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/symmetric-tree/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Symmetric+Binary+Tree"
+  },
+  {
+    "id": 269,
+    "step": "Step 13: Binary Trees",
+    "topic": "Hard Problems",
+    "title": "Root to Node Path in Binary Tree",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/binary-tree-paths/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Root+to+Node+Path+in+Binary+Tree"
+  },
+  {
+    "id": 270,
+    "step": "Step 13: Binary Trees",
+    "topic": "Hard Problems",
+    "title": "LCA in Binary Tree",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+LCA+in+Binary+Tree"
+  },
+  {
+    "id": 271,
+    "step": "Step 13: Binary Trees",
+    "topic": "Hard Problems",
+    "title": "Maximum Width of Binary Tree",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/maximum-width-of-binary-tree/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Maximum+Width+of+Binary+Tree"
+  },
+  {
+    "id": 272,
+    "step": "Step 13: Binary Trees",
+    "topic": "Hard Problems",
+    "title": "Check for Children Sum Property",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/root-equals-sum-of-children/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Check+for+Children+Sum+Property"
+  },
+  {
+    "id": 273,
+    "step": "Step 13: Binary Trees",
+    "topic": "Hard Problems",
+    "title": "Nodes at distance K in binary tree",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Nodes+at+distance+K+in+binary+tree"
+  },
+  {
+    "id": 274,
+    "step": "Step 13: Binary Trees",
+    "topic": "Hard Problems",
+    "title": "Minimum time taken to BURN the Binary Tree",
+    "difficulty": "Hard",
+    "leetcodeUrl": "https://leetcode.com/problems/amount-of-time-for-binary-tree-to-be-infected/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Minimum+time+taken+to+BURN+the+Binary+Tree"
+  },
+  {
+    "id": 275,
+    "step": "Step 13: Binary Trees",
+    "topic": "Hard Problems",
+    "title": "Count total Nodes in a COMPLETE Binary Tree",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/count-complete-tree-nodes/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Count+total+Nodes+in+a+COMPLETE+Binary+Tree"
+  },
+  {
+    "id": 276,
+    "step": "Step 13: Binary Trees",
+    "topic": "Hard Problems",
+    "title": "Requirements to construct a unique binary tree",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Requirements+to+construct+a+unique+binary+tree"
+  },
+  {
+    "id": 277,
+    "step": "Step 13: Binary Trees",
+    "topic": "Hard Problems",
+    "title": "Construct Binary Tree from Preorder and Inorder Traversal",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Construct+Binary+Tree+from+Preorder+and+Inorder+Traversal"
+  },
+  {
+    "id": 278,
+    "step": "Step 13: Binary Trees",
+    "topic": "Hard Problems",
+    "title": "Construct Binary Tree from Inorder and Postorder Traversal",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Construct+Binary+Tree+from+Inorder+and+Postorder+Traversal"
+  },
+  {
+    "id": 279,
+    "step": "Step 13: Binary Trees",
+    "topic": "Hard Problems",
+    "title": "Serialize and De-serialize Binary Tree",
+    "difficulty": "Hard",
+    "leetcodeUrl": "https://leetcode.com/problems/serialize-and-deserialize-binary-tree/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Serialize+and+De-serialize+Binary+Tree"
+  },
+  {
+    "id": 280,
+    "step": "Step 13: Binary Trees",
+    "topic": "Hard Problems",
+    "title": "Morris Preorder Traversal of a Binary Tree",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/binary-tree-preorder-traversal/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Morris+Preorder+Traversal+of+a+Binary+Tree"
+  },
+  {
+    "id": 281,
+    "step": "Step 13: Binary Trees",
+    "topic": "Hard Problems",
+    "title": "Morris Inorder Traversal of a Binary Tree",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/binary-tree-inorder-traversal/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Morris+Inorder+Traversal+of+a+Binary+Tree"
+  },
+  {
+    "id": 282,
+    "step": "Step 13: Binary Trees",
+    "topic": "Hard Problems",
+    "title": "Flatten Binary Tree to LinkedList",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/flatten-binary-tree-to-linked-list/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Flatten+Binary+Tree+to+LinkedList"
+  },
+  {
+    "id": 283,
+    "step": "Step 14: BST",
+    "topic": "Concepts",
+    "title": "Introduction to Binary Search Tree",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/search-in-a-binary-search-tree/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Introduction+to+Binary+Search+Tree"
+  },
+  {
+    "id": 284,
+    "step": "Step 14: BST",
+    "topic": "Concepts",
+    "title": "Search in a Binary Search Tree",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/search-in-a-binary-search-tree/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Search+in+a+Binary+Search+Tree"
+  },
+  {
+    "id": 285,
+    "step": "Step 14: BST",
+    "topic": "Concepts",
+    "title": "Find Min/Max in BST",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/search-in-a-binary-search-tree/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Find+Min+Max+in+BST"
+  },
+  {
+    "id": 286,
+    "step": "Step 14: BST",
+    "topic": "Concepts",
+    "title": "Ceil in a Binary Search Tree",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/closest-binary-search-tree-value/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Ceil+in+a+Binary+Search+Tree"
+  },
+  {
+    "id": 287,
+    "step": "Step 14: BST",
+    "topic": "Concepts",
+    "title": "Floor in a Binary Search Tree",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/closest-binary-search-tree-value/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Floor+in+a+Binary+Search+Tree"
+  },
+  {
+    "id": 288,
+    "step": "Step 14: BST",
+    "topic": "Concepts",
+    "title": "Insert a given Node in BST",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/insert-into-a-binary-search-tree/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Insert+a+given+Node+in+BST"
+  },
+  {
+    "id": 289,
+    "step": "Step 14: BST",
+    "topic": "Concepts",
+    "title": "Delete a Node in BST",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/delete-node-in-a-bst/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Delete+a+Node+in+BST"
+  },
+  {
+    "id": 290,
+    "step": "Step 14: BST",
+    "topic": "Practice Problems",
+    "title": "Find K-th smallest/largest element in BST",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/kth-smallest-element-in-a-bst/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Find+K-th+smallest+largest+element+in+BST"
+  },
+  {
+    "id": 291,
+    "step": "Step 14: BST",
+    "topic": "Practice Problems",
+    "title": "Check if a tree is a BST or BT",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/validate-binary-search-tree/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Check+if+a+tree+is+a+BST+or+BT"
+  },
+  {
+    "id": 292,
+    "step": "Step 14: BST",
+    "topic": "Practice Problems",
+    "title": "LCA in Binary Search Tree",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+LCA+in+Binary+Search+Tree"
+  },
+  {
+    "id": 293,
+    "step": "Step 14: BST",
+    "topic": "Practice Problems",
+    "title": "Construct a BST from a preorder traversal",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Construct+a+BST+from+a+preorder+traversal"
+  },
+  {
+    "id": 294,
+    "step": "Step 14: BST",
+    "topic": "Practice Problems",
+    "title": "Inorder Successor/Predecessor in BST",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/inorder-successor-in-bst/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Inorder+Successor+Predecessor+in+BST"
+  },
+  {
+    "id": 295,
+    "step": "Step 14: BST",
+    "topic": "Practice Problems",
+    "title": "Binary Search Tree Iterator",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/binary-search-tree-iterator/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Binary+Search+Tree+Iterator"
+  },
+  {
+    "id": 296,
+    "step": "Step 14: BST",
+    "topic": "Practice Problems",
+    "title": "Two Sum In BST | Check if there exists a pair with given Sum",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/two-sum-iv-input-is-a-bst/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Two+Sum+In+BST+++Check+if+there+exists+a+pair+with+given+Sum"
+  },
+  {
+    "id": 297,
+    "step": "Step 14: BST",
+    "topic": "Practice Problems",
+    "title": "Correct BST with two nodes swapped",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/recover-binary-search-tree/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Correct+BST+with+two+nodes+swapped"
+  },
+  {
+    "id": 298,
+    "step": "Step 14: BST",
+    "topic": "Practice Problems",
+    "title": "Largest BST in Binary Tree",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/maximum-sum-bst-in-binary-tree/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Largest+BST+in+Binary+Tree"
+  },
+  {
+    "id": 299,
+    "step": "Step 15: Graphs",
+    "topic": "Learning",
+    "title": "Introduction to Graph, Graph Representation",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/find-center-of-star-graph/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Introduction+to+Graph%2C+Graph+Representation"
+  },
+  {
+    "id": 300,
+    "step": "Step 15: Graphs",
+    "topic": "Learning",
+    "title": "Connected Components in Graph",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/number-of-provinces/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Connected+Components+in+Graph"
+  },
+  {
+    "id": 301,
+    "step": "Step 15: Graphs",
+    "topic": "BFS/DFS Problems",
+    "title": "Breadth First Search (BFS)",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/number-of-provinces/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Breadth+First+Search+%28BFS%29"
+  },
+  {
+    "id": 302,
+    "step": "Step 15: Graphs",
+    "topic": "BFS/DFS Problems",
+    "title": "Depth First Search (DFS)",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/number-of-provinces/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Depth+First+Search+%28DFS%29"
+  },
+  {
+    "id": 303,
+    "step": "Step 15: Graphs",
+    "topic": "BFS/DFS Problems",
+    "title": "Number of Provinces",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/number-of-provinces/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Number+of+Provinces"
+  },
+  {
+    "id": 304,
+    "step": "Step 15: Graphs",
+    "topic": "BFS/DFS Problems",
+    "title": "Connected Components Problem in Matrix",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/number-of-islands/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Connected+Components+Problem+in+Matrix"
+  },
+  {
+    "id": 305,
+    "step": "Step 15: Graphs",
+    "topic": "BFS/DFS Problems",
+    "title": "Rotten Oranges",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/rotting-oranges/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Rotten+Oranges"
+  },
+  {
+    "id": 306,
+    "step": "Step 15: Graphs",
+    "topic": "BFS/DFS Problems",
+    "title": "Flood Fill Algorithm",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/flood-fill/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Flood+Fill+Algorithm"
+  },
+  {
+    "id": 307,
+    "step": "Step 15: Graphs",
+    "topic": "BFS/DFS Problems",
+    "title": "Cycle Detection in Undirected Graph (BFS)",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/course-schedule/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Cycle+Detection+in+Undirected+Graph+%28BFS%29"
+  },
+  {
+    "id": 308,
+    "step": "Step 15: Graphs",
+    "topic": "BFS/DFS Problems",
+    "title": "Cycle Detection in Undirected Graph (DFS)",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/course-schedule-ii/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Cycle+Detection+in+Undirected+Graph+%28DFS%29"
+  },
+  {
+    "id": 309,
+    "step": "Step 15: Graphs",
+    "topic": "BFS/DFS Problems",
+    "title": "0/1 Matrix (Distance of nearest cell having 1)",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/01-matrix/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+0+1+Matrix+%28Distance+of+nearest+cell+having+1%29"
+  },
+  {
+    "id": 310,
+    "step": "Step 15: Graphs",
+    "topic": "BFS/DFS Problems",
+    "title": "Surrounded Regions (Replace O's with X's)",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/surrounded-regions/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Surrounded+Regions+%28Replace+O%27s+with+X%27s%29"
+  },
+  {
+    "id": 311,
+    "step": "Step 15: Graphs",
+    "topic": "BFS/DFS Problems",
+    "title": "Number of Enclaves",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/number-of-enclaves/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Number+of+Enclaves"
+  },
+  {
+    "id": 312,
+    "step": "Step 15: Graphs",
+    "topic": "BFS/DFS Problems",
+    "title": "Word Ladder I",
+    "difficulty": "Hard",
+    "leetcodeUrl": "https://leetcode.com/problems/word-ladder/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Word+Ladder+I"
+  },
+  {
+    "id": 313,
+    "step": "Step 15: Graphs",
+    "topic": "BFS/DFS Problems",
+    "title": "Word Ladder II",
+    "difficulty": "Hard",
+    "leetcodeUrl": "https://leetcode.com/problems/word-ladder-ii/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Word+Ladder+II"
+  },
+  {
+    "id": 314,
+    "step": "Step 15: Graphs",
+    "topic": "BFS/DFS Problems",
+    "title": "Number of Distinct Islands",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/number-of-distinct-islands/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Number+of+Distinct+Islands"
+  },
+  {
+    "id": 315,
+    "step": "Step 15: Graphs",
+    "topic": "BFS/DFS Problems",
+    "title": "Bipartite Graph (BFS)",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/is-graph-bipartite/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Bipartite+Graph+%28BFS%29"
+  },
+  {
+    "id": 316,
+    "step": "Step 15: Graphs",
+    "topic": "BFS/DFS Problems",
+    "title": "Bipartite Graph (DFS)",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/is-graph-bipartite/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Bipartite+Graph+%28DFS%29"
+  },
+  {
+    "id": 317,
+    "step": "Step 15: Graphs",
+    "topic": "BFS/DFS Problems",
+    "title": "Cycle Detection in Directed Graph (DFS)",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/course-schedule/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Cycle+Detection+in+Directed+Graph+%28DFS%29"
+  },
+  {
+    "id": 318,
+    "step": "Step 15: Graphs",
+    "topic": "Topo Sort",
+    "title": "Topological Sort Algorithm (DFS)",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/course-schedule-ii/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Topological+Sort+Algorithm+%28DFS%29"
+  },
+  {
+    "id": 319,
+    "step": "Step 15: Graphs",
+    "topic": "Topo Sort",
+    "title": "Kahn's Algorithm | Topological Sort (BFS)",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/course-schedule-ii/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Kahn%27s+Algorithm+++Topological+Sort+%28BFS%29"
+  },
+  {
+    "id": 320,
+    "step": "Step 15: Graphs",
+    "topic": "Topo Sort",
+    "title": "Cycle Detection in Directed Graph (Kahn's Algorithm)",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/course-schedule/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Cycle+Detection+in+Directed+Graph+%28Kahn%27s+Algorithm%29"
+  },
+  {
+    "id": 321,
+    "step": "Step 15: Graphs",
+    "topic": "Topo Sort",
+    "title": "Course Schedule I and II",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/course-schedule/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Course+Schedule+I+and+II"
+  },
+  {
+    "id": 322,
+    "step": "Step 15: Graphs",
+    "topic": "Topo Sort",
+    "title": "Find Eventual Safe States",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/find-eventual-safe-states/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Find+Eventual+Safe+States"
+  },
+  {
+    "id": 323,
+    "step": "Step 15: Graphs",
+    "topic": "Topo Sort",
+    "title": "Alien Dictionary",
+    "difficulty": "Hard",
+    "leetcodeUrl": "https://leetcode.com/problems/alien-dictionary/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Alien+Dictionary"
+  },
+  {
+    "id": 324,
+    "step": "Step 15: Graphs",
+    "topic": "Shortest Path",
+    "title": "Shortest Path in Undirected Graph with Unit Weights",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/shortest-path-in-binary-matrix/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Shortest+Path+in+Undirected+Graph+with+Unit+Weights"
+  },
+  {
+    "id": 325,
+    "step": "Step 15: Graphs",
+    "topic": "Shortest Path",
+    "title": "Shortest Path in Directed Acyclic Graph (DAG)",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/cheapest-flights-within-k-stops/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Shortest+Path+in+Directed+Acyclic+Graph+%28DAG%29"
+  },
+  {
+    "id": 326,
+    "step": "Step 15: Graphs",
+    "topic": "Shortest Path",
+    "title": "Dijkstra's Algorithm - Using Priority Queue",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/network-delay-time/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Dijkstra%27s+Algorithm+-+Using+Priority+Queue"
+  },
+  {
+    "id": 327,
+    "step": "Step 15: Graphs",
+    "topic": "Shortest Path",
+    "title": "Dijkstra's Algorithm - Using Set",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/network-delay-time/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Dijkstra%27s+Algorithm+-+Using+Set"
+  },
+  {
+    "id": 328,
+    "step": "Step 15: Graphs",
+    "topic": "Shortest Path",
+    "title": "Print Shortest Path in Weighted Undirected Graph",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/network-delay-time/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Print+Shortest+Path+in+Weighted+Undirected+Graph"
+  },
+  {
+    "id": 329,
+    "step": "Step 15: Graphs",
+    "topic": "Shortest Path",
+    "title": "Shortest Distance in a Binary Maze",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/shortest-path-in-binary-matrix/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Shortest+Distance+in+a+Binary+Maze"
+  },
+  {
+    "id": 330,
+    "step": "Step 15: Graphs",
+    "topic": "Shortest Path",
+    "title": "Path With Minimum Effort",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/path-with-minimum-effort/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Path+With+Minimum+Effort"
+  },
+  {
+    "id": 331,
+    "step": "Step 15: Graphs",
+    "topic": "Shortest Path",
+    "title": "Cheapest Flights Within K Stops",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/cheapest-flights-within-k-stops/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Cheapest+Flights+Within+K+Stops"
+  },
+  {
+    "id": 332,
+    "step": "Step 15: Graphs",
+    "topic": "Shortest Path",
+    "title": "Network Delay Time",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/network-delay-time/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Network+Delay+Time"
+  },
+  {
+    "id": 333,
+    "step": "Step 15: Graphs",
+    "topic": "Shortest Path",
+    "title": "Number of Ways to Arrive at Destination",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/number-of-ways-to-arrive-at-destination/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Number+of+Ways+to+Arrive+at+Destination"
+  },
+  {
+    "id": 334,
+    "step": "Step 15: Graphs",
+    "topic": "Shortest Path",
+    "title": "Minimum Steps to Reach End by Multiplying",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/open-the-lock/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Minimum+Steps+to+Reach+End+by+Multiplying"
+  },
+  {
+    "id": 335,
+    "step": "Step 15: Graphs",
+    "topic": "Shortest Path",
+    "title": "Bellman Ford Algorithm",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/cheapest-flights-within-k-stops/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Bellman+Ford+Algorithm"
+  },
+  {
+    "id": 336,
+    "step": "Step 15: Graphs",
+    "topic": "Shortest Path",
+    "title": "Floyd Warshall Algorithm",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Floyd+Warshall+Algorithm"
+  },
+  {
+    "id": 337,
+    "step": "Step 15: Graphs",
+    "topic": "Shortest Path",
+    "title": "Find the City With the Smallest Number of Neighbors at a Threshold Distance",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Find+the+City+With+the+Smallest+Number+of+Neighbors+at+a+Threshold+Distance"
+  },
+  {
+    "id": 338,
+    "step": "Step 15: Graphs",
+    "topic": "MST / Disjoint Set",
+    "title": "Minimum Spanning Tree - Prim's Algorithm",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/min-cost-to-connect-all-points/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Minimum+Spanning+Tree+-+Prim%27s+Algorithm"
+  },
+  {
+    "id": 339,
+    "step": "Step 15: Graphs",
+    "topic": "MST / Disjoint Set",
+    "title": "Disjoint Set Union (Rank & Size)",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/redundant-connection/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Disjoint+Set+Union+%28Rank+%26+Size%29"
+  },
+  {
+    "id": 340,
+    "step": "Step 15: Graphs",
+    "topic": "MST / Disjoint Set",
+    "title": "Kruskal's Algorithm",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/min-cost-to-connect-all-points/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Kruskal%27s+Algorithm"
+  },
+  {
+    "id": 341,
+    "step": "Step 15: Graphs",
+    "topic": "MST / Disjoint Set",
+    "title": "Number of Operations to Make Network Connected",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/number-of-operations-to-make-network-connected/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Number+of+Operations+to+Make+Network+Connected"
+  },
+  {
+    "id": 342,
+    "step": "Step 15: Graphs",
+    "topic": "MST / Disjoint Set",
+    "title": "Most Stones Removed with Same Row or Column",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Most+Stones+Removed+with+Same+Row+or+Column"
+  },
+  {
+    "id": 343,
+    "step": "Step 15: Graphs",
+    "topic": "MST / Disjoint Set",
+    "title": "Accounts Merge",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/accounts-merge/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Accounts+Merge"
+  },
+  {
+    "id": 344,
+    "step": "Step 15: Graphs",
+    "topic": "MST / Disjoint Set",
+    "title": "Number of Island II",
+    "difficulty": "Hard",
+    "leetcodeUrl": "https://leetcode.com/problems/number-of-islands-ii/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Number+of+Island+II"
+  },
+  {
+    "id": 345,
+    "step": "Step 15: Graphs",
+    "topic": "MST / Disjoint Set",
+    "title": "Making a Large Island",
+    "difficulty": "Hard",
+    "leetcodeUrl": "https://leetcode.com/problems/making-a-large-island/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Making+a+Large+Island"
+  },
+  {
+    "id": 346,
+    "step": "Step 15: Graphs",
+    "topic": "MST / Disjoint Set",
+    "title": "Swim in Rising Water",
+    "difficulty": "Hard",
+    "leetcodeUrl": "https://leetcode.com/problems/swim-in-rising-water/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Swim+in+Rising+Water"
+  },
+  {
+    "id": 347,
+    "step": "Step 15: Graphs",
+    "topic": "Other Algorithms",
+    "title": "Bridges in Graph - Tarjan's Algorithm",
+    "difficulty": "Hard",
+    "leetcodeUrl": "https://leetcode.com/problems/critical-connections-in-a-network/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Bridges+in+Graph+-+Tarjan%27s+Algorithm"
+  },
+  {
+    "id": 348,
+    "step": "Step 15: Graphs",
+    "topic": "Other Algorithms",
+    "title": "Articulation Point in Graph",
+    "difficulty": "Hard",
+    "leetcodeUrl": "https://leetcode.com/problems/critical-connections-in-a-network/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Articulation+Point+in+Graph"
+  },
+  {
+    "id": 349,
+    "step": "Step 15: Graphs",
+    "topic": "Other Algorithms",
+    "title": "Strongly Connected Components - Kosaraju's Algorithm",
+    "difficulty": "Hard",
+    "leetcodeUrl": "https://leetcode.com/problems/critical-connections-in-a-network/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Strongly+Connected+Components+-+Kosaraju%27s+Algorithm"
+  },
+  {
+    "id": 350,
+    "step": "Step 16: DP",
+    "topic": "1D DP",
+    "title": "Introduction to DP (Memoization & Tabulation)",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/fibonacci-number/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Introduction+to+DP+%28Memoization+%26+Tabulation%29"
+  },
+  {
+    "id": 351,
+    "step": "Step 16: DP",
+    "topic": "1D DP",
+    "title": "Climbing Stars",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/climbing-stairs/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Climbing+Stars"
+  },
+  {
+    "id": 352,
+    "step": "Step 16: DP",
+    "topic": "1D DP",
+    "title": "Frog Jump (DP-3)",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/frog-jump/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Frog+Jump+%28DP-3%29"
+  },
+  {
+    "id": 353,
+    "step": "Step 16: DP",
+    "topic": "1D DP",
+    "title": "Frog Jump with K distances (DP-4)",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/frog-jump/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Frog+Jump+with+K+distances+%28DP-4%29"
+  },
+  {
+    "id": 354,
+    "step": "Step 16: DP",
+    "topic": "1D DP",
+    "title": "Maximum Sum of Non-Adjacent Elements (House Robber)",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/house-robber/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Maximum+Sum+of+Non-Adjacent+Elements+%28House+Robber%29"
+  },
+  {
+    "id": 355,
+    "step": "Step 16: DP",
+    "topic": "1D DP",
+    "title": "House Robber II",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/house-robber-ii/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+House+Robber+II"
+  },
+  {
+    "id": 356,
+    "step": "Step 16: DP",
+    "topic": "2D/3D & Grids",
+    "title": "Ninja's Training",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Ninja%27s+Training"
+  },
+  {
+    "id": 357,
+    "step": "Step 16: DP",
+    "topic": "2D/3D & Grids",
+    "title": "Grid Unique Paths",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/unique-paths/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Grid+Unique+Paths"
+  },
+  {
+    "id": 358,
+    "step": "Step 16: DP",
+    "topic": "2D/3D & Grids",
+    "title": "Grid Unique Paths II",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/unique-paths-ii/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Grid+Unique+Paths+II"
+  },
+  {
+    "id": 359,
+    "step": "Step 16: DP",
+    "topic": "2D/3D & Grids",
+    "title": "Minimum Path Sum in Grid",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/minimum-path-sum/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Minimum+Path+Sum+in+Grid"
+  },
+  {
+    "id": 360,
+    "step": "Step 16: DP",
+    "topic": "2D/3D & Grids",
+    "title": "Minimum Path Sum in Triangular Grid",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/triangle/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Minimum+Path+Sum+in+Triangular+Grid"
+  },
+  {
+    "id": 361,
+    "step": "Step 16: DP",
+    "topic": "2D/3D & Grids",
+    "title": "Minimum / Maximum Falling Path Sum",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/minimum-falling-path-sum/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Minimum+++Maximum+Falling+Path+Sum"
+  },
+  {
+    "id": 362,
+    "step": "Step 16: DP",
+    "topic": "2D/3D & Grids",
+    "title": "Cherry Pickup II (3D DP)",
+    "difficulty": "Hard",
+    "leetcodeUrl": "https://leetcode.com/problems/cherry-pickup-ii/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Cherry+Pickup+II+%283D+DP%29"
+  },
+  {
+    "id": 363,
+    "step": "Step 16: DP",
+    "topic": "Subsequences",
+    "title": "Subset Sum Equal to K",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/partition-equal-subset-sum/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Subset+Sum+Equal+to+K"
+  },
+  {
+    "id": 364,
+    "step": "Step 16: DP",
+    "topic": "Subsequences",
+    "title": "Partition Equal Subset Sum",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/partition-equal-subset-sum/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Partition+Equal+Subset+Sum"
+  },
+  {
+    "id": 365,
+    "step": "Step 16: DP",
+    "topic": "Subsequences",
+    "title": "Partition Set Into 2 Subsets With Min Absolute Sum Diff",
+    "difficulty": "Hard",
+    "leetcodeUrl": "https://leetcode.com/problems/partition-array-into-two-arrays-to-minimize-sum-difference/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Partition+Set+Into+2+Subsets+With+Min+Absolute+Sum+Diff"
+  },
+  {
+    "id": 366,
+    "step": "Step 16: DP",
+    "topic": "Subsequences",
+    "title": "Count Subsets with Sum K",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/combination-sum-iv/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Count+Subsets+with+Sum+K"
+  },
+  {
+    "id": 367,
+    "step": "Step 16: DP",
+    "topic": "Subsequences",
+    "title": "Count Partitions with Given Difference",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/target-sum/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Count+Partitions+with+Given+Difference"
+  },
+  {
+    "id": 368,
+    "step": "Step 16: DP",
+    "topic": "Subsequences",
+    "title": "0/1 Knapsack",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/ones-and-zeroes/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+0+1+Knapsack"
+  },
+  {
+    "id": 369,
+    "step": "Step 16: DP",
+    "topic": "Subsequences",
+    "title": "Coin Change",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/coin-change/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Coin+Change"
+  },
+  {
+    "id": 370,
+    "step": "Step 16: DP",
+    "topic": "Subsequences",
+    "title": "Target Sum",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/target-sum/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Target+Sum"
+  },
+  {
+    "id": 371,
+    "step": "Step 16: DP",
+    "topic": "Subsequences",
+    "title": "Coin Change 2",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/coin-change-ii/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Coin+Change+2"
+  },
+  {
+    "id": 372,
+    "step": "Step 16: DP",
+    "topic": "Subsequences",
+    "title": "Unbounded Knapsack",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/combination-sum-iv/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Unbounded+Knapsack"
+  },
+  {
+    "id": 373,
+    "step": "Step 16: DP",
+    "topic": "Subsequences",
+    "title": "Rod Cutting Problem",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/integer-break/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Rod+Cutting+Problem"
+  },
+  {
+    "id": 374,
+    "step": "Step 16: DP",
+    "topic": "Strings DP",
+    "title": "Longest Common Subsequence",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/longest-common-subsequence/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Longest+Common+Subsequence"
+  },
+  {
+    "id": 375,
+    "step": "Step 16: DP",
+    "topic": "Strings DP",
+    "title": "Print Longest Common Subsequence",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/longest-common-subsequence/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Print+Longest+Common+Subsequence"
+  },
+  {
+    "id": 376,
+    "step": "Step 16: DP",
+    "topic": "Strings DP",
+    "title": "Longest Common Substring",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/maximum-length-of-repeated-subarray/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Longest+Common+Substring"
+  },
+  {
+    "id": 377,
+    "step": "Step 16: DP",
+    "topic": "Strings DP",
+    "title": "Longest Palindromic Subsequence",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/longest-palindromic-subsequence/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Longest+Palindromic+Subsequence"
+  },
+  {
+    "id": 378,
+    "step": "Step 16: DP",
+    "topic": "Strings DP",
+    "title": "Minimum insertions to make string palindrome",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Minimum+insertions+to+make+string+palindrome"
+  },
+  {
+    "id": 379,
+    "step": "Step 16: DP",
+    "topic": "Strings DP",
+    "title": "Minimum Insertions/Deletions to Convert String A to String B",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/delete-operation-for-two-strings/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Minimum+Insertions+Deletions+to+Convert+String+A+to+String+B"
+  },
+  {
+    "id": 380,
+    "step": "Step 16: DP",
+    "topic": "Strings DP",
+    "title": "Shortest Common Supersequence",
+    "difficulty": "Hard",
+    "leetcodeUrl": "https://leetcode.com/problems/shortest-common-supersequence/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Shortest+Common+Supersequence"
+  },
+  {
+    "id": 381,
+    "step": "Step 16: DP",
+    "topic": "Strings DP",
+    "title": "Distinct Subsequences",
+    "difficulty": "Hard",
+    "leetcodeUrl": "https://leetcode.com/problems/distinct-subsequences/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Distinct+Subsequences"
+  },
+  {
+    "id": 382,
+    "step": "Step 16: DP",
+    "topic": "Strings DP",
+    "title": "Edit Distance",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/edit-distance/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Edit+Distance"
+  },
+  {
+    "id": 383,
+    "step": "Step 16: DP",
+    "topic": "Strings DP",
+    "title": "Wildcard Matching",
+    "difficulty": "Hard",
+    "leetcodeUrl": "https://leetcode.com/problems/wildcard-matching/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Wildcard+Matching"
+  },
+  {
+    "id": 384,
+    "step": "Step 16: DP",
+    "topic": "Stocks DP",
+    "title": "Best Time to Buy and Sell Stock",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Best+Time+to+Buy+and+Sell+Stock"
+  },
+  {
+    "id": 385,
+    "step": "Step 16: DP",
+    "topic": "Stocks DP",
+    "title": "Buy and Sell Stock - II",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Buy+and+Sell+Stock+-+II"
+  },
+  {
+    "id": 386,
+    "step": "Step 16: DP",
+    "topic": "Stocks DP",
+    "title": "Buy and Sell Stock - III",
+    "difficulty": "Hard",
+    "leetcodeUrl": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Buy+and+Sell+Stock+-+III"
+  },
+  {
+    "id": 387,
+    "step": "Step 16: DP",
+    "topic": "Stocks DP",
+    "title": "Buy and Sell Stock - IV",
+    "difficulty": "Hard",
+    "leetcodeUrl": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Buy+and+Sell+Stock+-+IV"
+  },
+  {
+    "id": 388,
+    "step": "Step 16: DP",
+    "topic": "Stocks DP",
+    "title": "Buy and Sell Stock with Cooldown",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Buy+and+Sell+Stock+with+Cooldown"
+  },
+  {
+    "id": 389,
+    "step": "Step 16: DP",
+    "topic": "Stocks DP",
+    "title": "Buy and Sell Stock with Transaction Fee",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Buy+and+Sell+Stock+with+Transaction+Fee"
+  },
+  {
+    "id": 390,
+    "step": "Step 16: DP",
+    "topic": "LIS",
+    "title": "Longest Increasing Subsequence",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/longest-increasing-subsequence/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Longest+Increasing+Subsequence"
+  },
+  {
+    "id": 391,
+    "step": "Step 16: DP",
+    "topic": "LIS",
+    "title": "Printing Longest Increasing Subsequence",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/longest-increasing-subsequence/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Printing+Longest+Increasing+Subsequence"
+  },
+  {
+    "id": 392,
+    "step": "Step 16: DP",
+    "topic": "LIS",
+    "title": "Largest Divisible Subset",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/largest-divisible-subset/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Largest+Divisible+Subset"
+  },
+  {
+    "id": 393,
+    "step": "Step 16: DP",
+    "topic": "LIS",
+    "title": "Longest String Chain",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/longest-string-chain/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Longest+String+Chain"
+  },
+  {
+    "id": 394,
+    "step": "Step 16: DP",
+    "topic": "LIS",
+    "title": "Longest Bitonic Subsequence",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/minimum-number-of-removals-to-make-mountain-array/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Longest+Bitonic+Subsequence"
+  },
+  {
+    "id": 395,
+    "step": "Step 16: DP",
+    "topic": "LIS",
+    "title": "Number of Longest Increasing Subsequences",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/number-of-longest-increasing-subsequence/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Number+of+Longest+Increasing+Subsequences"
+  },
+  {
+    "id": 396,
+    "step": "Step 16: DP",
+    "topic": "MCM / Partition DP",
+    "title": "Matrix Chain Multiplication",
+    "difficulty": "Hard",
+    "leetcodeUrl": "https://leetcode.com/problems/burst-balloons/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Matrix+Chain+Multiplication"
+  },
+  {
+    "id": 397,
+    "step": "Step 16: DP",
+    "topic": "MCM / Partition DP",
+    "title": "Minimum Cost to Cut a Stick",
+    "difficulty": "Hard",
+    "leetcodeUrl": "https://leetcode.com/problems/minimum-cost-to-cut-a-stick/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Minimum+Cost+to+Cut+a+Stick"
+  },
+  {
+    "id": 398,
+    "step": "Step 16: DP",
+    "topic": "MCM / Partition DP",
+    "title": "Burst Balloons",
+    "difficulty": "Hard",
+    "leetcodeUrl": "https://leetcode.com/problems/burst-balloons/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Burst+Balloons"
+  },
+  {
+    "id": 399,
+    "step": "Step 16: DP",
+    "topic": "MCM / Partition DP",
+    "title": "Evaluate Boolean Expression to True",
+    "difficulty": "Hard",
+    "leetcodeUrl": "https://leetcode.com/problems/parsing-a-boolean-expression/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Evaluate+Boolean+Expression+to+True"
+  },
+  {
+    "id": 400,
+    "step": "Step 16: DP",
+    "topic": "MCM / Partition DP",
+    "title": "Palindrome Partitioning - II",
+    "difficulty": "Hard",
+    "leetcodeUrl": "https://leetcode.com/problems/palindrome-partitioning-ii/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Palindrome+Partitioning+-+II"
+  },
+  {
+    "id": 401,
+    "step": "Step 16: DP",
+    "topic": "MCM / Partition DP",
+    "title": "Partition Array for Maximum Sum",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/partition-array-for-maximum-sum/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Partition+Array+for+Maximum+Sum"
+  },
+  {
+    "id": 402,
+    "step": "Step 16: DP",
+    "topic": "DP on Squares",
+    "title": "Maximum Rectangle Area with all 1's",
+    "difficulty": "Hard",
+    "leetcodeUrl": "https://leetcode.com/problems/maximal-rectangle/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Maximum+Rectangle+Area+with+all+1%27s"
+  },
+  {
+    "id": 403,
+    "step": "Step 16: DP",
+    "topic": "DP on Squares",
+    "title": "Count Square Submatrices with All Ones",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/count-square-submatrices-with-all-ones/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Count+Square+Submatrices+with+All+Ones"
+  },
+  {
+    "id": 404,
+    "step": "Step 17: Tries",
+    "topic": "Theory & Implementation",
+    "title": "Implement TRIE | INSERT, SEARCH, STARTSWITH",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/implement-trie-prefix-tree/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Implement+TRIE+++INSERT%2C+SEARCH%2C+STARTSWITH"
+  },
+  {
+    "id": 405,
+    "step": "Step 17: Tries",
+    "topic": "Theory & Implementation",
+    "title": "Implement Trie - II (Prefix tree with counts)",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/implement-trie-ii-prefix-tree/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Implement+Trie+-+II+%28Prefix+tree+with+counts%29"
+  },
+  {
+    "id": 406,
+    "step": "Step 17: Tries",
+    "topic": "Problems",
+    "title": "Longest Word With All Prefixes",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/longest-word-in-dictionary/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Longest+Word+With+All+Prefixes"
+  },
+  {
+    "id": 407,
+    "step": "Step 17: Tries",
+    "topic": "Problems",
+    "title": "Number of Distinct Substrings in a String",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/distinct-subsequences/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Number+of+Distinct+Substrings+in+a+String"
+  },
+  {
+    "id": 408,
+    "step": "Step 17: Tries",
+    "topic": "Problems",
+    "title": "Bit Prerequisites for TRIE Problems",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/single-number/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Bit+Prerequisites+for+TRIE+Problems"
+  },
+  {
+    "id": 409,
+    "step": "Step 17: Tries",
+    "topic": "Problems",
+    "title": "Maximum XOR of Two Numbers in an Array",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Maximum+XOR+of+Two+Numbers+in+an+Array"
+  },
+  {
+    "id": 410,
+    "step": "Step 17: Tries",
+    "topic": "Problems",
+    "title": "Maximum XOR With an Element From Array",
+    "difficulty": "Hard",
+    "leetcodeUrl": "https://leetcode.com/problems/maximum-xor-with-an-element-from-array/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Maximum+XOR+With+an+Element+From+Array"
+  },
+  {
+    "id": 411,
+    "step": "Step 18: Advanced Strings",
+    "topic": "String Matching",
+    "title": "Z-Function",
+    "difficulty": "Hard",
+    "leetcodeUrl": "https://leetcode.com/problems/sum-of-scores-of-built-strings/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Z-Function"
+  },
+  {
+    "id": 412,
+    "step": "Step 18: Advanced Strings",
+    "topic": "String Matching",
+    "title": "KMP Algorithm / Find the Index of First Occurrence",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+KMP+Algorithm+++Find+the+Index+of+First+Occurrence"
+  },
+  {
+    "id": 413,
+    "step": "Step 18: Advanced Strings",
+    "topic": "String Matching",
+    "title": "Shortest Palindrome",
+    "difficulty": "Hard",
+    "leetcodeUrl": "https://leetcode.com/problems/shortest-palindrome/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Shortest+Palindrome"
+  },
+  {
+    "id": 414,
+    "step": "Step 18: Advanced Strings",
+    "topic": "String Matching",
+    "title": "Repeated String Match (Rabin-Karp)",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/repeated-string-match/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Repeated+String+Match+%28Rabin-Karp%29"
+  },
+  {
+    "id": 415,
+    "step": "Step 18: Advanced Strings",
+    "topic": "String Matching",
+    "title": "Rabin Karp Algorithm",
+    "difficulty": "Hard",
+    "leetcodeUrl": "https://leetcode.com/problems/find-all-good-strings/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Rabin+Karp+Algorithm"
+  },
+  {
+    "id": 416,
+    "step": "Step 18: Advanced Strings",
+    "topic": "String Matching",
+    "title": "Count and Say",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/count-and-say/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Count+and+Say"
+  },
+  {
+    "id": 417,
+    "step": "Step 1: Learn the Basics",
+    "topic": "Patterns",
+    "title": "Pattern-1: Star & Number Patterns",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/print-in-order/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Pattern-1%3A+Star+%26+Number+Patterns"
+  },
+  {
+    "id": 418,
+    "step": "Step 1: Learn the Basics",
+    "topic": "Patterns",
+    "title": "Pattern-2: Star & Number Patterns",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/print-in-order/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Pattern-2%3A+Star+%26+Number+Patterns"
+  },
+  {
+    "id": 419,
+    "step": "Step 1: Learn the Basics",
+    "topic": "Patterns",
+    "title": "Pattern-3: Star & Number Patterns",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/print-in-order/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Pattern-3%3A+Star+%26+Number+Patterns"
+  },
+  {
+    "id": 420,
+    "step": "Step 1: Learn the Basics",
+    "topic": "Patterns",
+    "title": "Pattern-4: Star & Number Patterns",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/print-in-order/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Pattern-4%3A+Star+%26+Number+Patterns"
+  },
+  {
+    "id": 421,
+    "step": "Step 1: Learn the Basics",
+    "topic": "Patterns",
+    "title": "Pattern-5: Star & Number Patterns",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/print-in-order/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Pattern-5%3A+Star+%26+Number+Patterns"
+  },
+  {
+    "id": 422,
+    "step": "Step 1: Learn the Basics",
+    "topic": "Patterns",
+    "title": "Pattern-6: Star & Number Patterns",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/print-in-order/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Pattern-6%3A+Star+%26+Number+Patterns"
+  },
+  {
+    "id": 423,
+    "step": "Step 1: Learn the Basics",
+    "topic": "Patterns",
+    "title": "Pattern-7: Star & Number Patterns",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/print-in-order/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Pattern-7%3A+Star+%26+Number+Patterns"
+  },
+  {
+    "id": 424,
+    "step": "Step 1: Learn the Basics",
+    "topic": "Patterns",
+    "title": "Pattern-8: Star & Number Patterns",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/print-in-order/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Pattern-8%3A+Star+%26+Number+Patterns"
+  },
+  {
+    "id": 425,
+    "step": "Step 1: Learn the Basics",
+    "topic": "Patterns",
+    "title": "Pattern-9: Star & Number Patterns",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/print-in-order/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Pattern-9%3A+Star+%26+Number+Patterns"
+  },
+  {
+    "id": 426,
+    "step": "Step 1: Learn the Basics",
+    "topic": "Patterns",
+    "title": "Pattern-10: Star & Number Patterns",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/print-in-order/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Pattern-10%3A+Star+%26+Number+Patterns"
+  },
+  {
+    "id": 427,
+    "step": "Step 1: Learn the Basics",
+    "topic": "Patterns",
+    "title": "Pattern-11: Star & Number Patterns",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/print-in-order/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Pattern-11%3A+Star+%26+Number+Patterns"
+  },
+  {
+    "id": 428,
+    "step": "Step 1: Learn the Basics",
+    "topic": "Patterns",
+    "title": "Pattern-12: Star & Number Patterns",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/print-in-order/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Pattern-12%3A+Star+%26+Number+Patterns"
+  },
+  {
+    "id": 429,
+    "step": "Step 1: Learn the Basics",
+    "topic": "Patterns",
+    "title": "Pattern-13: Star & Number Patterns",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/print-in-order/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Pattern-13%3A+Star+%26+Number+Patterns"
+  },
+  {
+    "id": 430,
+    "step": "Step 1: Learn the Basics",
+    "topic": "Patterns",
+    "title": "Pattern-14: Star & Number Patterns",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/print-in-order/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Pattern-14%3A+Star+%26+Number+Patterns"
+  },
+  {
+    "id": 431,
+    "step": "Step 1: Learn the Basics",
+    "topic": "Patterns",
+    "title": "Pattern-15: Star & Number Patterns",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/print-in-order/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Pattern-15%3A+Star+%26+Number+Patterns"
+  },
+  {
+    "id": 432,
+    "step": "Step 1: Learn the Basics",
+    "topic": "Patterns",
+    "title": "Pattern-16: Star & Number Patterns",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/print-in-order/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Pattern-16%3A+Star+%26+Number+Patterns"
+  },
+  {
+    "id": 433,
+    "step": "Step 1: Learn the Basics",
+    "topic": "Patterns",
+    "title": "Pattern-17: Star & Number Patterns",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/print-in-order/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Pattern-17%3A+Star+%26+Number+Patterns"
+  },
+  {
+    "id": 434,
+    "step": "Step 1: Learn the Basics",
+    "topic": "Patterns",
+    "title": "Pattern-18: Star & Number Patterns",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/print-in-order/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Pattern-18%3A+Star+%26+Number+Patterns"
+  },
+  {
+    "id": 435,
+    "step": "Step 1: Learn the Basics",
+    "topic": "Patterns",
+    "title": "Pattern-19: Star & Number Patterns",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/print-in-order/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Pattern-19%3A+Star+%26+Number+Patterns"
+  },
+  {
+    "id": 436,
+    "step": "Step 1: Learn the Basics",
+    "topic": "Patterns",
+    "title": "Pattern-20: Star & Number Patterns",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/print-in-order/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Pattern-20%3A+Star+%26+Number+Patterns"
+  },
+  {
+    "id": 437,
+    "step": "Step 1: Learn the Basics",
+    "topic": "Patterns",
+    "title": "Pattern-21: Star & Number Patterns",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/print-in-order/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Pattern-21%3A+Star+%26+Number+Patterns"
+  },
+  {
+    "id": 438,
+    "step": "Step 1: Learn the Basics",
+    "topic": "Patterns",
+    "title": "Pattern-22: Star & Number Patterns",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/print-in-order/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Pattern-22%3A+Star+%26+Number+Patterns"
+  },
+  {
+    "id": 439,
+    "step": "Step 1: Learn the Basics",
+    "topic": "Things to Know",
+    "title": "Find Character Case",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/detect-capital/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Find+Character+Case"
+  },
+  {
+    "id": 440,
+    "step": "Step 1: Learn the Basics",
+    "topic": "Things to Know",
+    "title": "Data Type Size",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/add-digits/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Data+Type+Size"
+  },
+  {
+    "id": 441,
+    "step": "Step 1: Learn the Basics",
+    "topic": "Things to Know",
+    "title": "If-Else Decision Making",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/fizz-buzz/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+If-Else+Decision+Making"
+  },
+  {
+    "id": 442,
+    "step": "Step 1: Learn the Basics",
+    "topic": "Things to Know",
+    "title": "Switch Statement",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/calculate-money-in-leetcode-bank/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Switch+Statement"
+  },
+  {
+    "id": 443,
+    "step": "Step 1: Learn the Basics",
+    "topic": "Things to Know",
+    "title": "For Loops & While Loops",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/climbing-stairs/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+For+Loops+%26+While+Loops"
+  },
+  {
+    "id": 444,
+    "step": "Step 1: Learn the Basics",
+    "topic": "Things to Know",
+    "title": "Functions (Pass by Reference and Value)",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/swap-nodes-in-pairs/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Functions+%28Pass+by+Reference+and+Value%29"
+  },
+  {
+    "id": 445,
+    "step": "Step 1: Learn the Basics",
+    "topic": "Things to Know",
+    "title": "Time Complexity Analysis Practice",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/running-sum-of-1d-array/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Time+Complexity+Analysis+Practice"
+  },
+  {
+    "id": 446,
+    "step": "Step 3: Arrays",
+    "topic": "Easy",
+    "title": "Check if Array is Sorted",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Check+if+Array+is+Sorted"
+  },
+  {
+    "id": 447,
+    "step": "Step 3: Arrays",
+    "topic": "Easy",
+    "title": "Find the element that appears once in sorted array",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/single-element-in-a-sorted-array/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Find+the+element+that+appears+once+in+sorted+array"
+  },
+  {
+    "id": 448,
+    "step": "Step 3: Arrays",
+    "topic": "Medium",
+    "title": "Rotate Matrix by 90 Degrees Clockwise",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/rotate-image/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Rotate+Matrix+by+90+Degrees+Clockwise"
+  },
+  {
+    "id": 449,
+    "step": "Step 3: Arrays",
+    "topic": "Hard",
+    "title": "Max Subarray Product",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/maximum-product-subarray/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Max+Subarray+Product"
+  },
+  {
+    "id": 450,
+    "step": "Step 3: Arrays",
+    "topic": "Hard",
+    "title": "Find missing and repeating numbers",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/set-mismatch/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Find+missing+and+repeating+numbers"
+  },
+  {
+    "id": 451,
+    "step": "Step 4: Binary Search",
+    "topic": "1D Arrays",
+    "title": "Search in Rotated Sorted Array with Duplicates",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/search-in-rotated-sorted-array-ii/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Search+in+Rotated+Sorted+Array+with+Duplicates"
+  },
+  {
+    "id": 452,
+    "step": "Step 4: Binary Search",
+    "topic": "Answers (Search Space)",
+    "title": "Median of two sorted arrays of different sizes",
+    "difficulty": "Hard",
+    "leetcodeUrl": "https://leetcode.com/problems/median-of-two-sorted-arrays/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Median+of+two+sorted+arrays+of+different+sizes"
+  },
+  {
+    "id": 453,
+    "step": "Step 4: Binary Search",
+    "topic": "Answers (Search Space)",
+    "title": "Find Kth missing positive number",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/kth-missing-positive-number/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Find+Kth+missing+positive+number"
+  },
+  {
+    "id": 454,
+    "step": "Step 6: LinkedList",
+    "topic": "Medium Problems",
+    "title": "Find Middle of Singly Linked List",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/middle-of-the-linked-list/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Find+Middle+of+Singly+Linked+List"
+  },
+  {
+    "id": 455,
+    "step": "Step 6: LinkedList",
+    "topic": "Medium Problems",
+    "title": "Find the Length of Loop in Linked List",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/linked-list-cycle/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Find+the+Length+of+Loop+in+Linked+List"
+  },
+  {
+    "id": 456,
+    "step": "Step 6: LinkedList",
+    "topic": "Medium Problems",
+    "title": "Palindrome Linked List",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/palindrome-linked-list/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Palindrome+Linked+List"
+  },
+  {
+    "id": 457,
+    "step": "Step 7: Recursion",
+    "topic": "Subsequences Pattern",
+    "title": "Subset Sum with Target",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/combination-sum/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Subset+Sum+with+Target"
+  },
+  {
+    "id": 458,
+    "step": "Step 7: Recursion",
+    "topic": "Hard",
+    "title": "Solve the Sudoku",
+    "difficulty": "Hard",
+    "leetcodeUrl": "https://leetcode.com/problems/sudoku-solver/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Solve+the+Sudoku"
+  },
+  {
+    "id": 459,
+    "step": "Step 9: Stack and Queues",
+    "topic": "Learning",
+    "title": "Implement Queue using Stack (amortized O(1))",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/implement-queue-using-stacks/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Implement+Queue+using+Stack+%28amortized+O%281%29%29"
+  },
+  {
+    "id": 460,
+    "step": "Step 9: Stack and Queues",
+    "topic": "Monotonic Stack",
+    "title": "Next Greater Element to the Left",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/daily-temperatures/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Next+Greater+Element+to+the+Left"
+  },
+  {
+    "id": 461,
+    "step": "Step 9: Stack and Queues",
+    "topic": "Monotonic Stack",
+    "title": "Previous Smaller Element",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Previous+Smaller+Element"
+  },
+  {
+    "id": 462,
+    "step": "Step 10: Sliding Window",
+    "topic": "Medium Problems",
+    "title": "Count of substrings having at least one char of all types",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Count+of+substrings+having+at+least+one+char+of+all+types"
+  },
+  {
+    "id": 463,
+    "step": "Step 10: Sliding Window",
+    "topic": "Hard Problems",
+    "title": "Minimum Window Substring Problem",
+    "difficulty": "Hard",
+    "leetcodeUrl": "https://leetcode.com/problems/minimum-window-substring/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Minimum+Window+Substring+Problem"
+  },
+  {
+    "id": 464,
+    "step": "Step 11: Heaps",
+    "topic": "Hard Problems",
+    "title": "Kth largest element in a stream",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/kth-largest-element-in-a-stream/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Kth+largest+element+in+a+stream"
+  },
+  {
+    "id": 465,
+    "step": "Step 11: Heaps",
+    "topic": "Hard Problems",
+    "title": "Find running median from data stream",
+    "difficulty": "Hard",
+    "leetcodeUrl": "https://leetcode.com/problems/find-median-from-data-stream/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Find+running+median+from+data+stream"
+  },
+  {
+    "id": 466,
+    "step": "Step 13: Binary Trees",
+    "topic": "Medium Problems",
+    "title": "Root to Leaf Paths",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/binary-tree-paths/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Root+to+Leaf+Paths"
+  },
+  {
+    "id": 467,
+    "step": "Step 13: Binary Trees",
+    "topic": "Medium Problems",
+    "title": "Diameter of Tree - Optimized O(N)",
+    "difficulty": "Easy",
+    "leetcodeUrl": "https://leetcode.com/problems/diameter-of-binary-tree/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Diameter+of+Tree+-+Optimized+O%28N%29"
+  },
+  {
+    "id": 468,
+    "step": "Step 13: Binary Trees",
+    "topic": "Hard Problems",
+    "title": "Lowest Common Ancestor for Two Given Nodes",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Lowest+Common+Ancestor+for+Two+Given+Nodes"
+  },
+  {
+    "id": 469,
+    "step": "Step 15: Graphs",
+    "topic": "BFS/DFS Problems",
+    "title": "Detect cycle in undirected graph using BFS/DFS",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/course-schedule/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Detect+cycle+in+undirected+graph+using+BFS+DFS"
+  },
+  {
+    "id": 470,
+    "step": "Step 15: Graphs",
+    "topic": "Topo Sort",
+    "title": "Kahn's Algorithm for Topological Sort",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/course-schedule-ii/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Kahn%27s+Algorithm+for+Topological+Sort"
+  },
+  {
+    "id": 471,
+    "step": "Step 15: Graphs",
+    "topic": "Shortest Path",
+    "title": "Bellman Ford shortest path algorithm",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/cheapest-flights-within-k-stops/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Bellman+Ford+shortest+path+algorithm"
+  },
+  {
+    "id": 472,
+    "step": "Step 15: Graphs",
+    "topic": "Other Algorithms",
+    "title": "Find Bridges in Graph (Tarjan's)",
+    "difficulty": "Hard",
+    "leetcodeUrl": "https://leetcode.com/problems/critical-connections-in-a-network/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Find+Bridges+in+Graph+%28Tarjan%27s%29"
+  },
+  {
+    "id": 473,
+    "step": "Step 16: DP",
+    "topic": "Subsequences",
+    "title": "Subset sum equals target using memoization",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/partition-equal-subset-sum/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Subset+sum+equals+target+using+memoization"
+  },
+  {
+    "id": 474,
+    "step": "Step 16: DP",
+    "topic": "Subsequences",
+    "title": "0/1 Knapsack problem tabulation",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/target-sum/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+0+1+Knapsack+problem+tabulation"
+  },
+  {
+    "id": 475,
+    "step": "Step 16: DP",
+    "topic": "Strings DP",
+    "title": "Longest Common Substring DP",
+    "difficulty": "Medium",
+    "leetcodeUrl": "https://leetcode.com/problems/maximum-length-of-repeated-subarray/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Longest+Common+Substring+DP"
+  },
+  {
+    "id": 476,
+    "step": "Step 16: DP",
+    "topic": "MCM / Partition DP",
+    "title": "Matrix Chain Multiplication tabulation",
+    "difficulty": "Hard",
+    "leetcodeUrl": "https://leetcode.com/problems/burst-balloons/",
+    "youtubeUrl": "https://www.youtube.com/results?search_query=takeUforward+Matrix+Chain+Multiplication+tabulation"
+  }
+]
