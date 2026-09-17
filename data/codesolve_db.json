@@ -41,6 +41,11 @@
         "code": "/**\n * @param {number} n\n * @return {number[]}\n */\nfunction printDivisors(n) {\n  // Write your code here\n  \n}",
         "language": "javascript"
       },
+      "121": {
+        "status": "completed",
+        "updatedAt": "2026-09-17T08:36:35.441Z",
+        "completedAt": "2026-09-17"
+      },
       "285": {
         "updatedAt": "2026-09-16T10:08:06.367Z",
         "notes": "",
@@ -53,7 +58,7 @@
   "activity": {
     "guest_demo_user": {
       "2026-09-16": 1,
-      "2026-09-17": 4
+      "2026-09-17": 5
     }
   }
 }

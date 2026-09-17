@@ -107,6 +107,7 @@ export interface TestCase {
   expected: any; // expected return value
   rawInputDisplay?: string; // string formatted for UI display
   isHidden?: boolean;
+  pos?: number; // cycle position for linked list problems
 }
 
 export interface ProblemDetail extends Problem {

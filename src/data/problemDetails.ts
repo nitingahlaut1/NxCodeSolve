@@ -3528,6 +3528,2525 @@ export const detailedProblemsMap: Record<number, ProblemDetail> = {
 }
   },
 
+  112: {
+    id: 112,
+    step: "Step 6: LinkedList",
+    topic: "1D LinkedList",
+    title: "Introduction to LinkedList, Learn about struct/class",
+    difficulty: "Easy",
+    leetcodeUrl: "https://leetcode.com/problems/design-linked-list/",
+    youtubeUrl: "https://www.youtube.com/results?search_query=takeUforward+Introduction+to+LinkedList%2C+Learn+about+struct+class",
+    leetcodeSlug: "design-linked-list",
+    gfgUrl: "https://www.geeksforgeeks.org/search/?q=Introduction%20to%20LinkedList%2C%20Learn%20about%20struct%2Fclass",
+    tufUrl: "https://takeuforward.org/?s=Introduction%20to%20LinkedList%2C%20Learn%20about%20struct%2Fclass",
+    description: "Given an array of integers **arr**, construct a singly linked list from the array elements and return the head of the linked list.\n\n### Linked List Definition\nEach node contains an integer `val` (or `data`) and a pointer `next` to the following node.",
+    examples: [
+      {
+            "id": 1,
+            "input": "arr = [1, 2, 3, 4, 5]",
+            "output": "[1, 2, 3, 4, 5]",
+            "explanation": "The constructed linked list is 1 -> 2 -> 3 -> 4 -> 5 -> null."
+      },
+      {
+            "id": 2,
+            "input": "arr = [4, 2, 5, 1]",
+            "output": "[4, 2, 5, 1]",
+            "explanation": "The constructed linked list is 4 -> 2 -> 5 -> 1 -> null."
+      }
+],
+    constraints: ["1 <= arr.length <= 10^5", "-10^9 <= arr[i] <= 10^9"],
+    hints: ["Create a head node with `arr[0]`.", "Iterate through the remaining elements `arr[1..n-1]`, creating a `new ListNode(arr[i])` and linking with `curr.next`.", "Return `head`."],
+    fnName: "constructLL",
+    paramNames: ["arr"],
+    starterCodes: {
+      javascript: "/**\n * Definition for singly-linked list.\n * function ListNode(val, next) {\n *     this.val = (val===undefined ? 0 : val)\n *     this.next = (next===undefined ? null : next)\n * }\n */\n/**\n * @param {number[]} arr\n * @return {ListNode}\n */\nfunction constructLL(arr) {\n  // Write your code here\n  \n}",
+      typescript: "class ListNode {\n    val: number;\n    next: ListNode | null;\n    constructor(val?: number, next?: ListNode | null) {\n        this.val = (val===undefined ? 0 : val);\n        this.next = (next===undefined ? null : next);\n    }\n}\n\nfunction constructLL(arr: number[]): ListNode | null {\n  // Write your code here\n  \n}",
+      python: "# class ListNode:\n#     def __init__(self, val=0, next=None):\n#         self.val = val\n#         self.next = next\n\nclass Solution:\n    def constructLL(self, arr: list[int]) -> ListNode:\n        # Write your code here\n        pass",
+      cpp: "/**\n * struct ListNode {\n *     int val;\n *     ListNode *next;\n *     ListNode(int x) : val(x), next(nullptr) {}\n * };\n */\nclass Solution {\npublic:\n    ListNode* constructLL(vector<int>& arr) {\n        // Write your code here\n        \n    }\n};",
+      java: "/**\n * public class ListNode {\n *     int val;\n *     ListNode next;\n *     ListNode(int val) { this.val = val; }\n * }\n */\nclass Solution {\n    public ListNode constructLL(int[] arr) {\n        // Write your code here\n        \n    }\n}",
+    },
+    testCases: [
+      {
+            "id": 1,
+            "args": [
+                  [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5
+                  ]
+            ],
+            "expected": [
+                  1,
+                  2,
+                  3,
+                  4,
+                  5
+            ],
+            "rawInputDisplay": "arr = [1, 2, 3, 4, 5]"
+      },
+      {
+            "id": 2,
+            "args": [
+                  [
+                        4,
+                        2,
+                        5,
+                        1
+                  ]
+            ],
+            "expected": [
+                  4,
+                  2,
+                  5,
+                  1
+            ],
+            "rawInputDisplay": "arr = [4, 2, 5, 1]"
+      },
+      {
+            "id": 3,
+            "args": [
+                  [
+                        10
+                  ]
+            ],
+            "expected": [
+                  10
+            ],
+            "rawInputDisplay": "arr = [10]"
+      },
+      {
+            "id": 4,
+            "args": [
+                  [
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12
+                  ]
+            ],
+            "expected": [
+                  7,
+                  8,
+                  9,
+                  10,
+                  11,
+                  12
+            ],
+            "rawInputDisplay": "arr = [7, 8, 9, 10, 11, 12]"
+      }
+],
+    hiddenTestCases: [],
+    editorial: {
+      "intuition": "Traverse array sequentially, allocating new nodes and attaching them to the previous node's `next` pointer.",
+      "approach": "1. If array is empty, return null.\n2. Instantiate head = new ListNode(arr[0]).\n3. Use a moving pointer `mover = head` to append each new node.\n4. Return head.",
+      "timeComplexity": "O(N) single pass.",
+      "spaceComplexity": "O(1) auxiliary space (O(N) space for nodes)."
+}
+  },
+
+  113: {
+    id: 113,
+    step: "Step 6: LinkedList",
+    topic: "1D LinkedList",
+    title: "Inserting a node in LinkedList",
+    difficulty: "Easy",
+    leetcodeUrl: "https://leetcode.com/problems/insert-into-a-sorted-circular-linked-list/",
+    youtubeUrl: "https://www.youtube.com/results?search_query=takeUforward+Inserting+a+node+in+LinkedList",
+    leetcodeSlug: "insert-into-a-sorted-circular-linked-list",
+    gfgUrl: "https://www.geeksforgeeks.org/search/?q=Inserting%20a%20node%20in%20LinkedList",
+    tufUrl: "https://takeuforward.org/?s=Inserting%20a%20node%20in%20LinkedList",
+    description: "Given the head of a singly linked list and an integer **x**, insert a new node with value **x** at the end of the linked list and return the head.",
+    examples: [
+      {
+            "id": 1,
+            "input": "head = [1, 2, 3, 4, 5], x = 6",
+            "output": "[1, 2, 3, 4, 5, 6]",
+            "explanation": "6 is inserted at the end of the list."
+      },
+      {
+            "id": 2,
+            "input": "head = [], x = 1",
+            "output": "[1]",
+            "explanation": "List was empty, so new node becomes the head."
+      }
+],
+    constraints: ["0 <= Number of nodes <= 10^5", "-10^9 <= Node.val, x <= 10^9"],
+    hints: ["If `head` is null, create and return `new ListNode(x)`.", "Otherwise, traverse to the last node (`curr.next === null`) and set `curr.next = new ListNode(x)`.", "Return `head`."],
+    fnName: "insertAtEnd",
+    paramNames: ["head", "x"],
+    starterCodes: {
+      javascript: "function insertAtEnd(head, x) {\n  // Write your code here\n  \n}",
+      typescript: "function insertAtEnd(head: ListNode | null, x: number): ListNode {\n  // Write your code here\n  \n}",
+      python: "class Solution:\n    def insertAtEnd(self, head: ListNode, x: int) -> ListNode:\n        # Write your code here\n        pass",
+      cpp: "class Solution {\npublic:\n    ListNode* insertAtEnd(ListNode* head, int x) {\n        // Write your code here\n        \n    }\n};",
+      java: "class Solution {\n    public ListNode insertAtEnd(ListNode head, int x) {\n        // Write your code here\n        \n    }\n}",
+    },
+    testCases: [
+      {
+            "id": 1,
+            "args": [
+                  [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5
+                  ],
+                  6
+            ],
+            "expected": [
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6
+            ],
+            "rawInputDisplay": "head = [1, 2, 3, 4, 5], x = 6"
+      },
+      {
+            "id": 2,
+            "args": [
+                  [],
+                  1
+            ],
+            "expected": [
+                  1
+            ],
+            "rawInputDisplay": "head = [], x = 1"
+      },
+      {
+            "id": 3,
+            "args": [
+                  [
+                        4,
+                        8
+                  ],
+                  12
+            ],
+            "expected": [
+                  4,
+                  8,
+                  12
+            ],
+            "rawInputDisplay": "head = [4, 8], x = 12"
+      }
+],
+    hiddenTestCases: [],
+    editorial: {
+      "intuition": "Find the tail of the list and attach the new node.",
+      "approach": "Handle empty list edge case, then traverse until `curr.next` is null, then attach `curr.next = new ListNode(x)`.",
+      "timeComplexity": "O(N)",
+      "spaceComplexity": "O(1)"
+}
+  },
+
+  114: {
+    id: 114,
+    step: "Step 6: LinkedList",
+    topic: "1D LinkedList",
+    title: "Deleting a node in LinkedList",
+    difficulty: "Medium",
+    leetcodeUrl: "https://leetcode.com/problems/delete-node-in-a-linked-list/",
+    youtubeUrl: "https://www.youtube.com/results?search_query=takeUforward+Deleting+a+node+in+LinkedList",
+    leetcodeSlug: "delete-node-in-a-linked-list",
+    gfgUrl: "https://www.geeksforgeeks.org/search/?q=Deleting%20a%20node%20in%20LinkedList",
+    tufUrl: "https://takeuforward.org/?s=Deleting%20a%20node%20in%20LinkedList",
+    description: "Given the `head` of a linked list and an integer `val`, remove the first node in the linked list with value `val` and return the modified head.",
+    examples: [
+      {
+            "id": 1,
+            "input": "head = [4, 5, 1, 9], val = 5",
+            "output": "[4, 1, 9]",
+            "explanation": "Node with value 5 is deleted."
+      },
+      {
+            "id": 2,
+            "input": "head = [1, 2, 3, 4], val = 1",
+            "output": "[2, 3, 4]",
+            "explanation": "Head node with value 1 is deleted."
+      }
+],
+    constraints: ["1 <= Number of nodes <= 10^5", "-10^9 <= Node.val, val <= 10^9"],
+    hints: ["If `head.val === val`, return `head.next`.", "Otherwise, maintain a `prev` pointer and search for `curr.val === val`. When found, set `prev.next = curr.next`."],
+    fnName: "deleteNode",
+    paramNames: ["head", "val"],
+    starterCodes: {
+      javascript: "function deleteNode(head, val) {\n  // Write your code here\n  \n}",
+      typescript: "function deleteNode(head: ListNode | null, val: number): ListNode | null {\n  // Write your code here\n  \n}",
+      python: "class Solution:\n    def deleteNode(self, head: ListNode, val: int) -> ListNode:\n        # Write your code here\n        pass",
+      cpp: "class Solution {\npublic:\n    ListNode* deleteNode(ListNode* head, int val) {\n        // Write your code here\n        \n    }\n};",
+      java: "class Solution {\n    public ListNode deleteNode(ListNode head, int val) {\n        // Write your code here\n        \n    }\n}",
+    },
+    testCases: [
+      {
+            "id": 1,
+            "args": [
+                  [
+                        4,
+                        5,
+                        1,
+                        9
+                  ],
+                  5
+            ],
+            "expected": [
+                  4,
+                  1,
+                  9
+            ],
+            "rawInputDisplay": "head = [4, 5, 1, 9], val = 5"
+      },
+      {
+            "id": 2,
+            "args": [
+                  [
+                        1,
+                        2,
+                        3,
+                        4
+                  ],
+                  1
+            ],
+            "expected": [
+                  2,
+                  3,
+                  4
+            ],
+            "rawInputDisplay": "head = [1, 2, 3, 4], val = 1"
+      },
+      {
+            "id": 3,
+            "args": [
+                  [
+                        1,
+                        2,
+                        3,
+                        4
+                  ],
+                  4
+            ],
+            "expected": [
+                  1,
+                  2,
+                  3
+            ],
+            "rawInputDisplay": "head = [1, 2, 3, 4], val = 4"
+      }
+],
+    hiddenTestCases: [],
+    editorial: {
+      "intuition": "Re-link previous node to skip the target node.",
+      "approach": "Traverse list with previous pointer. Bypass target node once encountered.",
+      "timeComplexity": "O(N)",
+      "spaceComplexity": "O(1)"
+}
+  },
+
+  115: {
+    id: 115,
+    step: "Step 6: LinkedList",
+    topic: "1D LinkedList",
+    title: "Find the length of the linkedlist",
+    difficulty: "Easy",
+    leetcodeUrl: "https://leetcode.com/problems/middle-of-the-linked-list/",
+    youtubeUrl: "https://www.youtube.com/results?search_query=takeUforward+Find+the+length+of+the+linkedlist",
+    leetcodeSlug: "middle-of-the-linked-list",
+    gfgUrl: "https://www.geeksforgeeks.org/search/?q=Find%20the%20length%20of%20the%20linkedlist",
+    tufUrl: "https://takeuforward.org/?s=Find%20the%20length%20of%20the%20linkedlist",
+    description: "Given the `head` of a singly linked list, return the total count of nodes in the linked list.",
+    examples: [
+      {
+            "id": 1,
+            "input": "head = [1, 2, 3, 4, 5]",
+            "output": "5",
+            "explanation": "There are 5 nodes in the linked list."
+      },
+      {
+            "id": 2,
+            "input": "head = [2, 4, 6, 7, 5, 1, 0]",
+            "output": "7",
+            "explanation": "There are 7 nodes in the linked list."
+      },
+      {
+            "id": 3,
+            "input": "head = []",
+            "output": "0",
+            "explanation": "Empty list has 0 nodes."
+      }
+],
+    constraints: ["0 <= Number of nodes <= 10^5"],
+    hints: ["Initialize `count = 0` and pointer `curr = head`.", "While `curr !== null`, increment `count++` and advance `curr = curr.next`.", "Return `count`."],
+    fnName: "lengthOfLinkedList",
+    paramNames: ["head"],
+    starterCodes: {
+      javascript: "function lengthOfLinkedList(head) {\n  // Write your code here\n  \n}",
+      typescript: "function lengthOfLinkedList(head: ListNode | null): number {\n  // Write your code here\n  \n}",
+      python: "class Solution:\n    def lengthOfLinkedList(self, head: ListNode) -> int:\n        # Write your code here\n        pass",
+      cpp: "class Solution {\npublic:\n    int lengthOfLinkedList(ListNode* head) {\n        // Write your code here\n        \n    }\n};",
+      java: "class Solution {\n    public int lengthOfLinkedList(ListNode head) {\n        // Write your code here\n        \n    }\n}",
+    },
+    testCases: [
+      {
+            "id": 1,
+            "args": [
+                  [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5
+                  ]
+            ],
+            "expected": 5,
+            "rawInputDisplay": "head = [1, 2, 3, 4, 5]"
+      },
+      {
+            "id": 2,
+            "args": [
+                  [
+                        2,
+                        4,
+                        6,
+                        7,
+                        5,
+                        1,
+                        0
+                  ]
+            ],
+            "expected": 7,
+            "rawInputDisplay": "head = [2, 4, 6, 7, 5, 1, 0]"
+      },
+      {
+            "id": 3,
+            "args": [
+                  []
+            ],
+            "expected": 0,
+            "rawInputDisplay": "head = []"
+      }
+],
+    hiddenTestCases: [],
+    editorial: {
+      "intuition": "Traverse nodes one by one until null.",
+      "approach": "Initialize counter to 0, loop while `temp != null`, increment counter and step forward.",
+      "timeComplexity": "O(N)",
+      "spaceComplexity": "O(1)"
+}
+  },
+
+  116: {
+    id: 116,
+    step: "Step 6: LinkedList",
+    topic: "1D LinkedList",
+    title: "Search an element in the LL",
+    difficulty: "Easy",
+    leetcodeUrl: "https://leetcode.com/problems/middle-of-the-linked-list/",
+    youtubeUrl: "https://www.youtube.com/results?search_query=takeUforward+Search+an+element+in+the+LL",
+    leetcodeSlug: "middle-of-the-linked-list",
+    gfgUrl: "https://www.geeksforgeeks.org/search/?q=Search%20an%20element%20in%20the%20LL",
+    tufUrl: "https://takeuforward.org/?s=Search%20an%20element%20in%20the%20LL",
+    description: "Given the `head` of a singly linked list and an integer `key`, return `true` if the key is present in the linked list, or `false` otherwise.",
+    examples: [
+      {
+            "id": 1,
+            "input": "head = [1, 2, 3, 4], key = 3",
+            "output": "true",
+            "explanation": "3 is present at index 2."
+      },
+      {
+            "id": 2,
+            "input": "head = [1, 2, 3, 4], key = 5",
+            "output": "false",
+            "explanation": "5 does not exist in the linked list."
+      }
+],
+    constraints: ["0 <= Number of nodes <= 10^5", "-10^9 <= Node.val, key <= 10^9"],
+    hints: ["Traverse from `head` using a pointer `curr`.", "If `curr.val === key`, return `true` immediately.", "If reaching the end (`curr === null`), return `false`."],
+    fnName: "searchInLinkedList",
+    paramNames: ["head", "key"],
+    starterCodes: {
+      javascript: "function searchInLinkedList(head, key) {\n  // Write your code here\n  \n}",
+      typescript: "function searchInLinkedList(head: ListNode | null, key: number): boolean {\n  // Write your code here\n  \n}",
+      python: "class Solution:\n    def searchInLinkedList(self, head: ListNode, key: int) -> bool:\n        # Write your code here\n        pass",
+      cpp: "class Solution {\npublic:\n    bool searchInLinkedList(ListNode* head, int key) {\n        // Write your code here\n        \n    }\n};",
+      java: "class Solution {\n    public boolean searchInLinkedList(ListNode head, int key) {\n        // Write your code here\n        \n    }\n}",
+    },
+    testCases: [
+      {
+            "id": 1,
+            "args": [
+                  [
+                        1,
+                        2,
+                        3,
+                        4
+                  ],
+                  3
+            ],
+            "expected": true,
+            "rawInputDisplay": "head = [1, 2, 3, 4], key = 3"
+      },
+      {
+            "id": 2,
+            "args": [
+                  [
+                        1,
+                        2,
+                        3,
+                        4
+                  ],
+                  5
+            ],
+            "expected": false,
+            "rawInputDisplay": "head = [1, 2, 3, 4], key = 5"
+      },
+      {
+            "id": 3,
+            "args": [
+                  [
+                        10,
+                        20,
+                        30
+                  ],
+                  10
+            ],
+            "expected": true,
+            "rawInputDisplay": "head = [10, 20, 30], key = 10"
+      }
+],
+    hiddenTestCases: [],
+    editorial: {
+      "intuition": "Linear search through linked list nodes.",
+      "approach": "Check value of current node, if equal return true, else advance to next.",
+      "timeComplexity": "O(N)",
+      "spaceComplexity": "O(1)"
+}
+  },
+
+  117: {
+    id: 117,
+    step: "Step 6: LinkedList",
+    topic: "Doubly LinkedList",
+    title: "Introduction to Doubly LinkedList",
+    difficulty: "Medium",
+    leetcodeUrl: "https://leetcode.com/problems/design-linked-list/",
+    youtubeUrl: "https://www.youtube.com/results?search_query=takeUforward+Introduction+to+Doubly+LinkedList",
+    leetcodeSlug: "design-linked-list",
+    gfgUrl: "https://www.geeksforgeeks.org/search/?q=Introduction%20to%20Doubly%20LinkedList",
+    tufUrl: "https://takeuforward.org/?s=Introduction%20to%20Doubly%20LinkedList",
+    description: "Given an array of integers **arr**, construct a Doubly Linked List from the array elements and return the head of the DLL.\n\n### Doubly Linked List Definition\nEach node contains integer `val`, a pointer `next` to the succeeding node, and a pointer `prev` to the preceding node.",
+    examples: [
+      {
+            "id": 1,
+            "input": "arr = [1, 2, 3, 4, 5]",
+            "output": "[1, 2, 3, 4, 5]",
+            "explanation": "Doubly linked list: 1 <=> 2 <=> 3 <=> 4 <=> 5."
+      },
+      {
+            "id": 2,
+            "input": "arr = [2, 4, 5]",
+            "output": "[2, 4, 5]",
+            "explanation": "Doubly linked list: 2 <=> 4 <=> 5."
+      }
+],
+    constraints: ["1 <= arr.length <= 10^5", "-10^9 <= arr[i] <= 10^9"],
+    hints: ["Instantiate head with `new Node(arr[0])`.", "Loop from 1 to `n-1`, connect `curr.next = newNode`, `newNode.prev = curr`."],
+    fnName: "constructDLL",
+    paramNames: ["arr"],
+    starterCodes: {
+      javascript: "function constructDLL(arr) {\n  // Write your code here\n  \n}",
+      typescript: "function constructDLL(arr: number[]): any {\n  // Write your code here\n  \n}",
+      python: "class Solution:\n    def constructDLL(self, arr: list[int]):\n        # Write your code here\n        pass",
+      cpp: "class Solution {\npublic:\n    Node* constructDLL(vector<int>& arr) {\n        // Write your code here\n        \n    }\n};",
+      java: "class Solution {\n    public Node constructDLL(int[] arr) {\n        // Write your code here\n        \n    }\n}",
+    },
+    testCases: [
+      {
+            "id": 1,
+            "args": [
+                  [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5
+                  ]
+            ],
+            "expected": [
+                  1,
+                  2,
+                  3,
+                  4,
+                  5
+            ],
+            "rawInputDisplay": "arr = [1, 2, 3, 4, 5]"
+      },
+      {
+            "id": 2,
+            "args": [
+                  [
+                        2,
+                        4,
+                        5
+                  ]
+            ],
+            "expected": [
+                  2,
+                  4,
+                  5
+            ],
+            "rawInputDisplay": "arr = [2, 4, 5]"
+      }
+],
+    hiddenTestCases: [],
+    editorial: {
+      "intuition": "Connect both forward (`next`) and backward (`prev`) pointers.",
+      "approach": "Iterate through elements, establishing two-way links between adjacent nodes.",
+      "timeComplexity": "O(N)",
+      "spaceComplexity": "O(1) auxiliary."
+}
+  },
+
+  118: {
+    id: 118,
+    step: "Step 6: LinkedList",
+    topic: "Doubly LinkedList",
+    title: "Insert a node in DLL",
+    difficulty: "Medium",
+    leetcodeUrl: "https://leetcode.com/problems/design-browser-history/",
+    youtubeUrl: "https://www.youtube.com/results?search_query=takeUforward+Insert+a+node+in+DLL",
+    leetcodeSlug: "design-browser-history",
+    gfgUrl: "https://www.geeksforgeeks.org/search/?q=Insert%20a%20node%20in%20DLL",
+    tufUrl: "https://takeuforward.org/?s=Insert%20a%20node%20in%20DLL",
+    description: "Given a doubly-linked list, a position **p**, and an integer **x**, insert a new node with value **x** right after position **p** (0-indexed) in the doubly linked list and return the head.",
+    examples: [
+      {
+            "id": 1,
+            "input": "head = [2, 4, 5], p = 2, x = 6",
+            "output": "[2, 4, 5, 6]",
+            "explanation": "Inserted 6 after index 2 (node with value 5)."
+      },
+      {
+            "id": 2,
+            "input": "head = [1, 2, 3, 4], p = 0, x = 44",
+            "output": "[1, 44, 2, 3, 4]",
+            "explanation": "Inserted 44 after index 0 (node with value 1)."
+      }
+],
+    constraints: ["1 <= Number of nodes <= 10^5", "0 <= p < Number of nodes", "-10^9 <= Node.val, x <= 10^9"],
+    hints: ["Traverse `p` steps to locate node `curr`.", "Create `newNode = new Node(x)`.", "Wire `newNode.next = curr.next`, `newNode.prev = curr`, `if (curr.next) curr.next.prev = newNode`, `curr.next = newNode`."],
+    fnName: "addNode",
+    paramNames: ["head", "p", "x"],
+    starterCodes: {
+      javascript: "function addNode(head, p, x) {\n  // Write your code here\n  \n}",
+      typescript: "function addNode(head: any, p: number, x: number): any {\n  // Write your code here\n  \n}",
+      python: "class Solution:\n    def addNode(self, head, p: int, x: int):\n        # Write your code here\n        pass",
+      cpp: "class Solution {\npublic:\n    Node* addNode(Node* head, int p, int x) {\n        // Write your code here\n        \n    }\n};",
+      java: "class Solution {\n    public Node addNode(Node head, int p, int x) {\n        // Write your code here\n        \n    }\n}",
+    },
+    testCases: [
+      {
+            "id": 1,
+            "args": [
+                  [
+                        2,
+                        4,
+                        5
+                  ],
+                  2,
+                  6
+            ],
+            "expected": [
+                  2,
+                  4,
+                  5,
+                  6
+            ],
+            "rawInputDisplay": "head = [2, 4, 5], p = 2, x = 6"
+      },
+      {
+            "id": 2,
+            "args": [
+                  [
+                        1,
+                        2,
+                        3,
+                        4
+                  ],
+                  0,
+                  44
+            ],
+            "expected": [
+                  1,
+                  44,
+                  2,
+                  3,
+                  4
+            ],
+            "rawInputDisplay": "head = [1, 2, 3, 4], p = 0, x = 44"
+      }
+],
+    hiddenTestCases: [],
+    editorial: {
+      "intuition": "Insert node between `curr` and `curr.next`, updating 4 pointer references.",
+      "approach": "Traverse `p` times to find position, create new node, update `next` and `prev` pointers of adjacent nodes.",
+      "timeComplexity": "O(N)",
+      "spaceComplexity": "O(1)"
+}
+  },
+
+  119: {
+    id: 119,
+    step: "Step 6: LinkedList",
+    topic: "Doubly LinkedList",
+    title: "Delete a node in DLL",
+    difficulty: "Medium",
+    leetcodeUrl: "https://leetcode.com/problems/design-browser-history/",
+    youtubeUrl: "https://www.youtube.com/results?search_query=takeUforward+Delete+a+node+in+DLL",
+    leetcodeSlug: "design-browser-history",
+    gfgUrl: "https://www.geeksforgeeks.org/search/?q=Delete%20a%20node%20in%20DLL",
+    tufUrl: "https://takeuforward.org/?s=Delete%20a%20node%20in%20DLL",
+    description: "Given a doubly linked list and an integer position **x** (1-indexed), delete the **x**-th node from the doubly linked list and return the head.",
+    examples: [
+      {
+            "id": 1,
+            "input": "head = [1, 3, 4], x = 3",
+            "output": "[1, 3]",
+            "explanation": "3rd node (value 4) is deleted."
+      },
+      {
+            "id": 2,
+            "input": "head = [1, 5, 2, 9], x = 1",
+            "output": "[5, 2, 9]",
+            "explanation": "1st node (head) is deleted."
+      }
+],
+    constraints: ["1 <= Number of nodes <= 10^5", "1 <= x <= Number of nodes"],
+    hints: ["If `x === 1`, return `head.next` with `head.next.prev = null`.", "Otherwise, traverse to `x`-th node and update `curr.prev.next = curr.next` and `curr.next.prev = curr.prev`."],
+    fnName: "deleteNodeDLL",
+    paramNames: ["head", "x"],
+    starterCodes: {
+      javascript: "function deleteNodeDLL(head, x) {\n  // Write your code here\n  \n}",
+      typescript: "function deleteNodeDLL(head: any, x: number): any {\n  // Write your code here\n  \n}",
+      python: "class Solution:\n    def deleteNodeDLL(self, head, x: int):\n        # Write your code here\n        pass",
+      cpp: "class Solution {\npublic:\n    Node* deleteNodeDLL(Node* head, int x) {\n        // Write your code here\n        \n    }\n};",
+      java: "class Solution {\n    public Node deleteNodeDLL(Node head, int x) {\n        // Write your code here\n        \n    }\n}",
+    },
+    testCases: [
+      {
+            "id": 1,
+            "args": [
+                  [
+                        1,
+                        3,
+                        4
+                  ],
+                  3
+            ],
+            "expected": [
+                  1,
+                  3
+            ],
+            "rawInputDisplay": "head = [1, 3, 4], x = 3"
+      },
+      {
+            "id": 2,
+            "args": [
+                  [
+                        1,
+                        5,
+                        2,
+                        9
+                  ],
+                  1
+            ],
+            "expected": [
+                  5,
+                  2,
+                  9
+            ],
+            "rawInputDisplay": "head = [1, 5, 2, 9], x = 1"
+      }
+],
+    hiddenTestCases: [],
+    editorial: {
+      "intuition": "Unlink target node by connecting its predecessor to its successor.",
+      "approach": "Traverse to index `x`, update `curr.prev.next` and `curr.next.prev` safely checking for nulls.",
+      "timeComplexity": "O(N)",
+      "spaceComplexity": "O(1)"
+}
+  },
+
+  120: {
+    id: 120,
+    step: "Step 6: LinkedList",
+    topic: "Doubly LinkedList",
+    title: "Reverse a Doubly Linked List",
+    difficulty: "Medium",
+    leetcodeUrl: "https://leetcode.com/problems/reverse-nodes-in-k-group/",
+    youtubeUrl: "https://www.youtube.com/results?search_query=takeUforward+Reverse+a+Doubly+Linked+List",
+    leetcodeSlug: "reverse-nodes-in-k-group",
+    gfgUrl: "https://www.geeksforgeeks.org/search/?q=Reverse%20a%20Doubly%20Linked%20List",
+    tufUrl: "https://takeuforward.org/?s=Reverse%20a%20Doubly%20Linked%20List",
+    description: "Given the `head` of a doubly linked list, reverse the doubly linked list and return the new head.",
+    examples: [
+      {
+            "id": 1,
+            "input": "head = [3, 4, 5]",
+            "output": "[5, 4, 3]",
+            "explanation": "List is reversed."
+      },
+      {
+            "id": 2,
+            "input": "head = [1, 2, 3, 4, 5]",
+            "output": "[5, 4, 3, 2, 1]",
+            "explanation": "Reversed doubly linked list."
+      }
+],
+    constraints: ["1 <= Number of nodes <= 10^5", "-10^9 <= Node.val <= 10^9"],
+    hints: ["For each node, swap its `prev` and `next` pointers: `let temp = curr.prev; curr.prev = curr.next; curr.next = temp;`.", "Move to `curr.prev` (which was the old `next`)."],
+    fnName: "reverseDLL",
+    paramNames: ["head"],
+    starterCodes: {
+      javascript: "function reverseDLL(head) {\n  // Write your code here\n  \n}",
+      typescript: "function reverseDLL(head: any): any {\n  // Write your code here\n  \n}",
+      python: "class Solution:\n    def reverseDLL(self, head):\n        # Write your code here\n        pass",
+      cpp: "class Solution {\npublic:\n    Node* reverseDLL(Node* head) {\n        // Write your code here\n        \n    }\n};",
+      java: "class Solution {\n    public Node reverseDLL(Node head) {\n        // Write your code here\n        \n    }\n}",
+    },
+    testCases: [
+      {
+            "id": 1,
+            "args": [
+                  [
+                        3,
+                        4,
+                        5
+                  ]
+            ],
+            "expected": [
+                  5,
+                  4,
+                  3
+            ],
+            "rawInputDisplay": "head = [3, 4, 5]"
+      },
+      {
+            "id": 2,
+            "args": [
+                  [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5
+                  ]
+            ],
+            "expected": [
+                  5,
+                  4,
+                  3,
+                  2,
+                  1
+            ],
+            "rawInputDisplay": "head = [1, 2, 3, 4, 5]"
+      }
+],
+    hiddenTestCases: [],
+    editorial: {
+      "intuition": "Swap next and prev pointers for every node in the DLL.",
+      "approach": "Traverse list, swap `curr.next` and `curr.prev` on each step. The last processed node becomes the new head.",
+      "timeComplexity": "O(N)",
+      "spaceComplexity": "O(1)"
+}
+  },
+
+  121: {
+    id: 121,
+    step: "Step 6: LinkedList",
+    topic: "Medium Problems",
+    title: "Middle of a LinkedList (Tortoise-Hare)",
+    difficulty: "Easy",
+    leetcodeUrl: "https://leetcode.com/problems/middle-of-the-linked-list/",
+    youtubeUrl: "https://www.youtube.com/results?search_query=takeUforward+Middle+of+a+LinkedList+%28Tortoise-Hare%29",
+    leetcodeSlug: "middle-of-the-linked-list",
+    gfgUrl: "https://www.geeksforgeeks.org/search/?q=Middle%20of%20a%20LinkedList%20(Tortoise-Hare)",
+    tufUrl: "https://takeuforward.org/?s=Middle%20of%20a%20LinkedList%20(Tortoise-Hare)",
+    description: "Given the `head` of a singly linked list, return the middle node of the linked list.\n\nIf there are two middle nodes, return the **second middle** node.",
+    examples: [
+      {
+            "id": 1,
+            "input": "head = [1, 2, 3, 4, 5]",
+            "output": "[3, 4, 5]",
+            "explanation": "The middle node of the list is node 3."
+      },
+      {
+            "id": 2,
+            "input": "head = [1, 2, 3, 4, 5, 6]",
+            "output": "[4, 5, 6]",
+            "explanation": "Since the list has two middle nodes with values 3 and 4, we return the second one (node 4)."
+      }
+],
+    constraints: ["1 <= Number of nodes <= 10^5", "1 <= Node.val <= 10^9"],
+    hints: ["Use Tortoise and Hare approach (slow and fast pointers).", "Initialize `slow = head` and `fast = head`.", "While `fast !== null && fast.next !== null`, advance `slow = slow.next` and `fast = fast.next.next`.", "When `fast` reaches the end, `slow` is at the exact middle node."],
+    fnName: "middleNode",
+    paramNames: ["head"],
+    starterCodes: {
+      javascript: "function middleNode(head) {\n  // Write your code here\n  \n}",
+      typescript: "function middleNode(head: ListNode | null): ListNode | null {\n  // Write your code here\n  \n}",
+      python: "class Solution:\n    def middleNode(self, head: Optional[ListNode]) -> Optional[ListNode]:\n        # Write your code here\n        pass",
+      cpp: "class Solution {\npublic:\n    ListNode* middleNode(ListNode* head) {\n        // Write your code here\n        \n    }\n};",
+      java: "class Solution {\n    public ListNode middleNode(ListNode head) {\n        // Write your code here\n        \n    }\n}",
+    },
+    testCases: [
+      {
+            "id": 1,
+            "args": [
+                  [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5
+                  ]
+            ],
+            "expected": [
+                  3,
+                  4,
+                  5
+            ],
+            "rawInputDisplay": "head = [1, 2, 3, 4, 5]"
+      },
+      {
+            "id": 2,
+            "args": [
+                  [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6
+                  ]
+            ],
+            "expected": [
+                  4,
+                  5,
+                  6
+            ],
+            "rawInputDisplay": "head = [1, 2, 3, 4, 5, 6]"
+      }
+],
+    hiddenTestCases: [],
+    editorial: {
+      "intuition": "Fast pointer moves twice as fast as slow pointer. When fast reaches end, slow is at the middle.",
+      "approach": "Slow and Fast pointer approach: `slow = slow.next`, `fast = fast.next.next` until `fast == null || fast.next == null`.",
+      "timeComplexity": "O(N) single pass.",
+      "spaceComplexity": "O(1) constant auxiliary space."
+}
+  },
+
+  122: {
+    id: 122,
+    step: "Step 6: LinkedList",
+    topic: "Medium Problems",
+    title: "Reverse a LinkedList (Iterative & Recursive)",
+    difficulty: "Easy",
+    leetcodeUrl: "https://leetcode.com/problems/reverse-linked-list/",
+    youtubeUrl: "https://www.youtube.com/results?search_query=takeUforward+Reverse+a+LinkedList+%28Iterative+%26+Recursive%29",
+    leetcodeSlug: "reverse-linked-list",
+    gfgUrl: "https://www.geeksforgeeks.org/search/?q=Reverse%20a%20LinkedList%20(Iterative%20%26%20Recursive)",
+    tufUrl: "https://takeuforward.org/?s=Reverse%20a%20LinkedList%20(Iterative%20%26%20Recursive)",
+    description: "Given the `head` of a singly linked list, reverse the list, and return the reversed list.",
+    examples: [
+      {
+            "id": 1,
+            "input": "head = [1, 2, 3, 4, 5]",
+            "output": "[5, 4, 3, 2, 1]",
+            "explanation": "1 -> 2 -> 3 -> 4 -> 5 reversed becomes 5 -> 4 -> 3 -> 2 -> 1."
+      },
+      {
+            "id": 2,
+            "input": "head = [1, 2]",
+            "output": "[2, 1]",
+            "explanation": "1 -> 2 reversed becomes 2 -> 1."
+      },
+      {
+            "id": 3,
+            "input": "head = []",
+            "output": "[]",
+            "explanation": "Empty list reversed remains empty."
+      }
+],
+    constraints: ["0 <= Number of nodes <= 10^5", "-10^9 <= Node.val <= 10^9"],
+    hints: ["Maintain 3 pointers: `prev = null`, `curr = head`, and `next = null`.", "In each step: `next = curr.next`, `curr.next = prev`, `prev = curr`, `curr = next`.", "Return `prev` as the new head."],
+    fnName: "reverseList",
+    paramNames: ["head"],
+    starterCodes: {
+      javascript: "function reverseList(head) {\n  // Write your code here\n  \n}",
+      typescript: "function reverseList(head: ListNode | null): ListNode | null {\n  // Write your code here\n  \n}",
+      python: "class Solution:\n    def reverseList(self, head: Optional[ListNode]) -> Optional[ListNode]:\n        # Write your code here\n        pass",
+      cpp: "class Solution {\npublic:\n    ListNode* reverseList(ListNode* head) {\n        // Write your code here\n        \n    }\n};",
+      java: "class Solution {\n    public ListNode reverseList(ListNode head) {\n        // Write your code here\n        \n    }\n}",
+    },
+    testCases: [
+      {
+            "id": 1,
+            "args": [
+                  [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5
+                  ]
+            ],
+            "expected": [
+                  5,
+                  4,
+                  3,
+                  2,
+                  1
+            ],
+            "rawInputDisplay": "head = [1, 2, 3, 4, 5]"
+      },
+      {
+            "id": 2,
+            "args": [
+                  [
+                        1,
+                        2
+                  ]
+            ],
+            "expected": [
+                  2,
+                  1
+            ],
+            "rawInputDisplay": "head = [1, 2]"
+      },
+      {
+            "id": 3,
+            "args": [
+                  []
+            ],
+            "expected": [],
+            "rawInputDisplay": "head = []"
+      }
+],
+    hiddenTestCases: [],
+    editorial: {
+      "intuition": "Iteratively redirect each node's `next` pointer backward to point to its predecessor.",
+      "approach": "Three-pointer reversal: store next node, point current to previous, advance previous to current, advance current to next.",
+      "timeComplexity": "O(N) single pass.",
+      "spaceComplexity": "O(1) iterative."
+}
+  },
+
+  123: {
+    id: 123,
+    step: "Step 6: LinkedList",
+    topic: "Medium Problems",
+    title: "Detect a loop in LL",
+    difficulty: "Easy",
+    leetcodeUrl: "https://leetcode.com/problems/linked-list-cycle/",
+    youtubeUrl: "https://www.youtube.com/results?search_query=takeUforward+Detect+a+loop+in+LL",
+    leetcodeSlug: "linked-list-cycle",
+    gfgUrl: "https://www.geeksforgeeks.org/search/?q=Detect%20a%20loop%20in%20LL",
+    tufUrl: "https://takeuforward.org/?s=Detect%20a%20loop%20in%20LL",
+    description: "Given `head`, the head of a linked list, determine if the linked list has a cycle in it.\n\nThere is a cycle in a linked list if there is some node in the list that can be reached again by continuously following the `next` pointer.\n\nReturn `true` if there is a cycle in the linked list. Otherwise, return `false`.",
+    examples: [
+      {
+            "id": 1,
+            "input": "head = [3, 2, 0, -4], pos = 1",
+            "output": "true",
+            "explanation": "There is a cycle in the linked list, where the tail connects to the 1st node (0-indexed)."
+      },
+      {
+            "id": 2,
+            "input": "head = [1, 2], pos = 0",
+            "output": "true",
+            "explanation": "Tail connects to the 0th node."
+      },
+      {
+            "id": 3,
+            "input": "head = [1], pos = -1",
+            "output": "false",
+            "explanation": "No cycle in the list."
+      }
+],
+    constraints: ["0 <= Number of nodes <= 10^5", "-10^9 <= Node.val <= 10^9"],
+    hints: ["Use Floyd's Cycle Detection (Tortoise and Hare).", "Move `slow` by 1 step, `fast` by 2 steps.", "If `slow === fast`, a cycle is detected (return `true`).", "If `fast === null || fast.next === null`, return `false`."],
+    fnName: "hasCycle",
+    paramNames: ["head"],
+    starterCodes: {
+      javascript: "function hasCycle(head) {\n  // Write your code here\n  \n}",
+      typescript: "function hasCycle(head: ListNode | null): boolean {\n  // Write your code here\n  \n}",
+      python: "class Solution:\n    def hasCycle(self, head: Optional[ListNode]) -> bool:\n        # Write your code here\n        pass",
+      cpp: "class Solution {\npublic:\n    bool hasCycle(ListNode *head) {\n        // Write your code here\n        \n    }\n};",
+      java: "public class Solution {\n    public boolean hasCycle(ListNode head) {\n        // Write your code here\n        \n    }\n}",
+    },
+    testCases: [
+      {
+            "id": 1,
+            "args": [
+                  [
+                        3,
+                        2,
+                        0,
+                        -4
+                  ]
+            ],
+            "pos": 1,
+            "expected": true,
+            "rawInputDisplay": "head = [3, 2, 0, -4], pos = 1"
+      },
+      {
+            "id": 2,
+            "args": [
+                  [
+                        1,
+                        2
+                  ]
+            ],
+            "pos": 0,
+            "expected": true,
+            "rawInputDisplay": "head = [1, 2], pos = 0"
+      },
+      {
+            "id": 3,
+            "args": [
+                  [
+                        1
+                  ]
+            ],
+            "pos": -1,
+            "expected": false,
+            "rawInputDisplay": "head = [1], pos = -1"
+      }
+],
+    hiddenTestCases: [],
+    editorial: {
+      "intuition": "If a cycle exists, the fast runner will eventually lap the slow runner within the loop.",
+      "approach": "Floyd's Tortoise and Hare algorithm.",
+      "timeComplexity": "O(N)",
+      "spaceComplexity": "O(1)"
+}
+  },
+
+  124: {
+    id: 124,
+    step: "Step 6: LinkedList",
+    topic: "Medium Problems",
+    title: "Find the starting point of the loop of LinkedList",
+    difficulty: "Medium",
+    leetcodeUrl: "https://leetcode.com/problems/linked-list-cycle-ii/",
+    youtubeUrl: "https://www.youtube.com/results?search_query=takeUforward+Find+the+starting+point+of+the+loop+of+LinkedList",
+    leetcodeSlug: "linked-list-cycle-ii",
+    gfgUrl: "https://www.geeksforgeeks.org/search/?q=Find%20the%20starting%20point%20of%20the%20loop%20of%20LinkedList",
+    tufUrl: "https://takeuforward.org/?s=Find%20the%20starting%20point%20of%20the%20loop%20of%20LinkedList",
+    description: "Given the `head` of a linked list, return the node where the cycle begins. If there is no cycle, return `null`.",
+    examples: [
+      {
+            "id": 1,
+            "input": "head = [3, 2, 0, -4], pos = 1",
+            "output": "2",
+            "explanation": "Cycle starts at node with value 2."
+      },
+      {
+            "id": 2,
+            "input": "head = [1, 2], pos = 0",
+            "output": "1",
+            "explanation": "Cycle starts at node with value 1."
+      },
+      {
+            "id": 3,
+            "input": "head = [1], pos = -1",
+            "output": "null",
+            "explanation": "No cycle."
+      }
+],
+    constraints: ["0 <= Number of nodes <= 10^5", "-10^9 <= Node.val <= 10^9"],
+    hints: ["1. Detect collision point using `slow` (1 step) and `fast` (2 steps).", "2. If no collision, return `null`.", "3. Reset `slow = head` and keep `fast` at collision point.", "4. Advance both `slow` and `fast` by 1 step until `slow === fast`. Their meeting point is the cycle start!"],
+    fnName: "detectCycle",
+    paramNames: ["head"],
+    starterCodes: {
+      javascript: "function detectCycle(head) {\n  // Write your code here\n  \n}",
+      typescript: "function detectCycle(head: ListNode | null): ListNode | null {\n  // Write your code here\n  \n}",
+      python: "class Solution:\n    def detectCycle(self, head: Optional[ListNode]) -> Optional[ListNode]:\n        # Write your code here\n        pass",
+      cpp: "class Solution {\npublic:\n    ListNode *detectCycle(ListNode *head) {\n        // Write your code here\n        \n    }\n};",
+      java: "public class Solution {\n    public ListNode detectCycle(ListNode head) {\n        // Write your code here\n        \n    }\n}",
+    },
+    testCases: [
+      {
+            "id": 1,
+            "args": [
+                  [
+                        3,
+                        2,
+                        0,
+                        -4
+                  ]
+            ],
+            "pos": 1,
+            "expected": 2,
+            "rawInputDisplay": "head = [3, 2, 0, -4], pos = 1"
+      },
+      {
+            "id": 2,
+            "args": [
+                  [
+                        1,
+                        2
+                  ]
+            ],
+            "pos": 0,
+            "expected": 1,
+            "rawInputDisplay": "head = [1, 2], pos = 0"
+      },
+      {
+            "id": 3,
+            "args": [
+                  [
+                        1
+                  ]
+            ],
+            "pos": -1,
+            "expected": null,
+            "rawInputDisplay": "head = [1], pos = -1"
+      }
+],
+    hiddenTestCases: [],
+    editorial: {
+      "intuition": "Mathematical proof: distance from head to loop start equals distance from collision node to loop start.",
+      "approach": "Find meeting point, reset one pointer to head, step both by 1 until they meet.",
+      "timeComplexity": "O(N)",
+      "spaceComplexity": "O(1)"
+}
+  },
+
+  125: {
+    id: 125,
+    step: "Step 6: LinkedList",
+    topic: "Medium Problems",
+    title: "Length of Loop in LinkedList",
+    difficulty: "Easy",
+    leetcodeUrl: "https://leetcode.com/problems/linked-list-cycle/",
+    youtubeUrl: "https://www.youtube.com/results?search_query=takeUforward+Length+of+Loop+in+LinkedList",
+    leetcodeSlug: "linked-list-cycle",
+    gfgUrl: "https://www.geeksforgeeks.org/search/?q=Length%20of%20Loop%20in%20LinkedList",
+    tufUrl: "https://takeuforward.org/?s=Length%20of%20Loop%20in%20LinkedList",
+    description: "Given the `head` of a linked list, return the number of nodes in the cycle. If there is no cycle, return `0`.",
+    examples: [
+      {
+            "id": 1,
+            "input": "head = [25, 14, 19, 33, 10, 21, 39, 90, 58, 45], pos = 4",
+            "output": "7",
+            "explanation": "The loop has 7 nodes."
+      },
+      {
+            "id": 2,
+            "input": "head = [1, 2, 3, 4, 5], pos = -1",
+            "output": "0",
+            "explanation": "No loop exists, return 0."
+      }
+],
+    constraints: ["1 <= Number of nodes <= 10^5"],
+    hints: ["Use slow/fast pointers to find meeting point.", "If meeting point found, keep slow stationary and advance fast by 1 while counting nodes until `fast === slow` again.", "Return the count."],
+    fnName: "countNodesinLoop",
+    paramNames: ["head"],
+    starterCodes: {
+      javascript: "function countNodesinLoop(head) {\n  // Write your code here\n  \n}",
+      typescript: "function countNodesinLoop(head: ListNode | null): number {\n  // Write your code here\n  \n}",
+      python: "class Solution:\n    def countNodesinLoop(self, head: ListNode) -> int:\n        # Write your code here\n        pass",
+      cpp: "class Solution {\npublic:\n    int countNodesinLoop(ListNode *head) {\n        // Write your code here\n        \n    }\n};",
+      java: "class Solution {\n    public int countNodesinLoop(ListNode head) {\n        // Write your code here\n        \n    }\n}",
+    },
+    testCases: [
+      {
+            "id": 1,
+            "args": [
+                  [
+                        25,
+                        14,
+                        19,
+                        33,
+                        10,
+                        21,
+                        39,
+                        90,
+                        58,
+                        45
+                  ]
+            ],
+            "pos": 3,
+            "expected": 7,
+            "rawInputDisplay": "head = [25, 14, 19, 33, 10, 21, 39, 90, 58, 45], pos = 3"
+      },
+      {
+            "id": 2,
+            "args": [
+                  [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5
+                  ]
+            ],
+            "pos": -1,
+            "expected": 0,
+            "rawInputDisplay": "head = [1, 2, 3, 4, 5], pos = -1"
+      }
+],
+    hiddenTestCases: [],
+    editorial: {
+      "intuition": "Traverse the full circumference of the cycle once detected.",
+      "approach": "Find collision, fix `slow`, advance `temp = slow.next` counting steps until `temp == slow`.",
+      "timeComplexity": "O(N)",
+      "spaceComplexity": "O(1)"
+}
+  },
+
+  126: {
+    id: 126,
+    step: "Step 6: LinkedList",
+    topic: "Medium Problems",
+    title: "Check if LL is palindrome or not",
+    difficulty: "Easy",
+    leetcodeUrl: "https://leetcode.com/problems/palindrome-linked-list/",
+    youtubeUrl: "https://www.youtube.com/results?search_query=takeUforward+Check+if+LL+is+palindrome+or+not",
+    leetcodeSlug: "palindrome-linked-list",
+    gfgUrl: "https://www.geeksforgeeks.org/search/?q=Check%20if%20LL%20is%20palindrome%20or%20not",
+    tufUrl: "https://takeuforward.org/?s=Check%20if%20LL%20is%20palindrome%20or%20not",
+    description: "Given the `head` of a singly linked list, return `true` if it is a palindrome or `false` otherwise.",
+    examples: [
+      {
+            "id": 1,
+            "input": "head = [1, 2, 2, 1]",
+            "output": "true",
+            "explanation": "1 -> 2 -> 2 -> 1 reads the same backwards."
+      },
+      {
+            "id": 2,
+            "input": "head = [1, 2]",
+            "output": "false",
+            "explanation": "Not a palindrome."
+      },
+      {
+            "id": 3,
+            "input": "head = [1, 2, 3, 2, 1]",
+            "output": "true",
+            "explanation": "Reads identically in forward and reverse directions."
+      }
+],
+    constraints: ["1 <= Number of nodes <= 10^5", "0 <= Node.val <= 9"],
+    hints: ["1. Find middle of linked list using slow/fast pointers.", "2. Reverse the second half of the linked list.", "3. Compare first half and reversed second half node by node.", "4. (Optional) Restore second half and return `true`/`false`."],
+    fnName: "isPalindrome",
+    paramNames: ["head"],
+    starterCodes: {
+      javascript: "function isPalindrome(head) {\n  // Write your code here\n  \n}",
+      typescript: "function isPalindrome(head: ListNode | null): boolean {\n  // Write your code here\n  \n}",
+      python: "class Solution:\n    def isPalindrome(self, head: Optional[ListNode]) -> bool:\n        # Write your code here\n        pass",
+      cpp: "class Solution {\npublic:\n    bool isPalindrome(ListNode* head) {\n        // Write your code here\n        \n    }\n};",
+      java: "class Solution {\n    public boolean isPalindrome(ListNode head) {\n        // Write your code here\n        \n    }\n}",
+    },
+    testCases: [
+      {
+            "id": 1,
+            "args": [
+                  [
+                        1,
+                        2,
+                        2,
+                        1
+                  ]
+            ],
+            "expected": true,
+            "rawInputDisplay": "head = [1, 2, 2, 1]"
+      },
+      {
+            "id": 2,
+            "args": [
+                  [
+                        1,
+                        2
+                  ]
+            ],
+            "expected": false,
+            "rawInputDisplay": "head = [1, 2]"
+      },
+      {
+            "id": 3,
+            "args": [
+                  [
+                        1,
+                        2,
+                        3,
+                        2,
+                        1
+                  ]
+            ],
+            "expected": true,
+            "rawInputDisplay": "head = [1, 2, 3, 2, 1]"
+      }
+],
+    hiddenTestCases: [],
+    editorial: {
+      "intuition": "Reverse the second half in O(1) space and compare both halves.",
+      "approach": "Find middle with fast/slow pointers, reverse the right half, compare node values from head and middle.",
+      "timeComplexity": "O(N)",
+      "spaceComplexity": "O(1)"
+}
+  },
+
+  127: {
+    id: 127,
+    step: "Step 6: LinkedList",
+    topic: "Medium Problems",
+    title: "Segrregate odd and even nodes in LL",
+    difficulty: "Medium",
+    leetcodeUrl: "https://leetcode.com/problems/odd-even-linked-list/",
+    youtubeUrl: "https://www.youtube.com/results?search_query=takeUforward+Segrregate+odd+and+even+nodes+in+LL",
+    leetcodeSlug: "odd-even-linked-list",
+    gfgUrl: "https://www.geeksforgeeks.org/search/?q=Segrregate%20odd%20and%20even%20nodes%20in%20LL",
+    tufUrl: "https://takeuforward.org/?s=Segrregate%20odd%20and%20even%20nodes%20in%20LL",
+    description: "Given the `head` of a singly linked list, group all the nodes with odd indices together followed by the nodes with even indices, and return the reordered list.\n\nThe **first** node is considered odd, and the **second** node is even, and so on.\n\nNote that the relative order inside both the even and odd groups should remain as it was in the input.",
+    examples: [
+      {
+            "id": 1,
+            "input": "head = [1, 2, 3, 4, 5]",
+            "output": "[1, 3, 5, 2, 4]",
+            "explanation": "Odd nodes [1, 3, 5] linked first, followed by even nodes [2, 4]."
+      },
+      {
+            "id": 2,
+            "input": "head = [2, 1, 3, 5, 6, 4, 7]",
+            "output": "[2, 3, 6, 7, 1, 5, 4]",
+            "explanation": "Odd indices: [2, 3, 6, 7], Even indices: [1, 5, 4]."
+      }
+],
+    constraints: ["0 <= Number of nodes <= 10^5", "-10^9 <= Node.val <= 10^9"],
+    hints: ["Maintain `odd = head`, `even = head.next`, and `evenHead = even`.", "While `even !== null && even.next !== null`: `odd.next = even.next`, `odd = odd.next`, `even.next = odd.next`, `even = even.next`.", "Finally, connect `odd.next = evenHead`."],
+    fnName: "oddEvenList",
+    paramNames: ["head"],
+    starterCodes: {
+      javascript: "function oddEvenList(head) {\n  // Write your code here\n  \n}",
+      typescript: "function oddEvenList(head: ListNode | null): ListNode | null {\n  // Write your code here\n  \n}",
+      python: "class Solution:\n    def oddEvenList(self, head: Optional[ListNode]) -> Optional[ListNode]:\n        # Write your code here\n        pass",
+      cpp: "class Solution {\npublic:\n    ListNode* oddEvenList(ListNode* head) {\n        // Write your code here\n        \n    }\n};",
+      java: "class Solution {\n    public ListNode oddEvenList(ListNode head) {\n        // Write your code here\n        \n    }\n}",
+    },
+    testCases: [
+      {
+            "id": 1,
+            "args": [
+                  [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5
+                  ]
+            ],
+            "expected": [
+                  1,
+                  3,
+                  5,
+                  2,
+                  4
+            ],
+            "rawInputDisplay": "head = [1, 2, 3, 4, 5]"
+      },
+      {
+            "id": 2,
+            "args": [
+                  [
+                        2,
+                        1,
+                        3,
+                        5,
+                        6,
+                        4,
+                        7
+                  ]
+            ],
+            "expected": [
+                  2,
+                  3,
+                  6,
+                  7,
+                  1,
+                  5,
+                  4
+            ],
+            "rawInputDisplay": "head = [2, 1, 3, 5, 6, 4, 7]"
+      },
+      {
+            "id": 3,
+            "args": [
+                  []
+            ],
+            "expected": [],
+            "rawInputDisplay": "head = []"
+      }
+],
+    hiddenTestCases: [],
+    editorial: {
+      "intuition": "Separate the odd and even indexed sublists in a single pass, then splice them together.",
+      "approach": "Connect odd nodes together and even nodes together, then attach `evenHead` to the end of the odd chain.",
+      "timeComplexity": "O(N)",
+      "spaceComplexity": "O(1)"
+}
+  },
+
+  128: {
+    id: 128,
+    step: "Step 6: LinkedList",
+    topic: "Medium Problems",
+    title: "Remove Nth node from the back of the LL",
+    difficulty: "Medium",
+    leetcodeUrl: "https://leetcode.com/problems/remove-nth-node-from-end-of-list/",
+    youtubeUrl: "https://www.youtube.com/results?search_query=takeUforward+Remove+Nth+node+from+the+back+of+the+LL",
+    leetcodeSlug: "remove-nth-node-from-end-of-list",
+    gfgUrl: "https://www.geeksforgeeks.org/search/?q=Remove%20Nth%20node%20from%20the%20back%20of%20the%20LL",
+    tufUrl: "https://takeuforward.org/?s=Remove%20Nth%20node%20from%20the%20back%20of%20the%20LL",
+    description: "Given the `head` of a linked list, remove the **n**-th node from the end of the list and return its head.",
+    examples: [
+      {
+            "id": 1,
+            "input": "head = [1, 2, 3, 4, 5], n = 2",
+            "output": "[1, 2, 3, 5]",
+            "explanation": "2nd node from end (node 4) is removed."
+      },
+      {
+            "id": 2,
+            "input": "head = [1], n = 1",
+            "output": "[]",
+            "explanation": "The only node is removed."
+      },
+      {
+            "id": 3,
+            "input": "head = [1, 2], n = 1",
+            "output": "[1]",
+            "explanation": "Last node is removed."
+      }
+],
+    constraints: ["1 <= Number of nodes <= 30", "0 <= Node.val <= 100", "1 <= n <= Number of nodes"],
+    hints: ["Use two pointers `fast` and `slow` with a dummy node preceding `head`.", "Advance `fast` by `n` steps.", "Then advance both `fast` and `slow` until `fast.next === null`.", "Delete target node with `slow.next = slow.next.next`."],
+    fnName: "removeNthFromEnd",
+    paramNames: ["head", "n"],
+    starterCodes: {
+      javascript: "function removeNthFromEnd(head, n) {\n  // Write your code here\n  \n}",
+      typescript: "function removeNthFromEnd(head: ListNode | null, n: number): ListNode | null {\n  // Write your code here\n  \n}",
+      python: "class Solution:\n    def removeNthFromEnd(self, head: Optional[ListNode], n: int) -> Optional[ListNode]:\n        # Write your code here\n        pass",
+      cpp: "class Solution {\npublic:\n    ListNode* removeNthFromEnd(ListNode* head, int n) {\n        // Write your code here\n        \n    }\n};",
+      java: "class Solution {\n    public ListNode removeNthFromEnd(ListNode head, int n) {\n        // Write your code here\n        \n    }\n}",
+    },
+    testCases: [
+      {
+            "id": 1,
+            "args": [
+                  [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5
+                  ],
+                  2
+            ],
+            "expected": [
+                  1,
+                  2,
+                  3,
+                  5
+            ],
+            "rawInputDisplay": "head = [1, 2, 3, 4, 5], n = 2"
+      },
+      {
+            "id": 2,
+            "args": [
+                  [
+                        1
+                  ],
+                  1
+            ],
+            "expected": [],
+            "rawInputDisplay": "head = [1], n = 1"
+      },
+      {
+            "id": 3,
+            "args": [
+                  [
+                        1,
+                        2
+                  ],
+                  1
+            ],
+            "expected": [
+                  1
+            ],
+            "rawInputDisplay": "head = [1, 2], n = 1"
+      }
+],
+    hiddenTestCases: [],
+    editorial: {
+      "intuition": "Maintain a gap of `n` nodes between two pointers.",
+      "approach": "Dummy node + two-pointer sliding window of size `n`.",
+      "timeComplexity": "O(N) single pass.",
+      "spaceComplexity": "O(1)"
+}
+  },
+
+  129: {
+    id: 129,
+    step: "Step 6: LinkedList",
+    topic: "Medium Problems",
+    title: "Delete the middle node of LL",
+    difficulty: "Medium",
+    leetcodeUrl: "https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/",
+    youtubeUrl: "https://www.youtube.com/results?search_query=takeUforward+Delete+the+middle+node+of+LL",
+    leetcodeSlug: "delete-the-middle-node-of-a-linked-list",
+    gfgUrl: "https://www.geeksforgeeks.org/search/?q=Delete%20the%20middle%20node%20of%20LL",
+    tufUrl: "https://takeuforward.org/?s=Delete%20the%20middle%20node%20of%20LL",
+    description: "You are given the `head` of a linked list. Delete the middle node, and return the `head` of the modified linked list.\n\nThe **middle node** of a linked list of size `n` is the `\u230an / 2\u230b`-th node from the start using 0-based indexing.",
+    examples: [
+      {
+            "id": 1,
+            "input": "head = [1, 3, 4, 7, 1, 2, 6]",
+            "output": "[1, 3, 4, 1, 2, 6]",
+            "explanation": "Size 7, middle index 3 (value 7) deleted."
+      },
+      {
+            "id": 2,
+            "input": "head = [1, 2, 3, 4]",
+            "output": "[1, 2, 4]",
+            "explanation": "Size 4, middle index 2 (value 3) deleted."
+      },
+      {
+            "id": 3,
+            "input": "head = [2, 1]",
+            "output": "[2]",
+            "explanation": "Size 2, middle index 1 (value 1) deleted."
+      }
+],
+    constraints: ["1 <= Number of nodes <= 10^5", "1 <= Node.val <= 10^5"],
+    hints: ["If `head.next === null`, return `null`.", "Use slow and fast pointers. Initialize `fast` two steps ahead (`fast = head.next.next`) and `slow = head`.", "When `fast` reaches end, `slow.next` is the middle node. Remove with `slow.next = slow.next.next`."],
+    fnName: "deleteMiddle",
+    paramNames: ["head"],
+    starterCodes: {
+      javascript: "function deleteMiddle(head) {\n  // Write your code here\n  \n}",
+      typescript: "function deleteMiddle(head: ListNode | null): ListNode | null {\n  // Write your code here\n  \n}",
+      python: "class Solution:\n    def deleteMiddle(self, head: Optional[ListNode]) -> Optional[ListNode]:\n        # Write your code here\n        pass",
+      cpp: "class Solution {\npublic:\n    ListNode* deleteMiddle(ListNode* head) {\n        // Write your code here\n        \n    }\n};",
+      java: "class Solution {\n    public ListNode deleteMiddle(ListNode head) {\n        // Write your code here\n        \n    }\n}",
+    },
+    testCases: [
+      {
+            "id": 1,
+            "args": [
+                  [
+                        1,
+                        3,
+                        4,
+                        7,
+                        1,
+                        2,
+                        6
+                  ]
+            ],
+            "expected": [
+                  1,
+                  3,
+                  4,
+                  1,
+                  2,
+                  6
+            ],
+            "rawInputDisplay": "head = [1, 3, 4, 7, 1, 2, 6]"
+      },
+      {
+            "id": 2,
+            "args": [
+                  [
+                        1,
+                        2,
+                        3,
+                        4
+                  ]
+            ],
+            "expected": [
+                  1,
+                  2,
+                  4
+            ],
+            "rawInputDisplay": "head = [1, 2, 3, 4]"
+      },
+      {
+            "id": 3,
+            "args": [
+                  [
+                        2,
+                        1
+                  ]
+            ],
+            "expected": [
+                  2
+            ],
+            "rawInputDisplay": "head = [2, 1]"
+      }
+],
+    hiddenTestCases: [],
+    editorial: {
+      "intuition": "Stop the slow pointer right before the middle node to delete it.",
+      "approach": "Slow and fast pointer with fast advanced by 2 steps.",
+      "timeComplexity": "O(N)",
+      "spaceComplexity": "O(1)"
+}
+  },
+
+  130: {
+    id: 130,
+    step: "Step 6: LinkedList",
+    topic: "Medium Problems",
+    title: "Sort LL",
+    difficulty: "Medium",
+    leetcodeUrl: "https://leetcode.com/problems/sort-list/",
+    youtubeUrl: "https://www.youtube.com/results?search_query=takeUforward+Sort+LL",
+    leetcodeSlug: "sort-list",
+    gfgUrl: "https://www.geeksforgeeks.org/search/?q=Sort%20LL",
+    tufUrl: "https://takeuforward.org/?s=Sort%20LL",
+    description: "Given the `head` of a linked list, return the list after sorting it in **ascending order** in `O(n log n)` time and `O(1)` memory.",
+    examples: [
+      {
+            "id": 1,
+            "input": "head = [4, 2, 1, 3]",
+            "output": "[1, 2, 3, 4]",
+            "explanation": "Sorted linked list."
+      },
+      {
+            "id": 2,
+            "input": "head = [-1, 5, 3, 4, 0]",
+            "output": "[-1, 0, 3, 4, 5]",
+            "explanation": "Sorted linked list with negative values."
+      },
+      {
+            "id": 3,
+            "input": "head = []",
+            "output": "[]",
+            "explanation": "Empty list is sorted."
+      }
+],
+    constraints: ["0 <= Number of nodes <= 5 * 10^4", "-10^5 <= Node.val <= 10^5"],
+    hints: ["Use Merge Sort on Linked List.", "1. Base case: `if (!head || !head.next) return head`.", "2. Split list into two halves using slow/fast pointers.", "3. Recursively sort both halves.", "4. Merge sorted sublists with two pointers."],
+    fnName: "sortList",
+    paramNames: ["head"],
+    starterCodes: {
+      javascript: "function sortList(head) {\n  // Write your code here\n  \n}",
+      typescript: "function sortList(head: ListNode | null): ListNode | null {\n  // Write your code here\n  \n}",
+      python: "class Solution:\n    def sortList(self, head: Optional[ListNode]) -> Optional[ListNode]:\n        # Write your code here\n        pass",
+      cpp: "class Solution {\npublic:\n    ListNode* sortList(ListNode* head) {\n        // Write your code here\n        \n    }\n};",
+      java: "class Solution {\n    public ListNode sortList(ListNode head) {\n        // Write your code here\n        \n    }\n}",
+    },
+    testCases: [
+      {
+            "id": 1,
+            "args": [
+                  [
+                        4,
+                        2,
+                        1,
+                        3
+                  ]
+            ],
+            "expected": [
+                  1,
+                  2,
+                  3,
+                  4
+            ],
+            "rawInputDisplay": "head = [4, 2, 1, 3]"
+      },
+      {
+            "id": 2,
+            "args": [
+                  [
+                        -1,
+                        5,
+                        3,
+                        4,
+                        0
+                  ]
+            ],
+            "expected": [
+                  -1,
+                  0,
+                  3,
+                  4,
+                  5
+            ],
+            "rawInputDisplay": "head = [-1, 5, 3, 4, 0]"
+      },
+      {
+            "id": 3,
+            "args": [
+                  []
+            ],
+            "expected": [],
+            "rawInputDisplay": "head = []"
+      }
+],
+    hiddenTestCases: [],
+    editorial: {
+      "intuition": "Merge Sort is optimal for linked lists because splitting and merging nodes is pointer manipulation.",
+      "approach": "Find middle, break link, sort left and right, merge with standard 2-pointer merge.",
+      "timeComplexity": "O(N log N)",
+      "spaceComplexity": "O(log N) recursion stack."
+}
+  },
+
+  131: {
+    id: 131,
+    step: "Step 6: LinkedList",
+    topic: "Medium Problems",
+    title: "Sort a LL of 0's 1's and 2's",
+    difficulty: "Medium",
+    leetcodeUrl: "https://leetcode.com/problems/sort-list/",
+    youtubeUrl: "https://www.youtube.com/results?search_query=takeUforward+Sort+a+LL+of+0%27s+1%27s+and+2%27s",
+    leetcodeSlug: "sort-list",
+    gfgUrl: "https://www.geeksforgeeks.org/search/?q=Sort%20a%20LL%20of%200's%201's%20and%202's",
+    tufUrl: "https://takeuforward.org/?s=Sort%20a%20LL%20of%200's%201's%20and%202's",
+    description: "Given a linked list of **0s, 1s and 2s**, sort the linked list in ascending order.",
+    examples: [
+      {
+            "id": 1,
+            "input": "head = [1, 2, 2, 1, 2, 0, 2, 2]",
+            "output": "[0, 1, 1, 2, 2, 2, 2, 2]",
+            "explanation": "All 0s followed by 1s followed by 2s."
+      },
+      {
+            "id": 2,
+            "input": "head = [2, 2, 0, 1]",
+            "output": "[0, 1, 2, 2]",
+            "explanation": "Sorted linked list."
+      }
+],
+    constraints: ["1 <= Number of nodes <= 10^5", "0 <= Node.val <= 2"],
+    hints: ["Create three dummy heads: `zeroHead`, `oneHead`, and `twoHead`.", "Traverse the list and append each node to its corresponding bucket list.", "Connect `zeroTail.next = oneHead.next ? oneHead.next : twoHead.next`, and `oneTail.next = twoHead.next`.", "Return `zeroHead.next`."],
+    fnName: "segregate012",
+    paramNames: ["head"],
+    starterCodes: {
+      javascript: "function segregate012(head) {\n  // Write your code here\n  \n}",
+      typescript: "function segregate012(head: ListNode | null): ListNode | null {\n  // Write your code here\n  \n}",
+      python: "class Solution:\n    def segregate012(self, head: ListNode) -> ListNode:\n        # Write your code here\n        pass",
+      cpp: "class Solution {\npublic:\n    ListNode* segregate012(ListNode *head) {\n        // Write your code here\n        \n    }\n};",
+      java: "class Solution {\n    public ListNode segregate012(ListNode head) {\n        // Write your code here\n        \n    }\n}",
+    },
+    testCases: [
+      {
+            "id": 1,
+            "args": [
+                  [
+                        1,
+                        2,
+                        2,
+                        1,
+                        2,
+                        0,
+                        2,
+                        2
+                  ]
+            ],
+            "expected": [
+                  0,
+                  1,
+                  1,
+                  2,
+                  2,
+                  2,
+                  2,
+                  2
+            ],
+            "rawInputDisplay": "head = [1, 2, 2, 1, 2, 0, 2, 2]"
+      },
+      {
+            "id": 2,
+            "args": [
+                  [
+                        2,
+                        2,
+                        0,
+                        1
+                  ]
+            ],
+            "expected": [
+                  0,
+                  1,
+                  2,
+                  2
+            ],
+            "rawInputDisplay": "head = [2, 2, 0, 1]"
+      }
+],
+    hiddenTestCases: [],
+    editorial: {
+      "intuition": "Segregate nodes into 3 chains (0s, 1s, 2s) in a single pass, then link them together.",
+      "approach": "Three dummy heads + pointers for 0, 1, 2. Attach and link at the end in O(N) time and O(1) space.",
+      "timeComplexity": "O(N)",
+      "spaceComplexity": "O(1)"
+}
+  },
+
+  132: {
+    id: 132,
+    step: "Step 6: LinkedList",
+    topic: "Medium Problems",
+    title: "Find the intersection point of Y LL",
+    difficulty: "Easy",
+    leetcodeUrl: "https://leetcode.com/problems/intersection-of-two-linked-lists/",
+    youtubeUrl: "https://www.youtube.com/results?search_query=takeUforward+Find+the+intersection+point+of+Y+LL",
+    leetcodeSlug: "intersection-of-two-linked-lists",
+    gfgUrl: "https://www.geeksforgeeks.org/search/?q=Find%20the%20intersection%20point%20of%20Y%20LL",
+    tufUrl: "https://takeuforward.org/?s=Find%20the%20intersection%20point%20of%20Y%20LL",
+    description: "Given the heads of two singly linked-lists `headA` and `headB`, return the node at which the two lists intersect. If the two linked lists have no intersection at all, return `null`.",
+    examples: [
+      {
+            "id": 1,
+            "input": "listA = [4, 1, 8, 4, 5], listB = [5, 6, 1, 8, 4, 5]",
+            "output": "8",
+            "explanation": "The intersected node's value is 8."
+      },
+      {
+            "id": 2,
+            "input": "listA = [1, 9, 1, 2, 4], listB = [3, 2, 4]",
+            "output": "2",
+            "explanation": "Intersected node value is 2."
+      }
+],
+    constraints: ["1 <= Number of nodes <= 3 * 10^4", "-10^9 <= Node.val <= 10^9"],
+    hints: ["Initialize `pA = headA` and `pB = headB`.", "In each step, advance `pA = pA ? pA.next : headB` and `pB = pB ? pB.next : headA`.", "They will either meet at the intersection node or both hit `null` simultaneously after at most 2 passes."],
+    fnName: "getIntersectionNode",
+    paramNames: ["headA", "headB"],
+    starterCodes: {
+      javascript: "function getIntersectionNode(headA, headB) {\n  // Write your code here\n  \n}",
+      typescript: "function getIntersectionNode(headA: ListNode | null, headB: ListNode | null): ListNode | null {\n  // Write your code here\n  \n}",
+      python: "class Solution:\n    def getIntersectionNode(self, headA: ListNode, headB: ListNode) -> Optional[ListNode]:\n        # Write your code here\n        pass",
+      cpp: "class Solution {\npublic:\n    ListNode *getIntersectionNode(ListNode *headA, ListNode *headB) {\n        // Write your code here\n        \n    }\n};",
+      java: "public class Solution {\n    public ListNode getIntersectionNode(ListNode headA, ListNode headB) {\n        // Write your code here\n        \n    }\n}",
+    },
+    testCases: [
+      {
+            "id": 1,
+            "args": [
+                  [
+                        4,
+                        1,
+                        8,
+                        4,
+                        5
+                  ],
+                  [
+                        5,
+                        6,
+                        1,
+                        8,
+                        4,
+                        5
+                  ]
+            ],
+            "expected": 8,
+            "rawInputDisplay": "listA = [4, 1, 8, 4, 5], listB = [5, 6, 1, 8, 4, 5]"
+      },
+      {
+            "id": 2,
+            "args": [
+                  [
+                        1,
+                        9,
+                        1,
+                        2,
+                        4
+                  ],
+                  [
+                        3,
+                        2,
+                        4
+                  ]
+            ],
+            "expected": 2,
+            "rawInputDisplay": "listA = [1, 9, 1, 2, 4], listB = [3, 2, 4]"
+      }
+],
+    hiddenTestCases: [],
+    editorial: {
+      "intuition": "By switching to the other list's head upon reaching the end, both pointers traverse identical total distance (L1 + L2).",
+      "approach": "Two-pointer dual-switch traversal.",
+      "timeComplexity": "O(N + M)",
+      "spaceComplexity": "O(1)"
+}
+  },
+
+  133: {
+    id: 133,
+    step: "Step 6: LinkedList",
+    topic: "Medium Problems",
+    title: "Add 1 to a number represented by LL",
+    difficulty: "Medium",
+    leetcodeUrl: "https://leetcode.com/problems/plus-one-linked-list/",
+    youtubeUrl: "https://www.youtube.com/results?search_query=takeUforward+Add+1+to+a+number+represented+by+LL",
+    leetcodeSlug: "plus-one-linked-list",
+    gfgUrl: "https://www.geeksforgeeks.org/search/?q=Add%201%20to%20a%20number%20represented%20by%20LL",
+    tufUrl: "https://takeuforward.org/?s=Add%201%20to%20a%20number%20represented%20by%20LL",
+    description: "A number is represented as a singly linked list where each node contains a single digit. Add 1 to the number and return the head of the updated linked list.",
+    examples: [
+      {
+            "id": 1,
+            "input": "head = [4, 5, 6]",
+            "output": "[4, 5, 7]",
+            "explanation": "456 + 1 = 457."
+      },
+      {
+            "id": 2,
+            "input": "head = [9, 9, 9]",
+            "output": "[1, 0, 0, 0]",
+            "explanation": "999 + 1 = 1000."
+      },
+      {
+            "id": 3,
+            "input": "head = [0]",
+            "output": "[1]",
+            "explanation": "0 + 1 = 1."
+      }
+],
+    constraints: ["1 <= Number of nodes <= 10^5", "0 <= Node.val <= 9"],
+    hints: ["Method 1: Reverse list, add 1 with carry, reverse back.", "Method 2 (Recursive): Use recursion stack to add carry from right to left.", "If carry remains after head (e.g. 999 -> 000 with carry 1), prepend `new ListNode(1)`."],
+    fnName: "addOne",
+    paramNames: ["head"],
+    starterCodes: {
+      javascript: "function addOne(head) {\n  // Write your code here\n  \n}",
+      typescript: "function addOne(head: ListNode | null): ListNode | null {\n  // Write your code here\n  \n}",
+      python: "class Solution:\n    def addOne(self, head: ListNode) -> ListNode:\n        # Write your code here\n        pass",
+      cpp: "class Solution {\npublic:\n    ListNode* addOne(ListNode *head) {\n        // Write your code here\n        \n    }\n};",
+      java: "class Solution {\n    public ListNode addOne(ListNode head) {\n        // Write your code here\n        \n    }\n}",
+    },
+    testCases: [
+      {
+            "id": 1,
+            "args": [
+                  [
+                        4,
+                        5,
+                        6
+                  ]
+            ],
+            "expected": [
+                  4,
+                  5,
+                  7
+            ],
+            "rawInputDisplay": "head = [4, 5, 6]"
+      },
+      {
+            "id": 2,
+            "args": [
+                  [
+                        9,
+                        9,
+                        9
+                  ]
+            ],
+            "expected": [
+                  1,
+                  0,
+                  0,
+                  0
+            ],
+            "rawInputDisplay": "head = [9, 9, 9]"
+      },
+      {
+            "id": 3,
+            "args": [
+                  [
+                        0
+                  ]
+            ],
+            "expected": [
+                  1
+            ],
+            "rawInputDisplay": "head = [0]"
+      }
+],
+    hiddenTestCases: [],
+    editorial: {
+      "intuition": "Add carry starting from the least significant digit (tail).",
+      "approach": "Reverse list -> add carry 1 through nodes -> if carry left prepend node 1 -> reverse back.",
+      "timeComplexity": "O(N)",
+      "spaceComplexity": "O(1)"
+}
+  },
+
+  134: {
+    id: 134,
+    step: "Step 6: LinkedList",
+    topic: "Medium Problems",
+    title: "Add 2 numbers in LL",
+    difficulty: "Medium",
+    leetcodeUrl: "https://leetcode.com/problems/add-two-numbers/",
+    youtubeUrl: "https://www.youtube.com/results?search_query=takeUforward+Add+2+numbers+in+LL",
+    leetcodeSlug: "add-two-numbers",
+    gfgUrl: "https://www.geeksforgeeks.org/search/?q=Add%202%20numbers%20in%20LL",
+    tufUrl: "https://takeuforward.org/?s=Add%202%20numbers%20in%20LL",
+    description: "You are given two **non-empty** linked lists representing two non-negative integers. The digits are stored in **reverse order**, and each of their nodes contains a single digit. Add the two numbers and return the sum as a linked list.",
+    examples: [
+      {
+            "id": 1,
+            "input": "l1 = [2, 4, 3], l2 = [5, 6, 4]",
+            "output": "[7, 0, 8]",
+            "explanation": "342 + 465 = 807."
+      },
+      {
+            "id": 2,
+            "input": "l1 = [0], l2 = [0]",
+            "output": "[0]",
+            "explanation": "0 + 0 = 0."
+      },
+      {
+            "id": 3,
+            "input": "l1 = [9,9,9,9,9,9,9], l2 = [9,9,9,9]",
+            "output": "[8,9,9,9,0,0,0,1]",
+            "explanation": "9999999 + 9999 = 10009998."
+      }
+],
+    constraints: ["1 <= Number of nodes in each list <= 100", "0 <= Node.val <= 9"],
+    hints: ["Use a dummy head node.", "Maintain `carry = 0`. In a loop while `l1 || l2 || carry > 0`:", "`sum = (l1 ? l1.val : 0) + (l2 ? l2.val : 0) + carry`", "`carry = Math.floor(sum / 10)`", "`curr.next = new ListNode(sum % 10)`", "Advance pointers."],
+    fnName: "addTwoNumbers",
+    paramNames: ["l1", "l2"],
+    starterCodes: {
+      javascript: "function addTwoNumbers(l1, l2) {\n  // Write your code here\n  \n}",
+      typescript: "function addTwoNumbers(l1: ListNode | null, l2: ListNode | null): ListNode | null {\n  // Write your code here\n  \n}",
+      python: "class Solution:\n    def addTwoNumbers(self, l1: Optional[ListNode], l2: Optional[ListNode]) -> Optional[ListNode]:\n        # Write your code here\n        pass",
+      cpp: "class Solution {\npublic:\n    ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {\n        // Write your code here\n        \n    }\n};",
+      java: "class Solution {\n    public ListNode addTwoNumbers(ListNode l1, ListNode l2) {\n        // Write your code here\n        \n    }\n}",
+    },
+    testCases: [
+      {
+            "id": 1,
+            "args": [
+                  [
+                        2,
+                        4,
+                        3
+                  ],
+                  [
+                        5,
+                        6,
+                        4
+                  ]
+            ],
+            "expected": [
+                  7,
+                  0,
+                  8
+            ],
+            "rawInputDisplay": "l1 = [2, 4, 3], l2 = [5, 6, 4]"
+      },
+      {
+            "id": 2,
+            "args": [
+                  [
+                        0
+                  ],
+                  [
+                        0
+                  ]
+            ],
+            "expected": [
+                  0
+            ],
+            "rawInputDisplay": "l1 = [0], l2 = [0]"
+      },
+      {
+            "id": 3,
+            "args": [
+                  [
+                        9,
+                        9,
+                        9,
+                        9,
+                        9,
+                        9,
+                        9
+                  ],
+                  [
+                        9,
+                        9,
+                        9,
+                        9
+                  ]
+            ],
+            "expected": [
+                  8,
+                  9,
+                  9,
+                  9,
+                  0,
+                  0,
+                  0,
+                  1
+            ],
+            "rawInputDisplay": "l1 = [9,9,9,9,9,9,9], l2 = [9,9,9,9]"
+      }
+],
+    hiddenTestCases: [],
+    editorial: {
+      "intuition": "Simulate elementary addition column by column with carry propagation.",
+      "approach": "Iterate both lists simultaneously, computing sum and carry, appending `sum % 10` to the result list.",
+      "timeComplexity": "O(max(N, M))",
+      "spaceComplexity": "O(max(N, M))"
+}
+  },
+
+  135: {
+    id: 135,
+    step: "Step 6: LinkedList",
+    topic: "Hard Problems",
+    title: "Reverse LL in group of given size K",
+    difficulty: "Hard",
+    leetcodeUrl: "https://leetcode.com/problems/reverse-nodes-in-k-group/",
+    youtubeUrl: "https://www.youtube.com/results?search_query=takeUforward+Reverse+LL+in+group+of+given+size+K",
+    leetcodeSlug: "reverse-nodes-in-k-group",
+    gfgUrl: "https://www.geeksforgeeks.org/search/?q=Reverse%20LL%20in%20group%20of%20given%20size%20K",
+    tufUrl: "https://takeuforward.org/?s=Reverse%20LL%20in%20group%20of%20given%20size%20K",
+    description: "Given the `head` of a linked list, reverse the nodes of the list `k` at a time, and return the modified list.\n\n`k` is a positive integer and is less than or equal to the length of the linked list. If the number of nodes is not a multiple of `k` then left-out nodes, in the end, should remain as it is.",
+    examples: [
+      {
+            "id": 1,
+            "input": "head = [1, 2, 3, 4, 5], k = 2",
+            "output": "[2, 1, 4, 3, 5]",
+            "explanation": "Reversed in pairs of 2: [2, 1], [4, 3], leftover [5]."
+      },
+      {
+            "id": 2,
+            "input": "head = [1, 2, 3, 4, 5], k = 3",
+            "output": "[3, 2, 1, 4, 5]",
+            "explanation": "Reversed first 3: [3, 2, 1], leftover [4, 5]."
+      }
+],
+    constraints: ["1 <= Number of nodes <= 5000", "0 <= Node.val <= 1000", "1 <= k <= Number of nodes"],
+    hints: ["1. Check if there are at least `k` nodes remaining.", "2. If yes, reverse the `k` nodes.", "3. Recursively or iteratively connect the reversed segment to the next group.", "4. If fewer than `k` nodes remain, keep them in original order."],
+    fnName: "reverseKGroup",
+    paramNames: ["head", "k"],
+    starterCodes: {
+      javascript: "function reverseKGroup(head, k) {\n  // Write your code here\n  \n}",
+      typescript: "function reverseKGroup(head: ListNode | null, k: number): ListNode | null {\n  // Write your code here\n  \n}",
+      python: "class Solution:\n    def reverseKGroup(self, head: Optional[ListNode], k: int) -> Optional[ListNode]:\n        # Write your code here\n        pass",
+      cpp: "class Solution {\npublic:\n    ListNode* reverseKGroup(ListNode* head, int k) {\n        // Write your code here\n        \n    }\n};",
+      java: "class Solution {\n    public ListNode reverseKGroup(ListNode head, int k) {\n        // Write your code here\n        \n    }\n}",
+    },
+    testCases: [
+      {
+            "id": 1,
+            "args": [
+                  [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5
+                  ],
+                  2
+            ],
+            "expected": [
+                  2,
+                  1,
+                  4,
+                  3,
+                  5
+            ],
+            "rawInputDisplay": "head = [1, 2, 3, 4, 5], k = 2"
+      },
+      {
+            "id": 2,
+            "args": [
+                  [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5
+                  ],
+                  3
+            ],
+            "expected": [
+                  3,
+                  2,
+                  1,
+                  4,
+                  5
+            ],
+            "rawInputDisplay": "head = [1, 2, 3, 4, 5], k = 3"
+      }
+],
+    hiddenTestCases: [],
+    editorial: {
+      "intuition": "Iterate in groups of K, verify group length >= K, reverse the group and reconnect.",
+      "approach": "Find Kth node of current group -> reverse group -> link previous group tail to new group head.",
+      "timeComplexity": "O(N)",
+      "spaceComplexity": "O(1)"
+}
+  },
+
+  136: {
+    id: 136,
+    step: "Step 6: LinkedList",
+    topic: "Hard Problems",
+    title: "Rotate a LL",
+    difficulty: "Medium",
+    leetcodeUrl: "https://leetcode.com/problems/rotate-list/",
+    youtubeUrl: "https://www.youtube.com/results?search_query=takeUforward+Rotate+a+LL",
+    leetcodeSlug: "rotate-list",
+    gfgUrl: "https://www.geeksforgeeks.org/search/?q=Rotate%20a%20LL",
+    tufUrl: "https://takeuforward.org/?s=Rotate%20a%20LL",
+    description: "Given the `head` of a linked list, rotate the list to the right by `k` places.",
+    examples: [
+      {
+            "id": 1,
+            "input": "head = [1, 2, 3, 4, 5], k = 2",
+            "output": "[4, 5, 1, 2, 3]",
+            "explanation": "Rotated 2 places right."
+      },
+      {
+            "id": 2,
+            "input": "head = [0, 1, 2], k = 4",
+            "output": "[2, 0, 1]",
+            "explanation": "k = 4 % 3 = 1 rotation."
+      }
+],
+    constraints: ["0 <= Number of nodes <= 500", "-100 <= Node.val <= 100", "0 <= k <= 2 * 10^9"],
+    hints: ["1. Find length `L` of linked list and tail node.", "2. Make the list circular: `tail.next = head`.", "3. Effective rotations: `k = k % L`.", "4. Traverse `L - k` steps from `head` to find the new tail.", "5. Set `newHead = newTail.next` and break the circle `newTail.next = null`."],
+    fnName: "rotateRight",
+    paramNames: ["head", "k"],
+    starterCodes: {
+      javascript: "function rotateRight(head, k) {\n  // Write your code here\n  \n}",
+      typescript: "function rotateRight(head: ListNode | null, k: number): ListNode | null {\n  // Write your code here\n  \n}",
+      python: "class Solution:\n    def rotateRight(self, head: Optional[ListNode], k: int) -> Optional[ListNode]:\n        # Write your code here\n        pass",
+      cpp: "class Solution {\npublic:\n    ListNode* rotateRight(ListNode* head, int k) {\n        // Write your code here\n        \n    }\n};",
+      java: "class Solution {\n    public ListNode rotateRight(ListNode head, int k) {\n        // Write your code here\n        \n    }\n}",
+    },
+    testCases: [
+      {
+            "id": 1,
+            "args": [
+                  [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5
+                  ],
+                  2
+            ],
+            "expected": [
+                  4,
+                  5,
+                  1,
+                  2,
+                  3
+            ],
+            "rawInputDisplay": "head = [1, 2, 3, 4, 5], k = 2"
+      },
+      {
+            "id": 2,
+            "args": [
+                  [
+                        0,
+                        1,
+                        2
+                  ],
+                  4
+            ],
+            "expected": [
+                  2,
+                  0,
+                  1
+            ],
+            "rawInputDisplay": "head = [0, 1, 2], k = 4"
+      }
+],
+    hiddenTestCases: [],
+    editorial: {
+      "intuition": "Connect tail to head to form a ring, then sever the ring at index `L - (k % L)`.",
+      "approach": "Compute length, connect tail to head, find cut point, break cycle.",
+      "timeComplexity": "O(N)",
+      "spaceComplexity": "O(1)"
+}
+  },
+
+  137: {
+    id: 137,
+    step: "Step 6: LinkedList",
+    topic: "Hard Problems",
+    title: "Flattening of a LinkedList",
+    difficulty: "Medium",
+    leetcodeUrl: "https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/",
+    youtubeUrl: "https://www.youtube.com/results?search_query=takeUforward+Flattening+of+a+LinkedList",
+    leetcodeSlug: "flatten-a-multilevel-doubly-linked-list",
+    gfgUrl: "https://www.geeksforgeeks.org/search/?q=Flattening%20of%20a%20LinkedList",
+    tufUrl: "https://takeuforward.org/?s=Flattening%20of%20a%20LinkedList",
+    description: "Given a Linked List of size `N`, where every node represents a sub-linked-list and contains two pointers: `next` points to the next node in the main list, and `bottom` points to a sub-linked-list where nodes are sorted. Flatten the list into a single sorted linked list using the `bottom` pointer.",
+    examples: [
+      {
+            "id": 1,
+            "input": "head = [5, 10, 19, 28] with bottom nodes",
+            "output": "[5, 7, 8, 10, 19, 20, 22, 28, 35, 40, 45, 50]",
+            "explanation": "All nodes flattened in ascending order."
+      }
+],
+    constraints: ["1 <= Number of nodes <= 10^4", "1 <= Node.val <= 10^5"],
+    hints: ["Use Divide and Conquer (Merge Sort technique).", "Recursively flatten `head.next`.", "Merge current list `head` and flattened `head.next` using `mergeTwoLists` on `bottom` pointers."],
+    fnName: "flatten",
+    paramNames: ["head"],
+    starterCodes: {
+      javascript: "function flatten(head) {\n  // Write your code here\n  \n}",
+      typescript: "function flatten(head: any): any {\n  // Write your code here\n  \n}",
+      python: "class Solution:\n    def flatten(self, head):\n        # Write your code here\n        pass",
+      cpp: "class Solution {\npublic:\n    Node* flatten(Node* head) {\n        // Write your code here\n        \n    }\n};",
+      java: "class Solution {\n    public Node flatten(Node head) {\n        // Write your code here\n        \n    }\n}",
+    },
+    testCases: [
+      {
+        "id": 1,
+        "args": [
+          [
+            [5, 7, 8],
+            [10, 20],
+            [19, 22, 28],
+            [28, 35, 40, 45, 50]
+          ]
+        ],
+        "expected": [
+          5,
+          7,
+          8,
+          10,
+          19,
+          20,
+          22,
+          28,
+          35,
+          40,
+          45,
+          50
+        ],
+        "rawInputDisplay": "head = [[5, 7, 8], [10, 20], [19, 22, 28], [28, 35, 40, 45, 50]]"
+      }
+    ],
+    hiddenTestCases: [],
+    editorial: {
+      "intuition": "Recursively merge bottom lists from right to left using the 2-way sorted list merge algorithm.",
+      "approach": "Flatten right sublist, merge current list with flattened right list using bottom pointers.",
+      "timeComplexity": "O(N * M)",
+      "spaceComplexity": "O(1) auxiliary space (O(N) recursion stack)."
+}
+  },
+
+  138: {
+    id: 138,
+    step: "Step 6: LinkedList",
+    topic: "Hard Problems",
+    title: "Clone a Linked List with random and next pointer",
+    difficulty: "Medium",
+    leetcodeUrl: "https://leetcode.com/problems/copy-list-with-random-pointer/",
+    youtubeUrl: "https://www.youtube.com/results?search_query=takeUforward+Clone+a+Linked+List+with+random+and+next+pointer",
+    leetcodeSlug: "copy-list-with-random-pointer",
+    gfgUrl: "https://www.geeksforgeeks.org/search/?q=Clone%20a%20Linked%20List%20with%20random%20and%20next%20pointer",
+    tufUrl: "https://takeuforward.org/?s=Clone%20a%20Linked%20List%20with%20random%20and%20next%20pointer",
+    description: "Construct a **deep copy** of a linked list of length `n`, where each node contains an additional `random` pointer which could point to any node in the list, or `null`.",
+    examples: [
+      {
+            "id": 1,
+            "input": "head = [[7,null],[13,0],[11,4],[10,2],[1,0]]",
+            "output": "[[7,null],[13,0],[11,4],[10,2],[1,0]]",
+            "explanation": "Deep copy with identical structure and independent nodes."
+      }
+],
+    constraints: ["0 <= n <= 1000", "-10^4 <= Node.val <= 10^4"],
+    hints: ["Optimized 3-step O(1) space method:", "1. Insert copy nodes between original nodes: `A -> A' -> B -> B'`.", "2. Connect random pointers: `curr.next.random = curr.random ? curr.random.next : null`.", "3. Separate original and copy lists."],
+    fnName: "copyRandomList",
+    paramNames: ["head"],
+    starterCodes: {
+      javascript: "function copyRandomList(head) {\n  // Write your code here\n  \n}",
+      typescript: "function copyRandomList(head: any): any {\n  // Write your code here\n  \n}",
+      python: "class Solution:\n    def copyRandomList(self, head: 'Optional[Node]') -> 'Optional[Node]':\n        # Write your code here\n        pass",
+      cpp: "class Solution {\npublic:\n    Node* copyRandomList(Node* head) {\n        // Write your code here\n        \n    }\n};",
+      java: "class Solution {\n    public Node copyRandomList(Node head) {\n        // Write your code here\n        \n    }\n}",
+    },
+    testCases: [
+      {
+            "id": 1,
+            "args": [
+                  [
+                        [
+                              7,
+                              null
+                        ],
+                        [
+                              13,
+                              0
+                        ],
+                        [
+                              11,
+                              4
+                        ],
+                        [
+                              10,
+                              2
+                        ],
+                        [
+                              1,
+                              0
+                        ]
+                  ]
+            ],
+            "expected": [
+                  [
+                        7,
+                        null
+                  ],
+                  [
+                        13,
+                        0
+                  ],
+                  [
+                        11,
+                        4
+                  ],
+                  [
+                        10,
+                        2
+                  ],
+                  [
+                        1,
+                        0
+                  ]
+            ],
+            "rawInputDisplay": "head = [[7,null],[13,0],[11,4],[10,2],[1,0]]"
+      }
+],
+    hiddenTestCases: [],
+    editorial: {
+      "intuition": "Interleave cloned nodes alongside originals to resolve random pointers without extra hash table memory.",
+      "approach": "Interleave clone nodes -> set random pointers -> separate the two lists.",
+      "timeComplexity": "O(N) 3-pass.",
+      "spaceComplexity": "O(1) auxiliary space."
+}
+  },
+
   417: {
     id: 417,
     step: "Step 1: Learn the Basics",
@@ -6096,6 +8615,246 @@ export const detailedProblemsMap: Record<number, ProblemDetail> = {
 }
   },
 
+  454: {
+    id: 454,
+    step: "Step 6: LinkedList",
+    topic: "Medium Problems",
+    title: "Find Middle of Singly Linked List",
+    difficulty: "Easy",
+    leetcodeUrl: "https://leetcode.com/problems/middle-of-the-linked-list/",
+    youtubeUrl: "https://www.youtube.com/results?search_query=takeUforward+Find+Middle+of+Singly+Linked+List",
+    leetcodeSlug: "middle-of-the-linked-list",
+    gfgUrl: "https://www.geeksforgeeks.org/search/?q=Find%20Middle%20of%20Singly%20Linked%20List",
+    tufUrl: "https://takeuforward.org/?s=Find%20Middle%20of%20Singly%20Linked%20List",
+    description: "Given the `head` of a singly linked list, return the middle node of the linked list. If there are two middle nodes, return the second middle node.",
+    examples: [
+      {
+            "id": 1,
+            "input": "head = [1, 2, 3, 4, 5]",
+            "output": "[3, 4, 5]",
+            "explanation": "Middle node is 3."
+      },
+      {
+            "id": 2,
+            "input": "head = [1, 2, 3, 4, 5, 6]",
+            "output": "[4, 5, 6]",
+            "explanation": "Second middle node is 4."
+      }
+],
+    constraints: ["1 <= Number of nodes <= 10^5", "1 <= Node.val <= 10^9"],
+    hints: ["Use Tortoise and Hare approach: `slow = slow.next`, `fast = fast.next.next`."],
+    fnName: "middleNode",
+    paramNames: ["head"],
+    starterCodes: {
+      javascript: "function middleNode(head) {\n  // Write your code here\n  \n}",
+      typescript: "function middleNode(head: ListNode | null): ListNode | null {\n  // Write your code here\n  \n}",
+      python: "class Solution:\n    def middleNode(self, head: Optional[ListNode]) -> Optional[ListNode]:\n        # Write your code here\n        pass",
+      cpp: "class Solution {\npublic:\n    ListNode* middleNode(ListNode* head) {\n        // Write your code here\n        \n    }\n};",
+      java: "class Solution {\n    public ListNode middleNode(ListNode head) {\n        // Write your code here\n        \n    }\n}",
+    },
+    testCases: [
+      {
+            "id": 1,
+            "args": [
+                  [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5
+                  ]
+            ],
+            "expected": [
+                  3,
+                  4,
+                  5
+            ],
+            "rawInputDisplay": "head = [1, 2, 3, 4, 5]"
+      },
+      {
+            "id": 2,
+            "args": [
+                  [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6
+                  ]
+            ],
+            "expected": [
+                  4,
+                  5,
+                  6
+            ],
+            "rawInputDisplay": "head = [1, 2, 3, 4, 5, 6]"
+      }
+],
+    hiddenTestCases: [],
+    editorial: {
+      "intuition": "Fast pointer moves at 2x speed of slow pointer.",
+      "approach": "Slow and fast pointer algorithm.",
+      "timeComplexity": "O(N)",
+      "spaceComplexity": "O(1)"
+}
+  },
+
+  455: {
+    id: 455,
+    step: "Step 6: LinkedList",
+    topic: "Medium Problems",
+    title: "Find the Length of Loop in Linked List",
+    difficulty: "Easy",
+    leetcodeUrl: "https://leetcode.com/problems/linked-list-cycle/",
+    youtubeUrl: "https://www.youtube.com/results?search_query=takeUforward+Find+the+Length+of+Loop+in+Linked+List",
+    leetcodeSlug: "linked-list-cycle",
+    gfgUrl: "https://www.geeksforgeeks.org/search/?q=Find%20the%20Length%20of%20Loop%20in%20Linked%20List",
+    tufUrl: "https://takeuforward.org/?s=Find%20the%20Length%20of%20Loop%20in%20Linked%20List",
+    description: "Given the `head` of a linked list, return the number of nodes in the cycle. If there is no cycle, return `0`.",
+    examples: [
+      {
+            "id": 1,
+            "input": "head = [25, 14, 19, 33, 10, 21, 39, 90, 58, 45], pos = 4",
+            "output": "7",
+            "explanation": "The loop has 7 nodes."
+      },
+      {
+            "id": 2,
+            "input": "head = [1, 2, 3, 4, 5], pos = -1",
+            "output": "0",
+            "explanation": "No loop exists."
+      }
+],
+    constraints: ["1 <= Number of nodes <= 10^5"],
+    hints: ["Find collision using slow and fast pointers, then traverse the loop counting nodes."],
+    fnName: "countNodesinLoop",
+    paramNames: ["head"],
+    starterCodes: {
+      javascript: "function countNodesinLoop(head) {\n  // Write your code here\n  \n}",
+      typescript: "function countNodesinLoop(head: ListNode | null): number {\n  // Write your code here\n  \n}",
+      python: "class Solution:\n    def countNodesinLoop(self, head: ListNode) -> int:\n        # Write your code here\n        pass",
+      cpp: "class Solution {\npublic:\n    int countNodesinLoop(ListNode *head) {\n        // Write your code here\n        \n    }\n};",
+      java: "class Solution {\n    public int countNodesinLoop(ListNode head) {\n        // Write your code here\n        \n    }\n}",
+    },
+    testCases: [
+      {
+            "id": 1,
+            "args": [
+                  [
+                        25,
+                        14,
+                        19,
+                        33,
+                        10,
+                        21,
+                        39,
+                        90,
+                        58,
+                        45
+                  ]
+            ],
+            "pos": 3,
+            "expected": 7,
+            "rawInputDisplay": "head = [25, 14, 19, 33, 10, 21, 39, 90, 58, 45], pos = 3"
+      },
+      {
+            "id": 2,
+            "args": [
+                  [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5
+                  ]
+            ],
+            "pos": -1,
+            "expected": 0,
+            "rawInputDisplay": "head = [1, 2, 3, 4, 5], pos = -1"
+      }
+],
+    hiddenTestCases: [],
+    editorial: {
+      "intuition": "Traverse the full circumference of the cycle once detected.",
+      "approach": "Find collision, fix slow, advance temp counting steps until `temp == slow`.",
+      "timeComplexity": "O(N)",
+      "spaceComplexity": "O(1)"
+}
+  },
+
+  456: {
+    id: 456,
+    step: "Step 6: LinkedList",
+    topic: "Medium Problems",
+    title: "Palindrome Linked List",
+    difficulty: "Easy",
+    leetcodeUrl: "https://leetcode.com/problems/palindrome-linked-list/",
+    youtubeUrl: "https://www.youtube.com/results?search_query=takeUforward+Palindrome+Linked+List",
+    leetcodeSlug: "palindrome-linked-list",
+    gfgUrl: "https://www.geeksforgeeks.org/search/?q=Palindrome%20Linked%20List",
+    tufUrl: "https://takeuforward.org/?s=Palindrome%20Linked%20List",
+    description: "Given the `head` of a singly linked list, return `true` if it is a palindrome or `false` otherwise.",
+    examples: [
+      {
+            "id": 1,
+            "input": "head = [1, 2, 2, 1]",
+            "output": "true",
+            "explanation": "1 -> 2 -> 2 -> 1 is a palindrome."
+      },
+      {
+            "id": 2,
+            "input": "head = [1, 2]",
+            "output": "false",
+            "explanation": "Not a palindrome."
+      }
+],
+    constraints: ["1 <= Number of nodes <= 10^5", "0 <= Node.val <= 9"],
+    hints: ["Find middle, reverse 2nd half, compare with 1st half."],
+    fnName: "isPalindrome",
+    paramNames: ["head"],
+    starterCodes: {
+      javascript: "function isPalindrome(head) {\n  // Write your code here\n  \n}",
+      typescript: "function isPalindrome(head: ListNode | null): boolean {\n  // Write your code here\n  \n}",
+      python: "class Solution:\n    def isPalindrome(self, head: Optional[ListNode]) -> bool:\n        # Write your code here\n        pass",
+      cpp: "class Solution {\npublic:\n    bool isPalindrome(ListNode* head) {\n        // Write your code here\n        \n    }\n};",
+      java: "class Solution {\n    public boolean isPalindrome(ListNode head) {\n        // Write your code here\n        \n    }\n}",
+    },
+    testCases: [
+      {
+            "id": 1,
+            "args": [
+                  [
+                        1,
+                        2,
+                        2,
+                        1
+                  ]
+            ],
+            "expected": true,
+            "rawInputDisplay": "head = [1, 2, 2, 1]"
+      },
+      {
+            "id": 2,
+            "args": [
+                  [
+                        1,
+                        2
+                  ]
+            ],
+            "expected": false,
+            "rawInputDisplay": "head = [1, 2]"
+      }
+],
+    hiddenTestCases: [],
+    editorial: {
+      "intuition": "Reverse the second half in O(1) space and compare both halves.",
+      "approach": "Find middle with fast/slow pointers, reverse right half, compare node values.",
+      "timeComplexity": "O(N)",
+      "spaceComplexity": "O(1)"
+}
+  },
+
 };
 
 /**
@@ -6261,7 +9020,14 @@ export function getProblemDetailById(id: number): ProblemDetail {
     `Ensure edge cases such as single elements, duplicates, and extreme bounds are handled correctly.`
   ];
 
-  const description = `### Problem Statement\n\nGiven the input parameters according to the problem requirements, implement an optimal solution for **${title}** (${topic} - ${step}).\n\n### Requirements\n- Implement your logic in the function \`${fnName}\`.\n- Ensure your algorithm complies with the time and space complexity requirements.\n- Refer to the TakeUForward article or YouTube video solution for detailed algorithmic breakdowns.`;
+  const description = `### Problem Statement
+
+Given the input parameters according to the problem requirements, implement an optimal solution for **${title}** (${topic} - ${step}).
+
+### Requirements
+- Implement your logic in the function \`${fnName}\`.
+- Ensure your algorithm complies with the time and space complexity requirements.
+- Refer to the TakeUForward article or YouTube video solution for detailed algorithmic breakdowns.`;
 
   return {
     id: base.id,
@@ -6281,11 +9047,35 @@ export function getProblemDetailById(id: number): ProblemDetail {
     fnName,
     paramNames,
     starterCodes: {
-      javascript: `/**\n * @param {any} ${jsParams}\n * @return {${jsDocReturn}}\n */\nfunction ${fnName}(${jsParams}) {\n  // Write your code here\n  \n}`,
-      typescript: `function ${fnName}(${tsParams}): ${returnType} {\n  // Write your code here\n  \n}`,
-      python: `class Solution:\n    def ${fnName}(${pyParams}):\n        # Write your code here\n        pass`,
-      cpp: `class Solution {\npublic:\n    ${returnType === 'number' ? 'int' : returnType === 'boolean' ? 'bool' : 'vector<int>'} ${fnName}(${cppParams}) {\n        // Write your code here\n        \n    }\n};`,
-      java: `class Solution {\n    public ${returnType === 'number' ? 'int' : returnType === 'boolean' ? 'boolean' : 'int[]'} ${fnName}(${javaParams}) {\n        // Write your code here\n        \n    }\n}`
+      javascript: `/**
+ * @param {any} ${jsParams}
+ * @return {${jsDocReturn}}
+ */
+function ${fnName}(${jsParams}) {
+  // Write your code here
+  
+}`,
+      typescript: `function ${fnName}(${tsParams}): ${returnType} {
+  // Write your code here
+  
+}`,
+      python: `class Solution:
+    def ${fnName}(${pyParams}):
+        # Write your code here
+        pass`,
+      cpp: `class Solution {
+public:
+    ${returnType === 'number' ? 'int' : returnType === 'boolean' ? 'bool' : 'vector<int>'} ${fnName}(${cppParams}) {
+        // Write your code here
+        
+    }
+};`,
+      java: `class Solution {
+    public ${returnType === 'number' ? 'int' : returnType === 'boolean' ? 'boolean' : 'int[]'} ${fnName}(${javaParams}) {
+        // Write your code here
+        
+    }
+}`
     },
     testCases: [
       { id: 1, args: sampleArgs, expected: expectedOutput, rawInputDisplay: sampleInput }
