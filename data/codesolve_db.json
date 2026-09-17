@@ -15,8 +15,9 @@
   "progress": {
     "guest_demo_user": {
       "1": {
-        "status": "todo",
-        "updatedAt": "2026-09-16T10:15:15.446Z"
+        "updatedAt": "2026-09-17T07:53:01.197Z",
+        "code": "function countDigits(n: number): number {\n  let count: number = 0;\n  let temp: number = n;\n  while (temp > 0) {\n    let digit: number = temp % 10;\n    if (digit !== 0 && n % digit === 0) count++;\n    temp = Math.floor(temp / 10);\n  }\n  return count;\n}",
+        "language": "typescript"
       },
       "2": {
         "status": "completed",

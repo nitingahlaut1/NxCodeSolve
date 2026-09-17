@@ -41,6 +41,90 @@ import {
 } from 'lucide-react';
 import YouTubeIcon from './YouTubeIcon';
 
+function formatInlineText(text: string) {
+  const parts = text.split(/(`[^`]+`|\*\*[^*]+\*\*)/g);
+  return parts.map((part, i) => {
+    if (part.startsWith('`') && part.endsWith('`')) {
+      return (
+        <code key={i} className="rounded bg-slate-800/80 px-1.5 py-0.5 font-mono text-xs text-sky-300">
+          {part.slice(1, -1)}
+        </code>
+      );
+    }
+    if (part.startsWith('**') && part.endsWith('**')) {
+      return (
+        <strong key={i} className="font-semibold text-slate-100">
+          {part.slice(2, -2)}
+        </strong>
+      );
+    }
+    return part;
+  });
+}
+
+function renderFormattedDescription(desc: string) {
+  if (!desc) return null;
+  const blocks = desc.split(/(```[\s\S]*?```|!\[.*?\]\(.*?\)|###\s+[^\n]+)/g).filter(Boolean);
+
+  return blocks.map((block, idx) => {
+    const trimmed = block.trim();
+    if (!trimmed) return null;
+
+    // Code blocks
+    if (trimmed.startsWith('```') && trimmed.endsWith('```')) {
+      const lines = trimmed.slice(3, -3).trim().split('\n');
+      const lang = lines[0].match(/^[a-zA-Z0-9_-]+$/) ? lines[0] : '';
+      const codeContent = lang ? lines.slice(1).join('\n') : lines.join('\n');
+      return (
+        <div key={idx} className="my-3 overflow-x-auto rounded-lg bg-slate-900/90 p-3 border border-slate-800/80 font-mono text-xs sm:text-sm text-sky-300 shadow-inner">
+          <pre className="whitespace-pre leading-relaxed">{codeContent}</pre>
+        </div>
+      );
+    }
+
+    // Markdown Images ![alt](url)
+    const imgMatch = trimmed.match(/^!\[(.*?)\]\((.*?)\)$/);
+    if (imgMatch) {
+      const [, alt, src] = imgMatch;
+      return (
+        <div key={idx} className="my-4 overflow-hidden rounded-xl border border-sky-500/20 bg-slate-950/80 p-3 shadow-lg flex flex-col items-center justify-center">
+          <img src={src} alt={alt || 'Problem Diagram'} className="max-h-80 w-auto rounded-lg object-contain shadow-md" />
+        </div>
+      );
+    }
+
+    // Headings ###
+    if (trimmed.startsWith('### ')) {
+      return (
+        <h3 key={idx} className="mt-5 mb-2 text-sm font-bold text-slate-100 uppercase tracking-wider flex items-center gap-2">
+          {trimmed.replace(/^###\s+/, '')}
+        </h3>
+      );
+    }
+
+    // Paragraph
+    return (
+      <div key={idx} className="my-2 leading-relaxed text-slate-300 text-sm">
+        {trimmed.split('\n').map((line, lIdx) => {
+          if (!line.trim()) return null;
+          if (line.trim().startsWith('- ')) {
+            return (
+              <li key={lIdx} className="ml-4 list-disc text-slate-300 my-1">
+                {formatInlineText(line.trim().slice(2))}
+              </li>
+            );
+          }
+          return (
+            <p key={lIdx} className="mb-2">
+              {formatInlineText(line)}
+            </p>
+          );
+        })}
+      </div>
+    );
+  });
+}
+
 interface CodeWorkspaceProps {
   problemId: number;
 }
@@ -391,11 +475,30 @@ export default function CodeWorkspace({ problemId }: CodeWorkspaceProps) {
                   )}
                 </div>
 
+                {/* Pattern Visual Card for Pattern Questions (IDs 417-438) */}
+                {417 <= problem.id && problem.id <= 438 && (
+                  <div className="pattern-visual-card mb-6 overflow-hidden rounded-xl border border-sky-500/25 bg-slate-900/90 p-4 shadow-xl backdrop-blur-sm">
+                    <div className="mb-3 flex items-center justify-between border-b border-slate-800 pb-2">
+                      <span className="flex items-center gap-1.5 text-xs font-semibold text-sky-400">
+                        <Sparkles size={14} className="text-amber-400" /> Pattern #{problem.id - 416} Visual Blueprint (N = 4)
+                      </span>
+                      <span className="rounded-md bg-sky-500/10 px-2 py-0.5 text-[10px] font-medium text-sky-300">
+                        Star & Number Matrix
+                      </span>
+                    </div>
+                    <div className="flex items-center justify-center rounded-lg bg-slate-950/70 p-2 border border-slate-800/50">
+                      <img
+                        src={`/patterns/pattern-${problem.id - 416}.svg`}
+                        alt={`Pattern ${problem.id - 416} Diagram`}
+                        className="max-h-72 w-full object-contain rounded-md"
+                      />
+                    </div>
+                  </div>
+                )}
+
                 {/* Markdown Description */}
                 <div className="problem-description-text">
-                  {problem.description.split('\n\n').map((paragraph, pIdx) => (
-                    <p key={pIdx}>{paragraph}</p>
-                  ))}
+                  {renderFormattedDescription(problem.description)}
                 </div>
 
                 {/* Examples */}

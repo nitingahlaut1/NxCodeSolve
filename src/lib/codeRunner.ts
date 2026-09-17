@@ -11,9 +11,31 @@ export function deepEqual(a: any, b: any): boolean {
   if (Array.isArray(a) && Array.isArray(b)) {
     if (a.length !== b.length) return false;
     for (let i = 0; i < a.length; i++) {
+      if (typeof a[i] === 'string' && typeof b[i] === 'string') {
+        if (a[i].trimEnd() === b[i].trimEnd() || a[i].trim() === b[i].trim()) {
+          continue;
+        }
+      }
       if (!deepEqual(a[i], b[i])) return false;
     }
     return true;
+  }
+
+  // Handle string vs string array (e.g. multiline string vs array of rows)
+  if (typeof a === 'string' && Array.isArray(b)) {
+    const linesA = a.trim().split(/\r?\n/).map(s => s.trimEnd());
+    const linesB = b.map(s => String(s).trimEnd());
+    return deepEqual(linesA, linesB);
+  }
+  if (Array.isArray(a) && typeof b === 'string') {
+    const linesA = a.map(s => String(s).trimEnd());
+    const linesB = b.trim().split(/\r?\n/).map(s => s.trimEnd());
+    return deepEqual(linesA, linesB);
+  }
+
+  // Handle strings with trimmed whitespace tolerance
+  if (typeof a === 'string' && typeof b === 'string') {
+    if (a.trim() === b.trim() || a.trimEnd() === b.trimEnd()) return true;
   }
 
   // Handle Objects
@@ -157,7 +179,13 @@ export async function executeTestCases(
       const endTime = performance.now();
       const executionTimeMs = Math.max(1, Math.round((endTime - startTime) * 10) / 10);
 
-      const passed = !error && deepEqual(actual, tc.expected);
+      let passed = !error && deepEqual(actual, tc.expected);
+      if (!passed && !error && actual === undefined && stdout.length > 0) {
+        if (deepEqual(stdout, tc.expected)) {
+          passed = true;
+          actual = stdout;
+        }
+      }
 
       results.push({
         testCaseId: tc.id,
@@ -165,7 +193,7 @@ export async function executeTestCases(
         passed,
         args: tc.args,
         expected: tc.expected,
-        actual: error ? null : actual,
+        actual: error ? null : (actual === undefined && stdout.length > 0 ? stdout : actual),
         stdout,
         executionTimeMs,
         error
