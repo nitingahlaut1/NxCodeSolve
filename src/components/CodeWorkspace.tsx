@@ -14,6 +14,7 @@ import {
 import { getProblemDetailById } from '@/data/problemDetails';
 import dsaQuestions from '@/data/dsaQuestions.json';
 import { executeTestCases, executeCustomTestCase, evaluateSubmission } from '@/lib/codeRunner';
+import CodeEditor from './CodeEditor';
 import confetti from 'canvas-confetti';
 import {
   ArrowLeft,
@@ -295,25 +296,6 @@ export default function CodeWorkspace({ problemId }: CodeWorkspaceProps) {
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
   }, [code, selectedLanguage, problem, isCustomTestCase, customInputStr]);
-
-  // Support Tab key in editor
-  const handleEditorKeyDown = (e: React.KeyboardEvent<HTMLTextAreaElement>) => {
-    if (e.key === 'Tab') {
-      e.preventDefault();
-      const target = e.currentTarget;
-      const start = target.selectionStart;
-      const end = target.selectionEnd;
-      const newCode = code.substring(0, start) + '  ' + code.substring(end);
-      setCode(newCode);
-      setTimeout(() => {
-        target.selectionStart = target.selectionEnd = start + 2;
-      }, 0);
-    }
-  };
-
-  // Calculate line numbers
-  const lineCount = Math.max(15, code.split('\n').length);
-  const lineNumbers = Array.from({ length: lineCount }, (_, i) => i + 1);
 
   const isCurrentProblemCompleted = progress[problemId]?.status === 'completed';
 
@@ -661,25 +643,15 @@ export default function CodeWorkspace({ problemId }: CodeWorkspaceProps) {
               </div>
             </div>
 
-            {/* Editor Input Area with Line Numbers */}
+            {/* Monaco Code Editor with Autocomplete & Auto-closing Brackets */}
             <div className="editor-wrapper">
-              <div className="line-numbers">
-                {lineNumbers.map((num) => (
-                  <div key={num} className="line-num">
-                    {num}
-                  </div>
-                ))}
-              </div>
-
-              <textarea
-                className="code-textarea"
-                value={code}
-                onChange={(e) => setCode(e.target.value)}
-                onKeyDown={handleEditorKeyDown}
-                spellCheck={false}
-                autoCapitalize="off"
-                autoComplete="off"
-                autoCorrect="off"
+              <CodeEditor
+                code={code}
+                onChange={setCode}
+                language={selectedLanguage}
+                theme={theme}
+                onRunCode={handleRunCode}
+                onSubmitCode={handleSubmitCode}
               />
             </div>
           </div>
@@ -1556,46 +1528,21 @@ export default function CodeWorkspace({ problemId }: CodeWorkspaceProps) {
         .editor-wrapper {
           flex: 1;
           display: flex;
-          background: #0b0f19;
+          background: #090d16;
           position: relative;
           overflow: hidden;
+          min-height: 260px;
+          height: 100%;
         }
 
         [data-theme='light'] .editor-wrapper {
           background: #f8fafc;
         }
 
-        .line-numbers {
-          width: 44px;
-          padding: 14px 8px 14px 0;
-          text-align: right;
-          font-family: var(--font-code);
-          font-size: 0.85rem;
-          line-height: 1.6;
-          color: var(--text-muted);
-          user-select: none;
-          border-right: 1px solid var(--border-subtle);
-          background: rgba(0, 0, 0, 0.15);
-        }
-
-        .code-textarea {
-          flex: 1;
-          padding: 14px;
-          background: transparent;
-          border: none;
-          outline: none;
-          resize: none;
-          font-family: var(--font-code);
-          font-size: 0.88rem;
-          line-height: 1.6;
-          color: #f1f5f9;
-          white-space: pre;
-          overflow: auto;
-          tab-size: 2;
-        }
-
-        [data-theme='light'] .code-textarea {
-          color: #0f172a;
+        .monaco-editor-shell {
+          width: 100%;
+          height: 100%;
+          min-height: 260px;
         }
 
         /* RUNNER / CONSOLE */

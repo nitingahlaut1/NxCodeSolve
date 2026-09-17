@@ -41,6 +41,11 @@
         "code": "/**\n * @param {number} n\n * @return {number[]}\n */\nfunction printDivisors(n) {\n  // Write your code here\n  \n}",
         "language": "javascript"
       },
+      "12": {
+        "updatedAt": "2026-09-17T10:30:45.507Z",
+        "code": "/**\n * @param {number[]} nums\n * @return {number[]}\n */\nfunction reverseArray(nums) {\n  // Write your code here\n  \n}",
+        "language": "javascript"
+      },
       "121": {
         "status": "completed",
         "updatedAt": "2026-09-17T08:36:35.441Z",
