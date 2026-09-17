@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState, useEffect } from 'react';
+import Link from 'next/link';
 import { Problem, ProblemStatus } from '@/types';
 import { useProgress } from '@/context/ProgressContext';
 import {
@@ -14,7 +15,8 @@ import {
   Code,
   FileText,
   Save,
-  Check
+  Check,
+  Code2
 } from 'lucide-react';
 import YouTubeIcon from './YouTubeIcon';
 
@@ -114,6 +116,14 @@ export default function ProblemDrawer({ problem, onClose }: ProblemDrawerProps) 
 
           {/* Quick Links & Bookmark */}
           <div className="toolbar-right-links">
+            <Link
+              href={`/solve/${problem.id}`}
+              className="link-button solve-button"
+              title="Open full interactive IDE with testcases & compiler"
+            >
+              <Code2 size={15} /> Open in IDE
+            </Link>
+
             <button
               className={`bookmark-btn ${isBookmarked ? 'bookmarked' : ''}`}
               onClick={() => toggleProblemBookmark(problem.id)}
@@ -477,6 +487,20 @@ export default function ProblemDrawer({ problem, onClose }: ProblemDrawerProps) 
         .link-button:hover {
           transform: translateY(-2px);
           filter: brightness(1.15);
+        }
+
+        .solve-button {
+          background: linear-gradient(135deg, rgba(99, 102, 241, 0.25) 0%, rgba(6, 182, 212, 0.25) 100%);
+          color: #a5b4fc;
+          border: 1px solid rgba(99, 102, 241, 0.5);
+          box-shadow: 0 2px 8px rgba(99, 102, 241, 0.2);
+        }
+
+        .solve-button:hover {
+          background: linear-gradient(135deg, rgba(99, 102, 241, 0.4) 0%, rgba(6, 182, 212, 0.4) 100%);
+          border-color: rgba(99, 102, 241, 0.8);
+          color: #ffffff;
+          box-shadow: 0 4px 14px rgba(99, 102, 241, 0.35);
         }
 
         .lc-button {

@@ -3,6 +3,7 @@
 import React, { useState } from 'react';
 import { Problem, ProblemStatus } from '@/types';
 import { useProgress } from '@/context/ProgressContext';
+import Link from 'next/link';
 import {
   CheckCircle2,
   Circle,
@@ -11,7 +12,8 @@ import {
   Star,
   ExternalLink,
   FileText,
-  ChevronDown
+  ChevronDown,
+  Code2
 } from 'lucide-react';
 import YouTubeIcon from './YouTubeIcon';
 
@@ -30,9 +32,9 @@ export default function ProblemRow({ problem, onOpenDrawer, showStepContext = fa
     bookmarked: false
   };
 
-  const currentStatus: ProblemStatus = prog.status || 'todo';
-  const isBookmarked = prog.bookmarked || false;
-  const hasNotesOrCode = Boolean(prog.notes?.trim() || prog.code?.trim());
+  const currentStatus = prog.status || 'todo';
+  const isBookmarked = !!prog.bookmarked;
+  const hasNotesOrCode = !!(prog.notes?.trim() || prog.code?.trim());
 
   const handleToggleCompleted = (e: React.MouseEvent) => {
     e.stopPropagation();
@@ -130,8 +132,19 @@ export default function ProblemRow({ problem, onOpenDrawer, showStepContext = fa
         </span>
       </div>
 
-      {/* Resource Links: LeetCode & YouTube */}
+      {/* Resource Links: Solve in Workspace, LeetCode & YouTube */}
       <div className="links-cell">
+        {/* Solve Link */}
+        <Link
+          href={`/solve/${problem.id}`}
+          className="resource-link solve-link"
+          title="Open in interactive coding workspace & compiler"
+          onClick={e => e.stopPropagation()}
+        >
+          <Code2 size={14} />
+          <span className="link-label">Solve</span>
+        </Link>
+
         {problem.leetcodeUrl ? (
           <a
             href={problem.leetcodeUrl}
@@ -401,6 +414,19 @@ export default function ProblemRow({ problem, onOpenDrawer, showStepContext = fa
 
         .resource-link:hover {
           transform: translateY(-2px);
+        }
+
+        .solve-link {
+          background: linear-gradient(135deg, rgba(99, 102, 241, 0.15) 0%, rgba(6, 182, 212, 0.15) 100%);
+          color: #a5b4fc;
+          border: 1px solid rgba(99, 102, 241, 0.35);
+        }
+
+        .solve-link:hover {
+          background: linear-gradient(135deg, rgba(99, 102, 241, 0.3) 0%, rgba(6, 182, 212, 0.3) 100%);
+          border-color: rgba(99, 102, 241, 0.6);
+          color: #ffffff;
+          box-shadow: 0 3px 12px rgba(99, 102, 241, 0.25);
         }
 
         .leetcode-link {

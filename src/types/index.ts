@@ -90,3 +90,63 @@ export interface StatsSummary {
   solvedToday: number;
   activityHeatmap: { date: string; count: number }[];
 }
+
+export type SupportedLanguage = 'javascript' | 'typescript' | 'python' | 'cpp' | 'java';
+
+export interface ProblemExample {
+  id: number;
+  input: string;
+  output: string;
+  explanation?: string;
+}
+
+export interface TestCase {
+  id: number;
+  label?: string;
+  args: any[]; // arguments passed to the function
+  expected: any; // expected return value
+  rawInputDisplay?: string; // string formatted for UI display
+  isHidden?: boolean;
+}
+
+export interface ProblemDetail extends Problem {
+  description: string;
+  examples: ProblemExample[];
+  constraints: string[];
+  hints?: string[];
+  fnName: string;
+  paramNames: string[];
+  starterCodes: Record<SupportedLanguage, string>;
+  testCases: TestCase[];
+  hiddenTestCases: TestCase[];
+  editorial?: {
+    intuition: string;
+    approach: string;
+    timeComplexity: string;
+    spaceComplexity: string;
+    solutionCode?: string;
+  };
+}
+
+export interface ExecutionResult {
+  testCaseId: number;
+  label?: string;
+  passed: boolean;
+  args: any[];
+  expected: any;
+  actual: any;
+  stdout: string[];
+  executionTimeMs: number;
+  error?: string;
+}
+
+export interface SubmissionResult {
+  status: 'ACCEPTED' | 'WRONG_ANSWER' | 'RUNTIME_ERROR' | 'TIME_LIMIT_EXCEEDED';
+  totalPassed: number;
+  totalTests: number;
+  runtimeMs: number;
+  results: ExecutionResult[];
+  failedCase?: ExecutionResult;
+  errorDetails?: string;
+}
+

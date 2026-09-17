@@ -19,8 +19,9 @@
         "updatedAt": "2026-09-16T10:15:15.446Z"
       },
       "2": {
-        "status": "todo",
-        "updatedAt": "2026-09-16T10:15:16.172Z"
+        "status": "completed",
+        "updatedAt": "2026-09-17T06:22:33.248Z",
+        "completedAt": "2026-09-17"
       },
       "3": {
         "status": "todo",
@@ -31,8 +32,13 @@
         "updatedAt": "2026-09-16T10:15:17.551Z"
       },
       "5": {
-        "status": "todo",
-        "updatedAt": "2026-09-16T10:15:18.538Z"
+        "updatedAt": "2026-09-17T06:24:36.290Z",
+        "status": "todo"
+      },
+      "6": {
+        "updatedAt": "2026-09-16T11:23:10.586Z",
+        "code": "/**\n * @param {number} n\n * @return {number[]}\n */\nfunction printDivisors(n) {\n  // Write your code here\n  \n}",
+        "language": "javascript"
       },
       "285": {
         "updatedAt": "2026-09-16T10:08:06.367Z",
@@ -45,7 +51,8 @@
   },
   "activity": {
     "guest_demo_user": {
-      "2026-09-16": 1
+      "2026-09-16": 1,
+      "2026-09-17": 4
     }
   }
 }

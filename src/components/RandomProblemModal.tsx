@@ -1,11 +1,12 @@
 'use client';
 
-import React, { useState, useEffect } from 'react';
-import { Problem } from '@/types';
 import { useProgress } from '@/context/ProgressContext';
-import { X, Shuffle, ExternalLink, Sparkles, CheckCircle2 } from 'lucide-react';
-import YouTubeIcon from './YouTubeIcon';
 import dsaQuestions from '@/data/dsaQuestions.json';
+import { Problem } from '@/types';
+import { CheckCircle2, Code2, ExternalLink, Shuffle, Sparkles, X } from 'lucide-react';
+import Link from 'next/link';
+import { useEffect, useState } from 'react';
+import YouTubeIcon from './YouTubeIcon';
 
 interface RandomProblemModalProps {
   onClose: () => void;
@@ -116,6 +117,14 @@ export default function RandomProblemModal({ onClose }: RandomProblemModalProps)
                 <p className="picked-topic">Topic: {selectedProblem.topic}</p>
 
                 <div className="picked-actions">
+                  <Link
+                    href={`/solve/${selectedProblem.id}`}
+                    className="action-link solve-link"
+                    title="Solve in interactive workspace"
+                  >
+                    <Code2 size={15} /> Open in IDE
+                  </Link>
+
                   {selectedProblem.leetcodeUrl && (
                     <a
                       href={selectedProblem.leetcodeUrl}
@@ -123,7 +132,7 @@ export default function RandomProblemModal({ onClose }: RandomProblemModalProps)
                       rel="noopener noreferrer"
                       className="action-link lc-link"
                     >
-                      <ExternalLink size={15} /> Solve on LeetCode
+                      <ExternalLink size={15} /> LeetCode
                     </a>
                   )}
 
@@ -358,6 +367,19 @@ export default function RandomProblemModal({ onClose }: RandomProblemModalProps)
 
         .action-link:hover {
           transform: translateY(-1px);
+        }
+
+        .solve-link {
+          background: linear-gradient(135deg, rgba(99, 102, 241, 0.25) 0%, rgba(6, 182, 212, 0.25) 100%);
+          color: #a5b4fc;
+          border: 1px solid rgba(99, 102, 241, 0.45);
+        }
+
+        .solve-link:hover {
+          background: linear-gradient(135deg, rgba(99, 102, 241, 0.4) 0%, rgba(6, 182, 212, 0.4) 100%);
+          border-color: rgba(99, 102, 241, 0.7);
+          color: #ffffff;
+          box-shadow: 0 4px 12px rgba(99, 102, 241, 0.3);
         }
 
         .lc-link {

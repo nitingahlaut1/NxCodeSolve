@@ -1,9 +1,10 @@
 'use client';
 
 import React from 'react';
+import Link from 'next/link';
 import { Problem, ProblemStatus } from '@/types';
 import { useProgress } from '@/context/ProgressContext';
-import { Circle, Clock, CheckCircle2, Target, ExternalLink, FileText, Star } from 'lucide-react';
+import { Circle, Clock, CheckCircle2, Target, ExternalLink, FileText, Star, Code2 } from 'lucide-react';
 import YouTubeIcon from './YouTubeIcon';
 
 interface KanbanViewProps {
@@ -81,6 +82,13 @@ export default function KanbanView({ problems, onOpenDrawer }: KanbanViewProps) 
 
                       <div className="card-footer" onClick={e => e.stopPropagation()}>
                         <div className="card-links">
+                          <Link
+                            href={`/solve/${p.id}`}
+                            className="card-link text-solve"
+                            title="Open in Code Workspace"
+                          >
+                            <Code2 size={13} />
+                          </Link>
                           {p.leetcodeUrl && (
                             <a
                               href={p.leetcodeUrl}
@@ -293,6 +301,8 @@ export default function KanbanView({ problems, onOpenDrawer }: KanbanViewProps) 
           background: var(--bg-card);
         }
 
+        .text-solve { color: #818cf8; }
+        .text-solve:hover { color: #a5b4fc; background: rgba(99, 102, 241, 0.15) !important; }
         .text-yt { color: #f87171; }
         .text-star { color: #eab308; }
 

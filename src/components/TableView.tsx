@@ -115,7 +115,7 @@ export default function TableView({ problems, onOpenDrawer }: TableViewProps) {
         .th-status { width: 50px; }
         .th-title { flex: 1; }
         .th-diff { min-width: 90px; justify-content: center; }
-        .th-links { min-width: 170px; }
+        .th-links { min-width: 220px; }
         .th-actions { width: 70px; justify-content: flex-end; }
 
         .sort-icon {
